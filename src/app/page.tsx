@@ -5,7 +5,6 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
 import { ImageDivider } from '@/components/ImageDivider'
-import { IndependenceBar } from '@/components/IndependenceBar'
 import { IssueBento } from '@/components/IssueBento'
 import { PPvsPrincess } from '@/components/PPvsPrincess'
 import { ProgressBar } from '@/components/ProgressBar'
@@ -24,7 +23,7 @@ export default function HomePage() {
       <ProgressBar />
       <Header />
       <Hero />
-      <IndependenceBar />
+      <ReviewForm belowHero />
       <RatingGrid />
       <ImageDivider
         src={siteImages.dividerCruiseAerial}
@@ -44,7 +43,6 @@ export default function HomePage() {
       <FAQAccordion />
       <HowWeReview />
       <Verdict />
-      <ReviewForm />
       <Footer />
     </div>
   )

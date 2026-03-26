@@ -1,16 +1,31 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
-export function ReviewForm() {
+type ReviewFormProps = {
+  /** Overlaps hero (replaces former independence bar); omits bottom band-page section shell */
+  belowHero?: boolean
+}
+
+export function ReviewForm({ belowHero = false }: ReviewFormProps) {
   const [rating, setRating] = useState(0)
   const [done, setDone] = useState(false)
 
-  if (done) {
-    return (
+  const shell = (inner: ReactNode) =>
+    belowHero ? (
+      <div className="ind" id="submit">
+        {inner}
+      </div>
+    ) : (
       <section className="form-sec band-page" id="submit">
-        <ScrollReveal className="form-c">
+        {inner}
+      </section>
+    )
+
+  if (done) {
+    return shell(
+      <ScrollReveal className="form-c">
           <div id="fok" style={{ display: 'block', textAlign: 'center', padding: '3rem 0' }}>
             <div className="cki">
               <svg viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden>
@@ -30,14 +45,12 @@ export function ReviewForm() {
             Your privacy matters. We never sell your information. Only first name, rating, and review
             text appear after moderation.
           </p>
-        </ScrollReveal>
-      </section>
+        </ScrollReveal>,
     )
   }
 
-  return (
-    <section className="form-sec band-page" id="submit">
-      <ScrollReveal className="form-c">
+  return shell(
+    <ScrollReveal className="form-c">
         <h2>Submit Your Review</h2>
         <p>
           Purchased a Princess Promotions Future Cruise Package? Whether great or disappointing — we
@@ -118,7 +131,6 @@ export function ReviewForm() {
           Your privacy matters. We never sell your information. Only first name, rating, and review
           text appear after moderation.
         </p>
-      </ScrollReveal>
-    </section>
+      </ScrollReveal>,
   )
 }

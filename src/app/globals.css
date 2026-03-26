@@ -47,14 +47,9 @@ body{font-family:var(--sans);color:var(--tx);background:var(--bg);-webkit-font-s
 .hero-meta{display:flex;justify-content:center;gap:1rem;margin-top:3rem;flex-wrap:wrap;opacity:0;animation:fadeIn .6s ease-out 2.2s forwards}
 .seal-p{display:inline-flex;align-items:center;gap:.35rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:100px;padding:.25rem .7rem .25rem .35rem;font-size:.6rem;font-weight:600;color:rgba(255,255,255,.45);letter-spacing:.04em;text-transform:uppercase}
 .seal-p svg{flex-shrink:0}
-.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:0;animation:fadeIn .6s ease-out 2.5s forwards}
-.hero-scroll span{font-size:.6rem;color:rgba(255,255,255,.3);letter-spacing:.2em;text-transform:uppercase;font-weight:500}
-.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,rgba(255,255,255,.3),transparent);animation:scrollPulse 2s ease-in-out infinite}
-
 @keyframes wordIn{to{opacity:1;transform:translateY(0)}}
 @keyframes scoreIn{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
 @keyframes fadeIn{to{opacity:1}}
-@keyframes scrollPulse{0%,100%{opacity:.3;transform:scaleY(1)}50%{opacity:.8;transform:scaleY(1.2)}}
 
 /* INDEPENDENCE */
 .ind{max-width:1100px;margin:-3rem auto 0;padding:0 1.5rem;position:relative;z-index:3}
@@ -338,4 +333,6 @@ label.f textarea{min-height:120px;resize:vertical}
 .ftr-b .bar{width:3px;height:20px;background:var(--blue-lt);border-radius:2px}
 .ftr-b .fn{color:#fff;font-size:.8rem;font-weight:600}.ftr-b .fs{color:var(--blue-lt);font-size:.5rem;font-weight:700;letter-spacing:.45em;text-transform:uppercase}
 .ftr-tag{font-size:.6rem;color:rgba(255,255,255,.25);letter-spacing:.1em;margin-bottom:1rem}
+.ftr-ind{font-size:.72rem;color:rgba(255,255,255,.5);max-width:1100px;margin:0 auto 1.25rem;line-height:1.65;text-align:center}
+.ftr-ind strong{color:rgba(255,255,255,.82);font-weight:600}
 .ftr-d{font-size:.68rem;color:rgba(255,255,255,.25);max-width:1100px;margin:0 auto;line-height:1.6}

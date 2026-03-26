@@ -68,10 +68,6 @@ export function Hero() {
           <span className="seal-p">Reviewed by the Editorial Team · March 2026</span>
         </div>
       </div>
-      <div className="hero-scroll">
-        <span>Scroll to Explore</span>
-        <div className="scroll-line" aria-hidden />
-      </div>
     </section>
   )
 }
