@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 122" width="120" height="122">
+  <!-- Outer ring: center at 60,50 radius 42 -->
+  <circle cx="60" cy="50" r="42" fill="none" stroke="#2E75B6" stroke-width="1.5"/>
+  <!-- Inner ring: concentric, radius 36 -->
+  <circle cx="60" cy="50" r="36" fill="none" stroke="#2E75B6" stroke-width="0.5"/>
+  <!-- Checkmark: bounding box 36x24, centered at 60,50 -->
+  <!-- Left: 42,52  Mid: 54,62  Right: 78,38 -->
+  <!-- Horizontal center: (42+78)/2 = 60 ✓ -->
+  <!-- Vertical center: (38+62)/2 = 50 ✓ -->
+  <polyline points="42,52 54,62 78,38" fill="none" stroke="#2E75B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Text row 1: baseline y=104 -->
+  <text x="60" y="104" text-anchor="middle" dominant-baseline="auto" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#2E75B6" letter-spacing="2">TRUSTED</text>
+  <!-- Text row 2: baseline y=116 -->
+  <text x="60" y="116" text-anchor="middle" dominant-baseline="auto" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#2E75B6" letter-spacing="2">REVIEW</text>
+</svg>

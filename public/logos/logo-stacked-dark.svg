@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" width="320" height="110">
+  <rect x="40" y="0" width="240" height="4" rx="2" fill="#5BA0D9"/>
+  <text x="160" y="36" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">Princess Promotions</text>
+  <text x="160" y="62" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5BA0D9" letter-spacing="8">REVIEWS</text>
+  <text x="160" y="90" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#8899AA" letter-spacing="1">Independent consumer reviews &amp; ratings</text>
+</svg>
