@@ -8,7 +8,7 @@ const img = (path: string) =>
 
 export function IssueBento() {
   return (
-    <section className="sec">
+    <section className="sec band-page">
       <div className="sec-inner">
         <ScrollReveal className="kicker">Our Findings</ScrollReveal>
         <ScrollReveal className="sec-title">

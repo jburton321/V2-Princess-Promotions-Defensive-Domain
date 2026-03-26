@@ -6,7 +6,7 @@ const bg = (path: string) => ({ backgroundImage: `url('${path}')` }) as const
 
 export function RedeemFCC() {
   return (
-    <section className="sec">
+    <section className="sec band-page">
       <div className="editorial">
         <ScrollReveal className="kicker">Redemption Guide</ScrollReveal>
         <ScrollReveal>

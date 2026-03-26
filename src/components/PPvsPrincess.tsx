@@ -9,7 +9,7 @@ const mediaGridTight: CSSProperties = { gridTemplateColumns: '0.9fr 1.1fr' }
 
 export function PPvsPrincess() {
   return (
-    <section className="sec-sm" style={{ background: 'var(--bg)' }}>
+    <section className="sec-sm band-page">
       <div className="editorial">
         <ScrollReveal className="kicker">Entity Confusion</ScrollReveal>
         <ScrollReveal>

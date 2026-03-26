@@ -3,7 +3,7 @@ import { ScoreCounter } from '@/components/ScoreCounter'
 
 export function RatingGrid() {
   return (
-    <section className="sec">
+    <section className="sec band-page">
       <div className="sec-inner">
         <ScrollReveal className="kicker">Our Assessment</ScrollReveal>
         <ScrollReveal className="sec-title">

@@ -20,7 +20,7 @@ import { WhatIsPP } from '@/components/WhatIsPP'
 
 export default function HomePage() {
   return (
-    <>
+    <div className="page-sections">
       <ProgressBar />
       <Header />
       <Hero />
@@ -46,6 +46,6 @@ export default function HomePage() {
       <Verdict />
       <ReviewForm />
       <Footer />
-    </>
+    </div>
   )
 }

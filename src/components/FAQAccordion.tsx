@@ -36,22 +36,43 @@ const faqs: { q: string; a: string }[] = [
 
 const delayClasses = ['rv-d1', 'rv-d2', 'rv-d3', 'rv-d4', 'rv-d5', 'rv-d6', '']
 
-function FAQBlock({ item, delayClass }: { item: (typeof faqs)[0]; delayClass: string }) {
+function FAQBlock({
+  item,
+  delayClass,
+  index,
+}: {
+  item: (typeof faqs)[0]
+  delayClass: string
+  index: number
+}) {
   const [open, setOpen] = useState(false)
+  const panelId = `faq-panel-${index}`
+  const btnId = `faq-trigger-${index}`
+
   return (
-    <ScrollReveal className={`faq-item${open ? ' open' : ''} ${delayClass}`.trim()}>
-      <button
-        type="button"
-        className="faq-q"
-        onClick={() => setOpen((o) => !o)}
-        aria-expanded={open ? 'true' : 'false'}
-      >
-        <span>{item.q}</span>
-        <div className="plus" aria-hidden />
-      </button>
-      <div className="faq-a">
-        <div className="faq-a-in">
-          <p>{item.a}</p>
+    <ScrollReveal className={delayClass}>
+      <div className={`faq-item${open ? ' open' : ''}`}>
+        <button
+          type="button"
+          className="faq-q"
+          aria-expanded={open}
+          aria-controls={panelId}
+          id={btnId}
+          onClick={() => setOpen((o) => !o)}
+        >
+          <span className="faq-q-text">{item.q}</span>
+          <span className="plus" aria-hidden />
+        </button>
+        <div
+          id={panelId}
+          className="faq-a"
+          role="region"
+          aria-labelledby={btnId}
+          {...(open ? {} : { 'aria-hidden': 'true' as const })}
+        >
+          <div className="faq-a-in">
+            <p>{item.a}</p>
+          </div>
         </div>
       </div>
     </ScrollReveal>
@@ -60,16 +81,16 @@ function FAQBlock({ item, delayClass }: { item: (typeof faqs)[0]; delayClass: st
 
 export function FAQAccordion() {
   return (
-    <section className="sec-sm" style={{ background: 'var(--bg)' }}>
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+    <section className="sec-sm faq-sec band-page">
+      <div className="faq-sec-inner">
         <ScrollReveal className="kicker">Common Questions</ScrollReveal>
-        <ScrollReveal className="sec-title" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>
+        <ScrollReveal className="sec-title faq-sec-title">
           Frequently Asked Questions
           <br />
           About Princess Promotions
         </ScrollReveal>
         {faqs.map((item, i) => (
-          <FAQBlock key={item.q} item={item} delayClass={delayClasses[i]} />
+          <FAQBlock key={item.q} item={item} delayClass={delayClasses[i]} index={i} />
         ))}
       </div>
     </section>

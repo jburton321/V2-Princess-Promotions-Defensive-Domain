@@ -2,7 +2,7 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 
 export function TestimonialScroll() {
   return (
-    <section className="sec">
+    <section className="sec band-page">
       <div className="sec-inner">
         <ScrollReveal className="kicker">Customer Experiences</ScrollReveal>
         <ScrollReveal className="sec-title">

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, type CSSProperties, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 
 type ScrollRevealProps = {
   children: ReactNode
@@ -17,6 +17,8 @@ export function ScrollReveal({
   displayContents,
 }: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null)
+  /** Must live in React state: any parent re-render resets `className` and would drop a DOM-only `v`. */
+  const [revealed, setRevealed] = useState(false)
 
   useEffect(() => {
     const el = ref.current
@@ -25,7 +27,7 @@ export function ScrollReveal({
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add('v')
+            setRevealed(true)
             io.unobserve(e.target)
           }
         })
@@ -42,7 +44,7 @@ export function ScrollReveal({
   return (
     <div
       ref={ref}
-      className={['rv', className].filter(Boolean).join(' ')}
+      className={['rv', className, revealed ? 'v' : ''].filter(Boolean).join(' ')}
       style={mergedStyle}
     >
       {children}

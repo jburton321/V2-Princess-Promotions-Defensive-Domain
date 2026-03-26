@@ -5,7 +5,7 @@ import { siteImages } from '@/lib/site-images'
 
 export function WhatIsPP() {
   return (
-    <section className="sec">
+    <section className="sec band-page">
       <div className="editorial">
         <ScrollReveal className="kicker">Understanding the Program</ScrollReveal>
         <ScrollReveal>

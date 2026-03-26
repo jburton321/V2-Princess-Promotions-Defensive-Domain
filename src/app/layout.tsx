@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       {
         url: siteImages.openGraph,
         width: 1920,
-        height: 1080,
+        height: 1155,
       },
     ],
     locale: 'en_US',

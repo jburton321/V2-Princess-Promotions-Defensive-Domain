@@ -5,7 +5,7 @@ import { siteImages } from '@/lib/site-images'
 
 export function RedeemHotel() {
   return (
-    <section className="sec-sm" style={{ background: 'var(--bg)' }}>
+    <section className="sec-sm band-page">
       <div className="editorial">
         <ScrollReveal className="kicker">Hotel Redemption</ScrollReveal>
         <ScrollReveal>

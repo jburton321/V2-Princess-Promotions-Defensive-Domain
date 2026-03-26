@@ -9,7 +9,7 @@ export function ReviewForm() {
 
   if (done) {
     return (
-      <section className="form-sec" id="submit">
+      <section className="form-sec band-page" id="submit">
         <ScrollReveal className="form-c">
           <div id="fok" style={{ display: 'block', textAlign: 'center', padding: '3rem 0' }}>
             <div className="cki">
@@ -36,7 +36,7 @@ export function ReviewForm() {
   }
 
   return (
-    <section className="form-sec" id="submit">
+    <section className="form-sec band-page" id="submit">
       <ScrollReveal className="form-c">
         <h2>Submit Your Review</h2>
         <p>

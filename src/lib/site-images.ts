@@ -2,8 +2,11 @@
  * Local image assets (formerly hot-linked from Unsplash).
  * Files live in `public/images/`.
  */
+const heroAerial = '/images/hero-aerial.jpg'
+
 export const siteImages = {
-  heroBg: '/images/hero-aerial.jpg',
+  /** Hero + default social preview (Open Graph / Twitter) */
+  heroBg: heroAerial,
   /** Sun Princess at sea — big typographic “scam?” section */
   bigAnswerBg: '/images/big-answer-sun-princess.png',
   verdictBg: '/images/verdict-background.jpg',
@@ -15,6 +18,6 @@ export const siteImages = {
   issueHotelCertificates: '/images/issue-hotel-certificates.jpg',
   redemptionCruiseShip: '/images/redemption-cruise-ship.jpg',
   hotelPool: '/images/hotel-pool.jpg',
-  /** Same asset as hero; used for OG / Twitter cards. */
-  openGraph: '/images/hero-aerial.jpg',
+  /** Same file as `heroBg` — OG / Twitter `summary_large_image`. */
+  openGraph: heroAerial,
 } as const

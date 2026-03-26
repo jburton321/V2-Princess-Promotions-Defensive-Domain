@@ -2,7 +2,7 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 
 export function HowWeReview() {
   return (
-    <section className="sec-sm">
+    <section className="sec-sm band-page">
       <ScrollReveal className="m-box">
         <h2>How We Review</h2>
         <p>
