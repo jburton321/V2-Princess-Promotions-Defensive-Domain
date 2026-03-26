@@ -6,7 +6,7 @@ import { siteImages } from '@/lib/site-images'
 export function RedeemHotel() {
   return (
     <section className="sec-sm band-page">
-      <div className="editorial">
+      <div className="editorial editorial--pair">
         <ScrollReveal className="kicker">Hotel Redemption</ScrollReveal>
         <ScrollReveal>
           <h2>How to Use Princess Promotions Hotel Certificates and Credits</h2>
@@ -34,7 +34,7 @@ export function RedeemHotel() {
             alt="Princess Promotions hotel certificate - luxury hotel pool"
             width={1200}
             height={800}
-            className="h-full min-h-[240px] max-h-[360px] w-full rounded-bento object-cover"
+            className="w-full rounded-bento object-cover"
             loading="lazy"
           />
         </ScrollReveal>

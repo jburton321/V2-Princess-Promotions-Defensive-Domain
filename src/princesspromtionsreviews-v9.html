@@ -121,13 +121,18 @@ body{font-family:var(--sans);color:var(--tx);background:var(--bg);-webkit-font-s
 .editorial h2{font-family:var(--serif);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:400;color:var(--navy);line-height:1.1;letter-spacing:-.02em;margin-bottom:1.5rem}
 .editorial p{font-size:1rem;color:var(--tx2);line-height:1.8;margin-bottom:1.25rem}
 .editorial strong{color:var(--navy-mid);font-weight:600}
+.editorial--pair h2{margin-bottom:0.65rem}
+.editorial--pair > .rv > p:only-child{margin-bottom:0.65rem}
+.editorial--pair .media-grid{margin-top:0.75rem;margin-bottom:2rem}
 
 /* MEDIA GRID */
-.media-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:2.5rem 0;align-items:center}
+.media-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:1.5rem;row-gap:1.25rem;margin:1.5rem 0 2.5rem;align-items:start}
 @media(max-width:1100px){.media-grid{grid-template-columns:1fr}}
-.media-grid img{width:100%;height:100%;object-fit:cover;border-radius:var(--r);min-height:240px;max-height:360px}
-.media-grid .txt{display:flex;flex-direction:column;justify-content:center;gap:12px}
+.media-grid .txt{min-width:0;display:flex;flex-direction:column;justify-content:flex-start;gap:.75rem}
 .media-grid .txt p{margin-bottom:0;font-size:.95rem}
+.media-grid > span{display:block;width:100%;max-width:100%;align-self:start;line-height:0}
+.media-grid > span img,.media-grid img{width:100%;height:auto;max-height:360px;object-fit:cover;border-radius:var(--r);display:block}
+.media-grid--ship{grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr)}
 
 /* FACT STRIP */
 .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--g);margin:2.5rem 0}
@@ -142,8 +147,9 @@ body{font-family:var(--sans);color:var(--tx);background:var(--bg);-webkit-font-s
 .pq cite{display:block;font-family:var(--sans);font-size:.72rem;font-style:normal;color:var(--tx3);margin-top:.75rem;font-weight:500;letter-spacing:.04em}
 
 /* SPLIT COMPARE */
-.split{display:grid;grid-template-columns:1fr 1fr;border-radius:var(--r);overflow:hidden;margin:2.5rem 0;border:1px solid var(--bdr)}
-@media(max-width:650px){.split{grid-template-columns:1fr}}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-radius:var(--r);overflow:hidden;margin:2.5rem 0;border:1px solid var(--bdr);align-items:start}
+@media(max-width:650px){.split{grid-template-columns:minmax(0,1fr)}}
+.split-l,.split-r{min-width:0}
 .split-l{background:var(--blue-pl);padding:2rem}.split-r{background:var(--gold-pl);padding:2rem}
 .split-tag{font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}
 .split-l .split-tag{color:#0C447C}.split-r .split-tag{color:#633806}
@@ -419,12 +425,12 @@ label.f textarea{min-height:120px;resize:vertical}
 
 <!-- PP vs PRINCESS CRUISES -->
 <section class="sec-sm" style="background:var(--bg)">
-<div class="editorial">
+<div class="editorial editorial--pair">
 <div class="kicker rv">Entity Confusion</div>
 <h2 class="rv">Is Princess Promotions the Same as Princess Cruises?</h2>
 <p class="rv"><strong>No</strong> — and this distinction matters more than most realize.</p>
 
-<div class="media-grid rv" style="grid-template-columns:.9fr 1.1fr">
+<div class="media-grid media-grid--ship rv">
 <img src="/images/editorial-princess-ship.jpg" alt="Princess Cruises ship - separate entity from Princess Promotions" loading="lazy">
 <div class="txt">
 <p>Princess Promotions operates on Princess ships using the Princess brand, but it's run by a separate company (ONE Inc.). Think of it like a third-party vendor inside a department store.</p>
@@ -512,7 +518,7 @@ label.f textarea{min-height:120px;resize:vertical}
 
 <!-- HOTEL CERTS -->
 <section class="sec-sm" style="background:var(--bg)">
-<div class="editorial">
+<div class="editorial editorial--pair">
 <div class="kicker rv">Hotel Redemption</div>
 <h2 class="rv">How to Use Princess Promotions Hotel Certificates and Credits</h2>
 <p class="rv">Unlike FCCs, these are managed by <strong>Princess Promotions directly</strong>. Call 1-800-PRINCESS, option 5.</p>

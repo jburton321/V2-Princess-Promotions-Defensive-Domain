@@ -1,16 +1,13 @@
 import Image from 'next/image'
-import type { CSSProperties } from 'react'
 import { Callout } from '@/components/Callout'
 import { PullQuote } from '@/components/PullQuote'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
-const mediaGridTight: CSSProperties = { gridTemplateColumns: '0.9fr 1.1fr' }
-
 export function PPvsPrincess() {
   return (
     <section className="sec-sm band-page">
-      <div className="editorial">
+      <div className="editorial editorial--pair">
         <ScrollReveal className="kicker">Entity Confusion</ScrollReveal>
         <ScrollReveal>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
@@ -21,13 +18,13 @@ export function PPvsPrincess() {
           </p>
         </ScrollReveal>
 
-        <ScrollReveal className="media-grid" style={mediaGridTight}>
+        <ScrollReveal className="media-grid media-grid--ship">
           <Image
             src={siteImages.editorialPrincessShip}
             alt="Princess Cruises ship - separate entity from Princess Promotions"
             width={1200}
             height={768}
-            className="h-full min-h-[240px] max-h-[360px] w-full rounded-bento object-cover"
+            className="w-full rounded-bento object-cover"
             loading="lazy"
           />
           <div className="txt">
