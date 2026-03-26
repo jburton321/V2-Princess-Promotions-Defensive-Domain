@@ -33,8 +33,8 @@ export function WhatIsPP() {
           <Image
             src={siteImages.editorialCruiseInterior}
             alt="Princess Promotions onboard sales presentation - cruise ship interior"
-            width={800}
-            height={600}
+            width={1200}
+            height={1596}
             className="h-full min-h-[240px] max-h-[360px] w-full rounded-bento object-cover"
             loading="lazy"
           />

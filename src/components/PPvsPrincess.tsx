@@ -25,8 +25,8 @@ export function PPvsPrincess() {
           <Image
             src={siteImages.editorialPrincessShip}
             alt="Princess Cruises ship - separate entity from Princess Promotions"
-            width={800}
-            height={600}
+            width={1200}
+            height={768}
             className="h-full min-h-[240px] max-h-[360px] w-full rounded-bento object-cover"
             loading="lazy"
           />

@@ -32,8 +32,8 @@ export function RedeemHotel() {
           <Image
             src={siteImages.hotelPool}
             alt="Princess Promotions hotel certificate - luxury hotel pool"
-            width={800}
-            height={600}
+            width={1200}
+            height={800}
             className="h-full min-h-[240px] max-h-[360px] w-full rounded-bento object-cover"
             loading="lazy"
           />
