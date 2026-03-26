@@ -13,9 +13,8 @@ export function DualTabForms() {
   const [ratingError, setRatingError] = useState(false)
 
   return (
-    <section className="form-sec band-page" id="complaint-form">
-      <div className="editorial">
-        <ScrollReveal className="form-c">
+    <div className="ind form-hero-slot" id="complaint-form">
+      <ScrollReveal className="form-c">
           <div className="form-tabs" role="tablist" aria-label="Report or review">
             <button
               type="button"
@@ -253,7 +252,6 @@ export function DualTabForms() {
 
           <p className="pvt">Your privacy matters. We never sell your information.</p>
         </ScrollReveal>
-      </div>
-    </section>
+    </div>
   )
 }

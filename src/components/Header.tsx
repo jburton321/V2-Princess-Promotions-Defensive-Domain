@@ -3,6 +3,9 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
+const PP_SIGNIN =
+  'https://www.princesspromotions.com/signin?locale=en-US&currency=USD'
+
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -23,9 +26,19 @@ export function Header() {
             <div className="logo-s">Reviews</div>
           </div>
         </Link>
-        <Link href="#complaint-form" className="hdr-cta">
-          Submit a review
-        </Link>
+        <div className="hdr-actions">
+          <Link href="#complaint-form" className="hdr-cta">
+            Submit a review
+          </Link>
+          <Link
+            href={PP_SIGNIN}
+            className="hdr-cta hdr-cta--solid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Log in
+          </Link>
+        </div>
       </div>
     </header>
   )
