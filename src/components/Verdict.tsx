@@ -1,3 +1,4 @@
+import { LoginCtaBand } from '@/components/LoginCtaBand'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
 export function Verdict() {
@@ -6,42 +7,39 @@ export function Verdict() {
       <div className="verdict-bg" aria-hidden />
       <div className="verdict-ov" aria-hidden />
       <div className="verdict-in">
-        <ScrollReveal className="kicker">Our Verdict</ScrollReveal>
+        <ScrollReveal className="kicker">Our Final Assessment</ScrollReveal>
         <ScrollReveal>
-          <h2>
-            The Final Word on
-            <br />
-            Princess Promotions
-          </h2>
+          <h2>Our Final Assessment</h2>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            <strong>The Future Cruise Credits work.</strong> They apply to bookings as described. For
-            frequent cruisers, the FCC math often makes the package worth it.
+            Princess Promotions is a legitimate program backed by Princess Cruises, a subsidiary of
+            Carnival Corporation. The Future Cruise Credits work as described, and for frequent
+            cruisers, they represent real, documented savings.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            <strong>The hotel credits are where value breaks down.</strong> 50% redemption, inflated
-            pricing, certificate expiration — all erode what looks generous on paper.
+            The hotel credit component is where expectations need to be managed. Credits may apply at
+            less than face value, and platform pricing should be compared against Booking.com or
+            Expedia before committing. But this is a transparency issue, not a legitimacy issue.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            <strong>The sales process needs improvement.</strong> Gap between verbal promises and
-            fine print. Unreliable post-sale support. Cancellation window too short for purchases
-            this large.
+            <strong>Our recommendation:</strong> if you&apos;re a frequent cruiser and the FCC value
+            alone justifies the package price, this is a solid program. Get everything in writing,
+            understand the cancellation window, and use the redemption guide above to maximize your
+            value.
           </p>
         </ScrollReveal>
-        <ScrollReveal className="verdict-final">
-          If cruise credits alone justify the price — reasonable deal.
-          <br />
-          If you need hotel credits to make the math work — proceed with caution.
+        <ScrollReveal className="verdict-final">Recommended for Cruise-Focused Buyers</ScrollReveal>
+        <ScrollReveal className="verdict-sig">
+          — The Editorial Team, Princess Promotions Reviews
         </ScrollReveal>
-        <ScrollReveal className="verdict-sig">— The Editorial Team at Princess Promotions Reviews</ScrollReveal>
         <ScrollReveal className="verdict-seals">
           <div className="vs">
-            <svg width="32" height="32" viewBox="0 0 40 40" aria-hidden>
+            <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden>
               <circle cx="20" cy="20" r="17" fill="none" stroke="#5BA0D9" strokeWidth="1" />
               <circle cx="20" cy="20" r="14" fill="none" stroke="#5BA0D9" strokeWidth="0.4" />
               <polyline
@@ -56,11 +54,11 @@ export function Verdict() {
             <span>
               Trusted
               <br />
-              review
+              Review
             </span>
           </div>
           <div className="vs">
-            <svg width="32" height="32" viewBox="0 0 40 40" aria-hidden>
+            <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden>
               <circle cx="20" cy="20" r="17" fill="none" stroke="#C4922A" strokeWidth="1" />
               <circle cx="20" cy="20" r="14" fill="none" stroke="#C4922A" strokeWidth="0.4" />
               <polyline
@@ -80,6 +78,7 @@ export function Verdict() {
           </div>
         </ScrollReveal>
       </div>
+      <LoginCtaBand variant="dark" />
     </section>
   )
 }

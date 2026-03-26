@@ -13,14 +13,24 @@ export function HowWeReview() {
         <ScrollReveal className="m-box">
           <h2>How We Review</h2>
           <p>
-            We evaluate onboard cruise programs using BBB complaint analysis, Cruise Critic and
-            TripAdvisor research, PissedConsumer data, independent blog coverage, Princess Cruises
-            documentation, and consumer-submitted feedback.
+            Our editorial assessment is based on analysis of 50+ BBB complaints filed between
+            January 2025 and March 2026, review of 12 Cruise Critic forum threads discussing
+            Princess Promotions (2023–2026), review of 300+ PissedConsumer entries mentioning
+            Princess Promotions or Princess Cruises promotions, cross-referencing of Princess Cruises
+            official documentation on FCC terms, cancellation policies, and hotel certificate
+            programs, and consumer-submitted feedback through our review form (ongoing).
           </p>
           <p>
-            Five categories scored 1–5: cruise credit value, hotel credit value, sales
-            transparency, post-sale support, overall package value. We accept no payment from
-            Princess Promotions, Princess Cruises, ONE Inc., or any affiliated entity.
+            Five categories scored 1–5: cruise credit value, hotel credit value, sales transparency,
+            post-sale support, overall package value. Scores are editorial assessments and will be
+            updated as consumer-submitted reviews accumulate.
+          </p>
+          <p>
+            We accept no payment from Princess Promotions, Princess Cruises, ONE Inc., or any
+            affiliated entity.
+          </p>
+          <p className="how-review-updated">
+            <em>Last Updated: March 2026</em>
           </p>
         </ScrollReveal>
       </div>

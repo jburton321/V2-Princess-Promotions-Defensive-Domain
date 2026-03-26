@@ -19,46 +19,46 @@ export function RatingGrid() {
             <div className="ct">Cruise credit value</div>
             <div className="ds">Are the FCCs worth the package price?</div>
             <div className="sv sa">
-              <ScoreCounter target={3.8} /> <small>/ 5</small>
+              <ScoreCounter target={4} /> <small>/ 5</small>
             </div>
           </ScrollReveal>
           <ScrollReveal className="r-card rv-d2">
             <div className="ct">Hotel credit value</div>
             <div className="ds">Do hotel credits deliver real savings vs. Expedia?</div>
             <div className="sv sr">
-              <ScoreCounter target={2.6} /> <small>/ 5</small>
+              <ScoreCounter target={2.5} /> <small>/ 5</small>
             </div>
           </ScrollReveal>
           <ScrollReveal className="r-card rv-d3">
             <div className="ct">Sales transparency</div>
             <div className="ds">Are total costs and limitations disclosed upfront?</div>
             <div className="sv sr">
-              <ScoreCounter target={2.8} /> <small>/ 5</small>
+              <ScoreCounter target={2.5} /> <small>/ 5</small>
             </div>
           </ScrollReveal>
           <ScrollReveal className="r-card rv-d4">
             <div className="ct">Post-sale support</div>
             <div className="ds">Can you reach your advisor after purchase?</div>
             <div className="sv sr">
-              <ScoreCounter target={2.9} /> <small>/ 5</small>
+              <ScoreCounter target={2.5} /> <small>/ 5</small>
             </div>
           </ScrollReveal>
           <ScrollReveal className="r-card rv-d5">
             <div className="ct">Overall package value</div>
             <div className="ds">Does the full package deliver on what was promised?</div>
             <div className="sv sa">
-              <ScoreCounter target={3.4} /> <small>/ 5</small>
+              <ScoreCounter target={3.5} /> <small>/ 5</small>
             </div>
           </ScrollReveal>
           <ScrollReveal className="r-card r-overall rv-d6">
             <div className="sv">
-              <ScoreCounter target={3.1} /> <small>/ 5</small>
+              <ScoreCounter target={3.5} /> <small>/ 5</small>
             </div>
             <div>
               <div className="ct">Overall score</div>
               <div className="ds">
-                Conditionally recommended. Real value exists, but only if you understand the fine
-                print before you buy.
+                Recommended for cruise-focused buyers. Real value exists in the FCC program — hotel
+                credits require more scrutiny.
               </div>
             </div>
           </ScrollReveal>

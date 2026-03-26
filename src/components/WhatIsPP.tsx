@@ -5,7 +5,7 @@ import { siteImages } from '@/lib/site-images'
 
 export function WhatIsPP() {
   return (
-    <section className="sec band-page">
+    <section className="sec band-page" id="what-is-pp">
       <div className="editorial">
         <WhatIsPPIntroGrid
           imageSrc={siteImages.editorialCruiseInterior}
@@ -56,6 +56,63 @@ export function WhatIsPP() {
             (1-800-PRINCESS). Hotel certificates and credits are managed by Princess Promotions. This
             split is where most confusion starts.
           </Callout>
+        </ScrollReveal>
+
+        <ScrollReveal style={{ marginTop: '3rem' }}>
+          <div className="sec-rule" aria-hidden />
+        </ScrollReveal>
+
+        <ScrollReveal className="kicker">Before You Buy</ScrollReveal>
+        <ScrollReveal>
+          <h2 style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)' }}>
+            Thinking About Buying? What to Evaluate
+          </h2>
+        </ScrollReveal>
+        <ScrollReveal>
+          <p>
+            If you&apos;re attending an onboard presentation or received a follow-up call,
+            here&apos;s how to evaluate the offer:
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="co co-b">
+            <div className="b" aria-hidden />
+            <div className="i">
+              <strong>Focus on the FCC Value.</strong> Does the FCC value alone justify the package
+              price? If yes, hotel credits are a bonus. If you need hotel credits to make the math
+              work, scrutinize more carefully.
+            </div>
+          </div>
+        </ScrollReveal>
+        <ScrollReveal>
+          <div className="co co-w">
+            <div className="b" aria-hidden />
+            <div className="i">
+              <strong>Get the Total Cost in Writing.</strong> Ask for a line-by-line breakdown of the
+              purchase price, all installments, and any additional fees. Multiple complaints stem from
+              consumers who believed the down payment was the total cost.
+            </div>
+          </div>
+        </ScrollReveal>
+        <ScrollReveal>
+          <div className="co co-b">
+            <div className="b" aria-hidden />
+            <div className="i">
+              <strong>Understand the 7-Day Cancellation Window.</strong> Make your decision before day
+              7. Send written cancellation via email — don&apos;t rely on phone calls alone.
+            </div>
+          </div>
+        </ScrollReveal>
+        <ScrollReveal>
+          <div className="co co-w">
+            <div className="b" aria-hidden />
+            <div className="i">
+              <strong>Ask About Your State&apos;s Refund Policies.</strong> Some states have different
+              rules about refunds for these types of packages. Confirm what applies to you before
+              signing.
+            </div>
+          </div>
         </ScrollReveal>
       </div>
     </section>

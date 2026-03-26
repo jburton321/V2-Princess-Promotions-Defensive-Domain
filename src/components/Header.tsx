@@ -23,7 +23,7 @@ export function Header() {
             <div className="logo-s">Reviews</div>
           </div>
         </Link>
-        <Link href="#submit" className="hdr-cta">
+        <Link href="#complaint-form" className="hdr-cta">
           Submit a review
         </Link>
       </div>

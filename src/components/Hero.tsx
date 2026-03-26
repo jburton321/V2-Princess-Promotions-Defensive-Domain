@@ -44,9 +44,9 @@ export function Hero() {
           everything we found.
         </p>
         <div className="hero-score-wrap">
-          <div className="hero-big">3.1</div>
+          <div className="hero-big">3.5</div>
           <div className="hero-of">out of five</div>
-          <div className="hero-badge">Conditionally Recommended</div>
+          <div className="hero-badge">Recommended for Cruise-Focused Buyers</div>
         </div>
         <div className="hero-meta">
           <span className="seal-p">

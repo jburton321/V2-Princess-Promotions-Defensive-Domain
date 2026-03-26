@@ -19,7 +19,7 @@ export function IssueBento() {
         <ScrollReveal className="sec-sub">
           From BBB complaints, Cruise Critic forums, and consumer review sites:
         </ScrollReveal>
-        <div className="i-grid">
+        <div className="i-grid i-grid--three">
           <ScrollReveal className="i-card i-hero rv-d1">
             <div className="nm rd">1</div>
             <h3>Hotel Credits Don&apos;t Work the Way They&apos;re Presented</h3>
@@ -31,68 +31,28 @@ export function IssueBento() {
             <div className="i-stat">
               <div>
                 <div className="sv">50%</div>
-                <div className="sl">Actual credit value</div>
-              </div>
-              <div>
-                <div className="sv">#1</div>
-                <div className="sl">Most reported issue</div>
+                <div className="sl">Actual Credit Value</div>
               </div>
             </div>
           </ScrollReveal>
 
-          <ScrollReveal className="i-card i-img rv-d2">
-            <div className="i-bg" style={img(siteImages.issueFccAccounting)} />
-            <div className="i-ov" aria-hidden />
-            <div className="nm">2</div>
-            <h3>FCC Accounting Is Confusing</h3>
-            <p>
-              Credits applied without authorization. Systems aren&apos;t synced between entities.
-              Customers can&apos;t get clear statements from either side.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal className="i-card i-stat-card rv-d3">
-            <div className="big-num">7</div>
-            <div className="big-lbl">Day cancellation window</div>
-            <p>Agents unreachable during this period. By the time you get through, it&apos;s closed.</p>
-          </ScrollReveal>
-
-          <ScrollReveal className="i-card i-quote rv-d4">
+          <ScrollReveal className="i-card i-quote rv-d2">
             <div className="q-text">
-              &quot;I called my planning advisor 11 times over three weeks. Not a single
+              &quot;Our advisor was incredible during the pitch — called us by name, remembered our
+              anniversary cruise. After we signed? Eleven calls over three weeks. Not a single
               callback.&quot;
             </div>
-            <div className="q-src">Recurring theme — BBB &amp; PissedConsumer</div>
+            <div className="q-src">Recurring Theme — BBB &amp; PissedConsumer</div>
           </ScrollReveal>
 
-          <ScrollReveal className="i-card rv-d5">
-            <div className="nm am">4</div>
-            <h3>Hidden Additional Charges</h3>
-            <p>
-              Down payment quoted as the total, then thousands more invoiced in subsequent months.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal className="i-card i-img i-wide rv-d6">
-            <div
-              className="i-bg"
-              style={img(siteImages.issueHotelCertificates)}
-            />
+          <ScrollReveal className="i-card i-img rv-d3">
+            <div className="i-bg" style={img(siteImages.dividerDestination)} />
             <div className="i-ov" aria-hidden />
-            <div className="nm am">6</div>
-            <h3>Hotel Certificates Expire Before They Can Be Used</h3>
+            <div className="nm am">3</div>
+            <h3>The 7-Day Cancellation Window Is Difficult to Execute</h3>
             <p>
-              Certificates have shorter expiration dates than expected. The redemption process is so
-              slow that certificates lapse before the stay can be booked.
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal className="i-card pos">
-            <div className="nm">✓</div>
-            <h3>The Cruise Credits Do Work</h3>
-            <p>
-              The FCCs are real. Many customers have used them at genuine discounts. The hotel side
-              and post-sale support are where documented problems live.
+              Some customers report agents becoming unreachable during the cancellation period. Send
+              written cancellation via email immediately — don&apos;t rely on phone calls alone.
             </p>
           </ScrollReveal>
         </div>

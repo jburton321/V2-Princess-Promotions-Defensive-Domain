@@ -1,6 +1,5 @@
 import { Callout } from '@/components/Callout'
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
-import { PullQuote } from '@/components/PullQuote'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -28,10 +27,6 @@ export function PPvsPrincess() {
             When something goes wrong, each entity may point you to the other. Multiple BBB
             complaints describe this runaround.
           </p>
-          <PullQuote
-            quote='"Multiple BBB complaints describe customers being bounced between the two entities with no one taking full responsibility."'
-            cite="— From our analysis of 2025–2026 BBB complaint data"
-          />
         </MatchedHeightMediaGrid>
 
         <ScrollReveal className="split">

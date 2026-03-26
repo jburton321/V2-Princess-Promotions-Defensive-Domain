@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     publishedTime: '2026-03-01T00:00:00+00:00',
-    modifiedTime: '2026-03-25T00:00:00+00:00',
+    modifiedTime: '2026-03-26T00:00:00+00:00',
   },
   twitter: {
     card: 'summary_large_image',

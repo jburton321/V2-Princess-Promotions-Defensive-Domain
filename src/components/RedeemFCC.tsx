@@ -1,4 +1,5 @@
 import { JourneyReveal } from '@/components/JourneyReveal'
+import { LoginCtaBand } from '@/components/LoginCtaBand'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -6,7 +7,7 @@ const bg = (path: string) => ({ backgroundImage: `url('${path}')` }) as const
 
 export function RedeemFCC() {
   return (
-    <section className="sec band-page redeem-fcc">
+    <section className="sec band-page redeem-fcc" id="redeem-section">
       <div className="editorial">
         <ScrollReveal className="kicker">Redemption Guide</ScrollReveal>
         <ScrollReveal>
@@ -65,6 +66,7 @@ export function RedeemFCC() {
           </div>
         </JourneyReveal>
         </div>
+        <LoginCtaBand />
       </div>
     </section>
   )
