@@ -6,12 +6,13 @@ const bg = (path: string) => ({ backgroundImage: `url('${path}')` }) as const
 
 export function RedeemFCC() {
   return (
-    <section className="sec band-page">
+    <section className="sec band-page redeem-fcc">
       <div className="editorial">
         <ScrollReveal className="kicker">Redemption Guide</ScrollReveal>
         <ScrollReveal>
           <h2>How to Redeem Your Princess Promotions Future Cruise Credits</h2>
         </ScrollReveal>
+        <div className="fcc-journey-panel">
         <JourneyReveal>
           <div className="j-card j-phone">
             <div className="j-label">Redeem through Princess Cruises — not Princess Promotions</div>
@@ -63,6 +64,7 @@ export function RedeemFCC() {
             </p>
           </div>
         </JourneyReveal>
+        </div>
       </div>
     </section>
   )

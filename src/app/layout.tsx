@@ -6,9 +6,10 @@ import {
   jsonLdOrganization,
 } from '@/lib/metadata'
 import { siteImages } from '@/lib/site-images'
+import { getSiteUrl } from '@/lib/site-url'
 import './globals.css'
 
-/** Vendored under `public/fonts/` — no Google Fonts at build or runtime. */
+/** Inter — sans-serif for UI and body copy. Vendored under `public/fonts/`. */
 const inter = localFont({
   src: [
     { path: '../../public/fonts/inter-latin-400-normal.woff2', weight: '400', style: 'normal' },
@@ -20,6 +21,7 @@ const inter = localFont({
   display: 'swap',
 })
 
+/** Instrument Serif — display serif for headings / stats / quotes (not body copy). */
 const instrumentSerif = localFont({
   src: [
     {
@@ -37,8 +39,10 @@ const instrumentSerif = localFont({
   display: 'swap',
 })
 
+const siteUrl = getSiteUrl()
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://princesspromtionsreviews.com'),
+  metadataBase: siteUrl,
   title:
     'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
   description:
@@ -51,14 +55,14 @@ export const metadata: Metadata = {
     'max-snippet': -1,
     'max-image-preview': 'large',
   },
-  alternates: { canonical: 'https://princesspromtionsreviews.com/' },
+  alternates: { canonical: new URL('/', siteUrl).href },
   openGraph: {
     type: 'article',
     title:
       'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
     description:
       'We independently investigated Princess Promotions Future Cruise Packages. BBB complaints, hotel credit issues, FCC redemption, and real customer feedback — all reviewed.',
-    url: 'https://princesspromtionsreviews.com/',
+    url: new URL('/', siteUrl).href,
     siteName: 'Princess Promotions Reviews',
     images: [
       {
@@ -89,8 +93,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${instrumentSerif.variable}`}>
+    <html lang="en" className={`${inter.variable} ${instrumentSerif.variable}`}>
+      <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLdOrganization }}
