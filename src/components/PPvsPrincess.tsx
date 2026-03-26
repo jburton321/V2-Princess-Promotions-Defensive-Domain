@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { Callout } from '@/components/Callout'
+import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
 import { PullQuote } from '@/components/PullQuote'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
@@ -8,44 +8,31 @@ export function PPvsPrincess() {
   return (
     <section className="sec-sm band-page">
       <div className="editorial editorial--pair">
-        <ScrollReveal className="kicker">Entity Confusion</ScrollReveal>
-        <ScrollReveal>
+        <MatchedHeightMediaGrid
+          imageFirst
+          gridClassName="media-grid media-grid--ship media-grid--entity-split"
+          imageSrc={siteImages.editorialPrincessShip}
+          imageAlt="Princess Cruises ship - separate entity from Princess Promotions"
+        >
+          <div className="kicker">Entity Confusion</div>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
-        </ScrollReveal>
-        <ScrollReveal>
-          <p>
+          <p className="entity-split-lead">
             <strong>No</strong> — and this distinction matters more than most realize.
           </p>
-        </ScrollReveal>
-
-        <ScrollReveal className="media-grid media-grid--ship">
-          <Image
-            src={siteImages.editorialPrincessShip}
-            alt="Princess Cruises ship - separate entity from Princess Promotions"
-            width={1200}
-            height={768}
-            className="w-full rounded-bento object-cover"
-            loading="lazy"
-          />
-          <div className="txt">
-            <p>
-              Princess Promotions operates on Princess ships using the Princess brand, but it’s run
-              by a separate company (ONE Inc.). Think of it like a third-party vendor inside a
-              department store.
-            </p>
-            <p>
-              When something goes wrong, each entity may point you to the other. Multiple BBB
-              complaints describe this runaround.
-            </p>
-          </div>
-        </ScrollReveal>
-
-        <ScrollReveal>
+          <p>
+            Princess Promotions operates on Princess ships using the Princess brand, but it’s run
+            by a separate company (ONE Inc.). Think of it like a third-party vendor inside a
+            department store.
+          </p>
+          <p>
+            When something goes wrong, each entity may point you to the other. Multiple BBB
+            complaints describe this runaround.
+          </p>
           <PullQuote
             quote='"Multiple BBB complaints describe customers being bounced between the two entities with no one taking full responsibility."'
             cite="— From our analysis of 2025–2026 BBB complaint data"
           />
-        </ScrollReveal>
+        </MatchedHeightMediaGrid>
 
         <ScrollReveal className="split">
           <div className="split-l">

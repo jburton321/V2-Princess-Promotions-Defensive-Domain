@@ -1,7 +1,8 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: ['./src/app/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
+  /** Scan all TS/TSX under src so utilities are never dropped from hooks/lib later. */
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
     extend: {
       colors: {

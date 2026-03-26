@@ -1,6 +1,13 @@
 'use client'
 
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useLayoutEffect, useRef, type ReactNode } from 'react'
+
+function overlapsViewport(el: HTMLElement): boolean {
+  const rect = el.getBoundingClientRect()
+  const vh = window.innerHeight || document.documentElement.clientHeight
+  const belowFoldBleedPx = 120
+  return rect.bottom > 0 && rect.top < vh + belowFoldBleedPx
+}
 
 /**
  * Matches V9 HTML: `.journey.rv` plus child `.j-card` cells that also use `.rv` / `.rv-d*`.
@@ -9,19 +16,34 @@ import { useEffect, useRef, type ReactNode } from 'react'
 export function JourneyReveal({ children }: { children: ReactNode }) {
   const ref = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = ref.current
     if (!el) return
+
+    const activate = () => {
+      el.classList.add('v')
+      el.querySelectorAll('.rv').forEach((node) => node.classList.add('v'))
+    }
+
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
+      activate()
+      return
+    }
+
+    if (overlapsViewport(el)) {
+      activate()
+      return
+    }
+
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (!e.isIntersecting) return
-          el.classList.add('v')
-          el.querySelectorAll('.rv').forEach((node) => node.classList.add('v'))
+          activate()
           io.disconnect()
         })
       },
-      { threshold: 0.08, rootMargin: '0px 0px -60px 0px' }
+      { threshold: 0.01, rootMargin: '0px 0px -40px 0px' }
     )
     io.observe(el)
     return () => io.disconnect()

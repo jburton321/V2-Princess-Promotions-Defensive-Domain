@@ -1,7 +1,19 @@
 export function Hero() {
   return (
     <section className="hero">
-      <div className="hero-bg" aria-hidden />
+      <div className="hero-bg" aria-hidden>
+        <video
+          className="hero-bg-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/images/hero-aerial.jpg"
+        >
+          <source src="/videos/hero-loop.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div className="hero-content">
         <h1>
           <span className="word" style={{ animationDelay: '0.3s' }}>

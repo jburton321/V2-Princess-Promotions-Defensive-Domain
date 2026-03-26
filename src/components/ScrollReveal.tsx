@@ -1,6 +1,17 @@
 'use client'
 
-import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+import { useLayoutEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+
+/**
+ * True if the block overlaps the viewport or sits just below the fold (e.g. hero-overlap form).
+ * Strict IO missed those by a few pixels, leaving `opacity:0` on first paint.
+ */
+function overlapsViewport(el: HTMLElement): boolean {
+  const rect = el.getBoundingClientRect()
+  const vh = window.innerHeight || document.documentElement.clientHeight
+  const belowFoldBleedPx = 120
+  return rect.bottom > 0 && rect.top < vh + belowFoldBleedPx
+}
 
 type ScrollRevealProps = {
   children: ReactNode
@@ -20,19 +31,32 @@ export function ScrollReveal({
   /** Must live in React state: any parent re-render resets `className` and would drop a DOM-only `v`. */
   const [revealed, setRevealed] = useState(false)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = ref.current
     if (!el) return
+
+    const reveal = () => setRevealed(true)
+
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
+      reveal()
+      return
+    }
+
+    if (overlapsViewport(el)) {
+      reveal()
+      return
+    }
+
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            setRevealed(true)
+            reveal()
             io.unobserve(e.target)
           }
         })
       },
-      { threshold: 0.08, rootMargin: '0px 0px -60px 0px' }
+      { threshold: 0.01, rootMargin: '0px 0px -40px 0px' }
     )
     io.observe(el)
     return () => io.disconnect()
