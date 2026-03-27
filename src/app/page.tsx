@@ -2,6 +2,7 @@ import { DualTabForms } from '@/components/DualTabForms'
 import { FAQAccordion } from '@/components/FAQAccordion'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { HdrStack } from '@/components/HdrStack'
 import { IndependenceAlertBar } from '@/components/IndependenceAlertBar'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
@@ -24,10 +25,10 @@ export default function HomePage() {
   return (
     <div className="page-sections">
       <ProgressBar />
-      <div className="hdr-stack">
+      <HdrStack>
         <IndependenceAlertBar />
         <Header />
-      </div>
+      </HdrStack>
       <Hero />
       <DualTabForms />
       <WhoAreYouRouter />
