@@ -20,7 +20,7 @@ export function Hero() {
             Princess
           </span>{' '}
           <span className="word" style={{ animationDelay: '0.4s' }}>
-            Promotions:
+            Promotions
           </span>
           <br />
           <span className="word" style={{ animationDelay: '0.55s' }}>
