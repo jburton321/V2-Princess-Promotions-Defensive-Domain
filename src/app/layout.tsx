@@ -40,6 +40,8 @@ const instrumentSerif = localFont({
 })
 
 const siteUrl = getSiteUrl()
+/** Absolute URL — crawlers (Facebook, X, iMessage) require a public https URL, not a path. */
+const openGraphImageUrl = new URL(siteImages.openGraph, siteUrl).href
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -66,9 +68,11 @@ export const metadata: Metadata = {
     siteName: 'Princess Promotions Reviews',
     images: [
       {
-        url: siteImages.openGraph,
+        url: openGraphImageUrl,
         width: 1920,
         height: 1155,
+        type: 'image/jpeg',
+        alt: 'Aerial view of a cruise ship at sea — Princess Promotions Reviews',
       },
     ],
     locale: 'en_US',
@@ -80,7 +84,7 @@ export const metadata: Metadata = {
     title: 'Princess Promotions Reviews — Scam or Legit? [2026]',
     description:
       'Independent review of Princess Promotions Future Cruise Packages. Hotel credits, FCCs, BBB complaints, and real customer feedback analyzed.',
-    images: [siteImages.openGraph],
+    images: [openGraphImageUrl],
   },
   icons: {
     icon: [{ url: '/favicons/favicon-light.svg', type: 'image/svg+xml' }],
