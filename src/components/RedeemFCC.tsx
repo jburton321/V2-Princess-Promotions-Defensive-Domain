@@ -1,5 +1,4 @@
 import { JourneyReveal } from '@/components/JourneyReveal'
-import { LoginCtaBand } from '@/components/LoginCtaBand'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -66,7 +65,26 @@ export function RedeemFCC() {
           </div>
         </JourneyReveal>
         </div>
-        <LoginCtaBand />
+        <ScrollReveal style={{ marginTop: '3rem' }}>
+          <div className="portal-callout">
+            <div className="kicker">Princess Promotions portal</div>
+            <p className="portal-callout-p">
+              Through the <strong>Open Network Exchange (ONE)</strong> traveler portal, many guests
+              manage hotel bookings, browse member discounts and savings, and explore add-on
+              products tied to their package — alongside FCC balances and certificates. Use the
+              official Princess Promotions site for your account; our guides above walk through what
+              to expect at each step.
+            </p>
+            <a
+              href="https://www.princesspromotions.com"
+              className="portal-callout-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit princesspromotions.com →
+            </a>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   )

@@ -63,6 +63,12 @@ export function RatingGrid() {
             </div>
           </ScrollReveal>
         </div>
+        <ScrollReveal className="rating-footnote">
+          <p>
+            Scores reflect our editorial review. For methodology and updates, see{' '}
+            <a href="#how-we-review">How we review</a>.
+          </p>
+        </ScrollReveal>
       </div>
     </section>
   )

@@ -1,3 +1,50 @@
+import Link from 'next/link'
+
+function HeroStars() {
+  return (
+    <div className="hero-stars" aria-label="Rated 3.5 out of 5 stars">
+      <span className="hero-star hero-star--full" aria-hidden>
+        ★
+      </span>
+      <span className="hero-star hero-star--full" aria-hidden>
+        ★
+      </span>
+      <span className="hero-star hero-star--full" aria-hidden>
+        ★
+      </span>
+      <span className="hero-star-half" aria-hidden>
+        <span className="hero-star-half__bg">★</span>
+        <span className="hero-star-half__fg">★</span>
+      </span>
+      <span className="hero-star hero-star--empty" aria-hidden>
+        ★
+      </span>
+    </div>
+  )
+}
+
+function LockIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <rect
+        x="5"
+        y="11"
+        width="14"
+        height="10"
+        rx="2"
+        stroke="rgba(255,255,255,0.45)"
+        strokeWidth="2"
+      />
+      <path
+        d="M8 11V7a4 4 0 0 1 8 0v4"
+        stroke="rgba(255,255,255,0.45)"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+    </svg>
+  )
+}
+
 export function Hero() {
   return (
     <section className="hero">
@@ -21,34 +68,34 @@ export function Hero() {
           </span>{' '}
           <span className="word" style={{ animationDelay: '0.4s' }}>
             Promotions
-          </span>
-          <br />
-          <span className="word" style={{ animationDelay: '0.55s' }}>
-            <em>What</em>
           </span>{' '}
-          <span className="word" style={{ animationDelay: '0.65s' }}>
-            <em>You</em>
-          </span>{' '}
-          <span className="word" style={{ animationDelay: '0.75s' }}>
-            <em>Need</em>
-          </span>{' '}
-          <span className="word" style={{ animationDelay: '0.85s' }}>
-            <em>to</em>
-          </span>{' '}
-          <span className="word" style={{ animationDelay: '0.95s' }}>
-            <em>Know</em>
+          <span className="word" style={{ animationDelay: '0.5s' }}>
+            Reviews
           </span>
         </h1>
         <p className="hero-sub">
-          We investigated the complaints, the packages, and the redemption process. Below is
-          everything we found.
+          Not sure about Princess Promotions? Sounds too good to be true? We investigated the
+          complaints, the packages, and the redemption process — here&apos;s what we found.
         </p>
+        <div className="hero-cta-row">
+          <Link href="#complaint-form" className="hero-cta">
+            Submit a review
+          </Link>
+          <Link href="#final-assessment" className="hero-cta hero-cta--ghost">
+            Read our verdict
+          </Link>
+        </div>
         <div className="hero-score-wrap">
+          <HeroStars />
           <div className="hero-big">3.5</div>
           <div className="hero-of">out of five</div>
           <div className="hero-badge">Recommended for Cruise-Focused Buyers</div>
         </div>
         <div className="hero-meta">
+          <span className="seal-p">
+            <LockIcon />
+            Secure &amp; private
+          </span>
           <span className="seal-p">
             <svg width="14" height="14" viewBox="0 0 40 40" aria-hidden>
               <circle cx="20" cy="20" r="16" fill="none" stroke="#5BA0D9" strokeWidth="2" />

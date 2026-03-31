@@ -1,3 +1,7 @@
+/**
+ * Retained for future use — removed from homepage Mar 2026 (stakeholder review).
+ * Import from @/components/IssueBento when “customer issues” editorial block returns.
+ */
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 

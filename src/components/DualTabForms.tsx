@@ -13,7 +13,7 @@ export function DualTabForms() {
   const [ratingError, setRatingError] = useState(false)
 
   return (
-    <div className="ind form-hero-slot" id="complaint-form">
+    <div className="ind form-page-bottom-slot" id="complaint-form">
       <ScrollReveal className="form-c">
           <div className="form-tabs" role="tablist" aria-label="Report or review">
             <button

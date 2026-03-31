@@ -3,9 +3,6 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-const SIGNIN =
-  'https://www.princesspromotions.com/signin?locale=en-US&currency=USD'
-
 export function StickyMobileCta() {
   const [visible, setVisible] = useState(false)
   const [dismissed, setDismissed] = useState(false)
@@ -29,9 +26,7 @@ export function StickyMobileCta() {
 
   return (
     <div className={`sticky-cta${visible ? ' show' : ''}`} id="sticky-cta">
-      <Link href={SIGNIN} target="_blank" rel="noopener noreferrer">
-        Have a Package? Log In to Redeem →
-      </Link>
+      <Link href="#complaint-form">Submit a review →</Link>
       <button
         type="button"
         className="dismiss"

@@ -3,7 +3,7 @@ import { siteImages } from '@/lib/site-images'
 
 export function HowWeReview() {
   return (
-    <section className="how-review sec-sm band-page">
+    <section className="how-review sec-sm band-page" id="how-we-review">
       <div
         className="how-review-bg"
         style={{ backgroundImage: `url('${siteImages.dividerCruiseAerial}')` }}
@@ -13,17 +13,15 @@ export function HowWeReview() {
         <ScrollReveal className="m-box">
           <h2>How We Review</h2>
           <p>
-            Our editorial assessment is based on analysis of 50+ BBB complaints filed between
-            January 2025 and March 2026, review of 12 Cruise Critic forum threads discussing
-            Princess Promotions (2023–2026), review of 300+ PissedConsumer entries mentioning
-            Princess Promotions or Princess Cruises promotions, cross-referencing of Princess Cruises
-            official documentation on FCC terms, cancellation policies, and hotel certificate
-            programs, and consumer-submitted feedback through our review form (ongoing).
+            Our editors weigh public complaint patterns, cruise-community discussion, official
+            Princess and partner disclosures, and verified submissions from readers. We score five
+            categories from 1–5 (cruise credit value, hotel credit value, sales transparency,
+            post-sale support, overall package value) and revise scores as new, credible feedback
+            comes in.
           </p>
           <p>
-            Five categories scored 1–5: cruise credit value, hotel credit value, sales transparency,
-            post-sale support, overall package value. Scores are editorial assessments and will be
-            updated as consumer-submitted reviews accumulate.
+            We don&apos;t publish a playbook of every source we read — that would skew what people
+            choose to emphasize — but we apply consistent criteria across each update.
           </p>
           <p>
             We accept no payment from Princess Promotions, Princess Cruises, ONE Inc., or any

@@ -1,9 +1,8 @@
-import { LoginCtaBand } from '@/components/LoginCtaBand'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
 export function Verdict() {
   return (
-    <section className="verdict">
+    <section className="verdict" id="final-assessment">
       <div className="verdict-bg" aria-hidden />
       <div className="verdict-ov" aria-hidden />
       <div className="verdict-in">
@@ -78,7 +77,6 @@ export function Verdict() {
           </div>
         </ScrollReveal>
       </div>
-      <LoginCtaBand variant="dark" />
     </section>
   )
 }

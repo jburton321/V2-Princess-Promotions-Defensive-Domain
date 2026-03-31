@@ -13,19 +13,22 @@ export function PPvsPrincess() {
           imageSrc={siteImages.editorialPrincessShip}
           imageAlt="Princess Cruises ship - separate entity from Princess Promotions"
         >
-          <div className="kicker">Entity Confusion</div>
+          <div className="kicker">The Princess connection</div>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
           <p className="entity-split-lead">
-            <strong>No</strong> — and this distinction matters more than most realize.
+            <strong>Princess Promotions is an approved promotional package</strong>, offered in the
+            Princess Cruises environment and fulfilled through licensed partners — not a random
+            third-party offer.
           </p>
           <p>
-            Princess Promotions operates on Princess ships using the Princess brand, but it’s run
-            by a separate company (ONE Inc.). Think of it like a third-party vendor inside a
-            department store.
+            It’s still a <strong>different team</strong> from the cruise line you already trust for
+            your sailing: Princess Cruises handles your ship and FCC redemption; Princess
+            Promotions (via ONE Inc.) handles hotels, certificates, and package administration.
+            Knowing who does what saves time when you need help.
           </p>
           <p>
-            When something goes wrong, each entity may point you to the other. Multiple BBB
-            complaints describe this runaround.
+            When something crosses both sides, you may get routed between them — that’s why we
+            recommend keeping both contact paths handy before you buy.
           </p>
         </MatchedHeightMediaGrid>
 

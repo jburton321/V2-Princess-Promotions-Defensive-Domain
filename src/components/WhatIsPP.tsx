@@ -14,17 +14,18 @@ export function WhatIsPP() {
           <div className="kicker">Understanding the Program</div>
           <h2>What Is Princess Promotions, Exactly?</h2>
           <p className="what-is-intro-sub">
-            This is the first thing most people get wrong, and it’s the source of a lot of the
-            frustration we found in complaints.
+            In plain terms: it&apos;s the onboard and follow-up offer that bundles cruise credits,
+            hotel value, and perks — packaged for guests who already love Princess.
           </p>
           <p>
-            Princess Promotions is <strong>not a standalone travel company</strong>. It&apos;s an
-            onboard sales program connected to Princess Cruises, operated through a third-party
-            company called <strong>Open Network Exchange (ONE Inc.)</strong>.
+            Princess Promotions isn&apos;t a separate cruise line. It&apos;s an{' '}
+            <strong>approved promotional program</strong> you&apos;ll see at sea or on a call,
+            delivered with Princess branding and backed by structured redemption paths — with day-to-day
+            package support run by <strong>Open Network Exchange (ONE Inc.)</strong>.
           </p>
           <p>
-            You’ll encounter it during a sales presentation while already on a Princess Cruise
-            ship, or through a follow-up phone call after you’ve booked.
+            If you&apos;re hearing about it for the first time, slow down, compare the numbers, and
+            use the checklists below — the best deals are the ones you understand before you sign.
           </p>
           <blockquote className="m-0 min-w-0 rounded-[0_14px_14px_0] border-l-[3px] border-blue bg-blue-pl py-4 pl-[1.15rem] pr-[1.1rem] font-sans text-[0.95rem] leading-[1.65] text-tx-2 [&_p]:m-0 [&_strong]:font-semibold [&_strong]:text-navy-mid">
             <p>
