@@ -29,12 +29,12 @@ export default function HomePage() {
       </HdrStack>
       <Hero />
       <RatingGrid />
+      <WhatIsPP />
       <PPvsPrincess />
       <ImageDivider
         src={siteImages.dividerCruiseAerial}
         alt="Princess Promotions cruise ship review - aerial view of Princess Cruises vessel at sea"
       />
-      <WhatIsPP />
       <WhatWorksWell />
       <ImageDivider
         src={siteImages.dividerDestination}

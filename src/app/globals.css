@@ -471,7 +471,9 @@ label.f textarea{min-height:120px;resize:vertical}
 .ckr span{font-size:.86rem;color:var(--tx2)}
 .sbt{display:block;width:100%;padding:.9rem;background:var(--blue);color:#fff;border:none;border-radius:14px;font-family:var(--sans);font-size:.95rem;font-weight:600;cursor:pointer;transition:all .3s}
 .sbt:hover{background:var(--navy);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
-.pvt{font-size:.72rem;color:var(--tx3);text-align:center;margin-top:.75rem}
+.pvt{display:flex;align-items:center;justify-content:center;gap:.4rem;flex-wrap:wrap;font-size:.72rem;color:var(--tx3);text-align:center;margin-top:.75rem}
+.pvt-lock{display:inline-flex;align-items:center;color:var(--tx3);flex-shrink:0;line-height:0}
+.pvt-lock svg{display:block}
 #fok{display:none;text-align:center;padding:3rem 0}
 #fok .cki{width:56px;height:56px;border-radius:50%;background:var(--grn-pl);display:inline-flex;align-items:center;justify-content:center;margin-bottom:1rem}
 #fok h3{font-family:var(--serif);font-size:1.3rem;color:var(--navy);margin-bottom:.4rem}
