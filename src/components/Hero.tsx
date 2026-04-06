@@ -1,28 +1,5 @@
 import Link from 'next/link'
 
-function HeroStars() {
-  return (
-    <div className="hero-stars" aria-label="Rated 3.5 out of 5 stars">
-      <span className="hero-star hero-star--full" aria-hidden>
-        ★
-      </span>
-      <span className="hero-star hero-star--full" aria-hidden>
-        ★
-      </span>
-      <span className="hero-star hero-star--full" aria-hidden>
-        ★
-      </span>
-      <span className="hero-star-half" aria-hidden>
-        <span className="hero-star-half__bg">★</span>
-        <span className="hero-star-half__fg">★</span>
-      </span>
-      <span className="hero-star hero-star--empty" aria-hidden>
-        ★
-      </span>
-    </div>
-  )
-}
-
 function LockIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
@@ -84,12 +61,6 @@ export function Hero() {
           <Link href="#final-assessment" className="hero-cta hero-cta--ghost">
             Read our verdict
           </Link>
-        </div>
-        <div className="hero-score-wrap">
-          <HeroStars />
-          <div className="hero-big">3.5</div>
-          <div className="hero-of">out of five</div>
-          <div className="hero-badge">Recommended for Cruise-Focused Buyers</div>
         </div>
         <div className="hero-meta">
           <span className="seal-p">
