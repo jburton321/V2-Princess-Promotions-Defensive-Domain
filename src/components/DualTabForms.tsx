@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { ScrollReveal } from '@/components/ScrollReveal'
+import { PrincessPhoneLink, PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 
 type Tab = 'complaint' | 'review'
 
@@ -131,8 +132,15 @@ export function DualTabForms() {
                     response with next steps.
                   </p>
                   <div className="confirm-phone">
-                    For immediate help, call <strong>1-800-PRINCESS</strong> (option 5 for
-                    hotel/certificate issues).
+                    For immediate help, call{' '}
+                    <strong>
+                      <PrincessPhoneLink />
+                    </strong>{' '}
+                    (option 5 for hotel/certificate issues) or{' '}
+                    <strong>
+                      <PrincessPromotionsDirectLink />
+                    </strong>
+                    .
                   </div>
                 </div>
               )}

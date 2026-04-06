@@ -64,10 +64,10 @@ export function WhatWorksWell() {
           <ScrollReveal className="works-card rv-d4">
             <div className="works-check">{check}</div>
             <div>
-              <h3>The ONE Portal Brings Hotel Booking, Savings, and Add-Ons Together</h3>
+              <h3>The Princess Promotions Hub Brings Hotel Booking, Savings, and Add-Ons Together</h3>
               <p>
-                Through the <strong>Open Network Exchange (ONE)</strong> traveler experience tied to
-                Princess Promotions, many guests use a single digital hub to manage hotel stays,
+                Through the <strong>Princess Promotions</strong> digital experience, many guests use a
+                single hub to manage hotel stays,
                 browse member-oriented discounts, and see savings opportunities alongside their
                 package. The same environment often surfaces other travel products and upgrades that
                 complement your cruise — so you can plan land stays, compare offers, and explore

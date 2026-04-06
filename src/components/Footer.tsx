@@ -11,14 +11,14 @@ export function Footer() {
       <div className="ftr-tag">Independent consumer reviews & ratings</div>
       <p className="ftr-ind">
         <strong>Princess Promotions Reviews</strong> is an independent consumer review site. We are
-        not owned by, affiliated with, or endorsed by Princess Promotions, Open Network Exchange (ONE
-        Inc.), or Princess Cruises. Our reviews are based on our own research, BBB complaint
+        not owned by, affiliated with, or endorsed by Princess Promotions, Princess Cruises, or their
+        affiliates. Our reviews are based on our own research, BBB complaint
         analysis, cruise forum data, and consumer-submitted feedback.
       </p>
       <div className="ftr-d">
         © 2026 Princess Promotions Reviews. All rights reserved. Not owned by, affiliated with,
-        sponsored by, or endorsed by Princess Promotions, Open Network Exchange (ONE Inc.), Princess
-        Cruises, or Carnival Corporation.
+        sponsored by, or endorsed by Princess Promotions, Princess Cruises, Carnival Corporation, or
+        their affiliates.
       </div>
     </footer>
   )

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { faqItems } from '@/lib/faq-data'
+import { TextWithMarkupPhones } from '@/lib/princess-phone'
 
 const delayClasses = [
   'rv-d1',
@@ -17,6 +18,8 @@ const delayClasses = [
   'rv-d10',
   'rv-d11',
   'rv-d12',
+  'rv-d13',
+  'rv-d14',
 ]
 
 function FAQBlock({
@@ -54,7 +57,9 @@ function FAQBlock({
           {...(open ? {} : { 'aria-hidden': 'true' as const })}
         >
           <div className="faq-a-in">
-            <p>{item.a}</p>
+            <p>
+              <TextWithMarkupPhones text={item.a} />
+            </p>
           </div>
         </div>
       </div>

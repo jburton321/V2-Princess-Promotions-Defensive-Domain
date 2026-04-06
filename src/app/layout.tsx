@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   description:
     'Are Princess Promotions Future Cruise Packages worth it? We independently reviewed BBB complaints, hotel credit issues, FCC redemption, and real customer feedback. Read before you buy.',
   keywords:
-    'Princess Promotions reviews, Princess Promotions scam, is Princess Promotions legit, Princess Promotions hotel credits, Princess Promotions future cruise credit, Princess Promotions cancel, Princess Promotions refund, Princess Promotions vs Princess Cruises, Princess Promotions BBB complaints, Princess Promotions hidden fees, Princess Promotions hotel certificate, Open Network Exchange ONE Inc',
+    'Princess Promotions reviews, Princess Promotions scam, is Princess Promotions legit, Princess Promotions hotel credits, Princess Promotions future cruise credit, Princess Promotions cancel, Princess Promotions refund, Princess Promotions vs Princess Cruises, Princess Promotions BBB complaints, Princess Promotions hidden fees, Princess Promotions hotel certificate',
   robots: {
     index: true,
     follow: true,

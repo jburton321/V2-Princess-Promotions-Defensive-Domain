@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 const PLACEHOLDER_REVIEWS = [
   {
     quote:
-      'FCCs posted exactly as promised — we applied them to our Alaska booking without any runaround.',
+      'FCCs posted as promised — we applied them to our Alaska booking without any runaround.',
     by: 'Placeholder review · pending verification',
   },
   {

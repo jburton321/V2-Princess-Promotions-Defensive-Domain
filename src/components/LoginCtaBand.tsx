@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { PrincessPhoneLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
 const SIGNIN =
@@ -33,7 +34,9 @@ export function LoginCtaBand({ variant = 'default' }: LoginCtaBandProps) {
         >
           Log In to Your Account →
         </Link>
-        <div className="cta-sub">Need help? Call 1-800-PRINCESS</div>
+        <div className="cta-sub">
+          Need help? Call <PrincessPhoneLink />
+        </div>
       </div>
     </ScrollReveal>
   )

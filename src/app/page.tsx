@@ -8,16 +8,15 @@ import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
 import { ImageDivider } from '@/components/ImageDivider'
 import { ProgressBar } from '@/components/ProgressBar'
-import { RatingGrid } from '@/components/RatingGrid'
 import { RedeemFCC } from '@/components/RedeemFCC'
 import { StickyMobileCta } from '@/components/StickyMobileCta'
-import { TestimonialScroll } from '@/components/TestimonialScroll'
 import { Verdict } from '@/components/Verdict'
 import { WhatIsPP } from '@/components/WhatIsPP'
 import { WhatWorksWell } from '@/components/WhatWorksWell'
 import { PPvsPrincess } from '@/components/PPvsPrincess'
 import { siteImages } from '@/lib/site-images'
 /* IssueBento retained at @/components/IssueBento — omitted from page per Mar 2026 review */
+/* TestimonialScroll hidden per stakeholder Markup (Apr 2026) — restore import when live reviews return */
 
 export default function HomePage() {
   return (
@@ -28,9 +27,8 @@ export default function HomePage() {
         <Header />
       </HdrStack>
       <Hero />
-      <RatingGrid />
-      <WhatIsPP />
       <PPvsPrincess />
+      <WhatIsPP />
       <ImageDivider
         src={siteImages.dividerCruiseAerial}
         alt="Princess Promotions cruise ship review - aerial view of Princess Cruises vessel at sea"
@@ -41,7 +39,6 @@ export default function HomePage() {
         alt="Princess Promotions vacation package destination - scenic travel landscape"
       />
       <RedeemFCC />
-      <TestimonialScroll />
       <FAQAccordion />
       <HowWeReview />
       <Verdict />

@@ -7,7 +7,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Is Princess Promotions the Same as Princess Cruises?',
-    a: 'No. It is operated by Open Network Exchange (ONE Inc.), a third party. FCCs are redeemed through Princess Cruises; hotel certificates and credits are managed by Princess Promotions.',
+    a: 'No. Princess Promotions is a separate program from the cruise line itself. FCCs are redeemed through Princess Cruises; hotel certificates and credits are managed through Princess Promotions.',
   },
   {
     q: 'How Do Hotel Credits Actually Work?',
@@ -15,7 +15,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: "What if I Can't Reach My Planning Advisor?",
-    a: 'Call 1-800-PRINCESS and ask for a supervisor or a different advisor. Log every attempt with dates. If you are inside the cancellation window, send written cancellation by email immediately—do not rely on voicemail alone.',
+    a: 'Call 1-800-774-6237 and ask for a supervisor or a different advisor. Log every attempt with dates. If you are inside the cancellation window, send written cancellation by email immediately—do not rely on voicemail alone.',
   },
   {
     q: 'Can I Cancel My Package?',
@@ -48,6 +48,14 @@ export const faqItems: { q: string; a: string }[] = [
   {
     q: 'Do Hotel Certificates Expire?',
     a: 'Yes. Stay certificates can expire sooner than buyers expect. Confirm expiration at purchase, set reminders, and start redemption early because processing can be slow.',
+  },
+  {
+    q: 'How Are Hotel Credits Different From Future Cruise Credits (FCC)?',
+    a: 'Hotel credits and stay certificates are separate from Future Cruise Credits (FCC). FCCs apply to Princess cruise fare and are redeemed through Princess Cruises at 1-800-774-6237. Hotel-related value is handled through Princess Promotions: call 1-800-774-6237, option 5, or the direct line at +1 888 403 0301 for package support.',
+  },
+  {
+    q: 'Is There a Direct Phone Number for Princess Promotions?',
+    a: 'Yes. For Princess Promotions program support you can call +1 888 403 0301. For cruise bookings and many FCC questions, guests often use 1-800-774-6237 as well.',
   },
 ]
 

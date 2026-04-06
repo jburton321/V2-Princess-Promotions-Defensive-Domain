@@ -1,4 +1,5 @@
 import { Callout } from '@/components/Callout'
+import { PrincessPhoneLink } from '@/lib/princess-phone'
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
 import { siteImages } from '@/lib/site-images'
 
@@ -15,8 +16,9 @@ export function RedeemHotel() {
           <div className="kicker">Hotel Redemption</div>
           <h2>How to Use Princess Promotions Hotel Certificates and Credits</h2>
           <p className="hotel-split-lead">
-            Unlike FCCs, these are managed by <strong>Princess Promotions directly</strong>. Call
-            1-800-PRINCESS, option 5.
+            Unlike FCCs, these are managed by <strong>Princess Promotions directly</strong>. Call{' '}
+            <PrincessPhoneLink suffix=", option 5" />
+            .
           </p>
           <p>
             <strong>Credits may apply at 50% face value.</strong> This is the most complained-about
