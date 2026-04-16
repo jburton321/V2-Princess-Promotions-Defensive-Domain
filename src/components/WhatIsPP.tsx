@@ -18,9 +18,15 @@ export function WhatIsPP() {
             hotel value, and perks — packaged for guests who already love Princess.
           </p>
           <p>
-            Princess Promotions isn&apos;t a separate cruise line. It&apos;s an{' '}
-            <strong>approved promotional program</strong> you&apos;ll see at sea or on a call,
-            delivered with Princess branding and backed by structured redemption paths.
+            Princess Promotions is the program that manages Princess Future Cruise Packages and
+            provides the redemption and fulfillment site for all travel products included in those
+            packages (other than Future Cruise Credits and Onboard Credits). Princess Future Cruise
+            Packages are endorsed and supported by Princess Cruise Line.
+          </p>
+          <p>
+            It&apos;s still an <strong>approved promotional program</strong> you&apos;ll see at sea
+            or on a call, with Princess branding and structured redemption paths—not a separate
+            cruise line.
           </p>
           <p>
             If you&apos;re hearing about it for the first time, slow down, compare the numbers, and
@@ -28,9 +34,11 @@ export function WhatIsPP() {
           </p>
           <blockquote className="m-0 min-w-0 rounded-[0_14px_14px_0] border-l-[3px] border-blue bg-blue-pl py-4 pl-[1.15rem] pr-[1.1rem] font-sans text-[0.95rem] leading-[1.65] text-tx-2 [&_p]:m-0 [&_strong]:font-semibold [&_strong]:text-navy-mid">
             <p>
-              What they sell are <strong>Future Cruise Packages</strong> — bundles including Future
-              Cruise Credits (FCCs: $1 each toward cruise fare), hotel stay certificates, hotel credits
-              ($600–$4,000), onboard credits, and sometimes Elite status.
+              The <strong>Princess Ultimate Future Cruise Package</strong> bundles your next Princess
+              cruise with other travel products—even when you have not picked a date or itinerary
+              yet. It typically includes Future Cruise Credits (FCCs: $1 each toward cruise fare),
+              pre/post hotel stay certificates, Premium Land Stay Certificates, hotel credits
+              ($600–$4,000), onboard credits, and promotional onboard benefits when you sail.
             </p>
           </blockquote>
         </WhatIsPPIntroGrid>
@@ -38,15 +46,15 @@ export function WhatIsPP() {
         <ScrollReveal className="facts">
           <div className="fact f1">
             <div className="fv">$3K–$15K</div>
-            <div className="fl">Package price range</div>
+            <div className="fl">Typical range—judge the full package, not the FCC line alone</div>
           </div>
           <div className="fact f2">
             <div className="fv">$1 = 1 FCC</div>
             <div className="fl">Future Cruise Credit (FCC) value</div>
           </div>
           <div className="fact f3">
-            <div className="fv">7 days</div>
-            <div className="fl">Cancellation window</div>
+            <div className="fv">At sea</div>
+            <div className="fl">Many offers are presented onboard; some perks are sail-limited</div>
           </div>
         </ScrollReveal>
 
@@ -100,10 +108,11 @@ export function WhatIsPP() {
               <span className="what-is-buy-card__num" aria-hidden>
                 01
               </span>
-              <h3 className="what-is-buy-card__title">Focus on the FCC Value.</h3>
+              <h3 className="what-is-buy-card__title">Weigh the whole package.</h3>
               <p className="what-is-buy-card__body">
-                Does the FCC value alone justify the package price? If yes, hotel credits are a bonus.
-                If you need hotel credits to make the math work, scrutinize more carefully.
+                Value comes from the combined bundle—FCCs, land stays, hotel credits, and perks. Does
+                the total package justify the price for how you travel? If you are leaning on one line
+                item alone to make the math work, slow down and compare in writing.
               </p>
             </li>
             <li className="what-is-buy-card">
@@ -121,9 +130,10 @@ export function WhatIsPP() {
               <span className="what-is-buy-card__num" aria-hidden>
                 03
               </span>
-              <h3 className="what-is-buy-card__title">Understand the 7-Day Cancellation Window.</h3>
+              <h3 className="what-is-buy-card__title">Understand cancellation timing.</h3>
               <p className="what-is-buy-card__body">
-                Make your decision before day 7. Send written cancellation via email — don&apos;t rely
+                Most buyers have seven days to cancel from purchase. Florida residents have 30 days,
+                and Washington residents have 15. Send written cancellation via email—don&apos;t rely
                 on phone calls alone.
               </p>
             </li>

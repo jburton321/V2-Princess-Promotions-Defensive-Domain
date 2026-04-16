@@ -24,8 +24,8 @@ export function Header() {
           </div>
         </Link>
         <div className="hdr-actions">
-          <Link href="#complaint-form" className="hdr-cta hdr-cta--solid">
-            Submit a review
+          <Link href="#share-feedback" className="hdr-cta hdr-cta--solid">
+            Share feedback
           </Link>
         </div>
       </div>

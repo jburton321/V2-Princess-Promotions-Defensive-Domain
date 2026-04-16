@@ -23,8 +23,10 @@ export function WhatWorksWell() {
         <ScrollReveal>
           <div className="sec-rule" aria-hidden />
         </ScrollReveal>
-        <ScrollReveal className="kicker">The Positives</ScrollReveal>
-        <ScrollReveal className="sec-title">What Works Well About Princess Promotions</ScrollReveal>
+        <ScrollReveal className="kicker">From travelers</ScrollReveal>
+        <ScrollReveal className="sec-title">
+          Here&apos;s what&apos;s popular among satisfied customers
+        </ScrollReveal>
         <div className="works-grid">
           <ScrollReveal className="works-card rv-d1">
             <div className="works-check">{check}</div>
@@ -72,6 +74,18 @@ export function WhatWorksWell() {
                 package. The same environment often surfaces other travel products and upgrades that
                 complement your cruise — so you can plan land stays, compare offers, and explore
                 add-ons without juggling a dozen different sites.
+              </p>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal className="works-card rv-d5">
+            <div className="works-check">{check}</div>
+            <div>
+              <h3>Flexibility When You Love Princess But Aren&apos;t Ready to Pick a Sail Date</h3>
+              <p>
+                Another common upside: you can lock in package value when you know you want to sail
+                with Princess within the next couple of years, without having to decide immediately
+                when or where—that flexibility plus cruise and land benefits is a big part of why
+                repeat guests buy in.
               </p>
             </div>
           </ScrollReveal>

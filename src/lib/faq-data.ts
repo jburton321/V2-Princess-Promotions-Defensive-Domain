@@ -7,7 +7,11 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Is Princess Promotions the Same as Princess Cruises?',
-    a: 'No. Princess Promotions is a separate program from the cruise line itself. FCCs are redeemed through Princess Cruises; hotel certificates and credits are managed through Princess Promotions.',
+    a: 'Princess Promotions is the program that manages Princess Future Cruise Packages and provides the redemption and fulfillment site for all travel products included in the Princess Future Cruise Packages (other than Future Cruise Credits and Onboard Credits). Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.',
+  },
+  {
+    q: 'What is the Princess Ultimate Future Cruise Package?',
+    a: 'The Princess Ultimate Future Cruise Package is the newest, most flexible way to bundle your next Princess cruise with other travel products, even if you are not sure when or where you want to go. It includes Future Cruise Credits (FCCs) to use when you are ready to book your next Princess cruise, Pre/Post Cruise Hotel Stay Certificates, Premium Land Stay Certificates, Hotel Credits, Onboard Credits, and promotional onboard benefits when you sail.',
   },
   {
     q: 'How Do Hotel Credits Actually Work?',
@@ -19,7 +23,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Can I Cancel My Package?',
-    a: 'You have a seven-day cancellation window from purchase. After that it is much harder. Send written cancellation right away if you are unsure; phone-only requests are risky.',
+    a: 'Most buyers have a seven-day cancellation window from purchase. Florida residents have 30 days to cancel, and Washington residents have 15 days. After that it is much harder. Send written cancellation right away if you are unsure; phone-only requests are risky.',
   },
   {
     q: 'Why Was I Charged More Than Quoted?',
@@ -31,15 +35,15 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: "What Should I Do if I'm Being Charged After Trying to Cancel?",
-    a: 'Email a written cancellation request immediately. Dispute incorrect charges with your card issuer. Use our complaint form if you want the issue escalated on your behalf.',
+    a: 'Email a written cancellation request immediately. Dispute incorrect charges with your card issuer. Use our feedback form if you want the issue escalated on your behalf.',
   },
   {
     q: "My Planning Advisor Won't Return My Calls. What Can I Do?",
-    a: 'Call the main line, request a supervisor, and document each attempt. If no response after seven business days, submit through our form and we can help escalate.',
+    a: 'Call the main line, request a supervisor, and document each attempt. If no response after seven business days, share feedback through our site and we can help escalate.',
   },
   {
     q: "I'm Considering Buying at an Onboard Presentation. What Should I Know?",
-    a: 'No legitimate offer expires in one afternoon. Separate FCC value from hotel credits. Get total cost in writing, including installments. Know the seven-day cancellation rule before you pay.',
+    a: 'Separate FCC value from hotel credits. Get total cost in writing, including installments. Know the cancellation rules for your state before you pay. Some presentation offers are only available while you are on that sailing, so it is fair to ask what is time-limited—but you should still get terms in writing.',
   },
   {
     q: 'Why Is My FCC Balance Different From What I Expected?',

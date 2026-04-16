@@ -55,8 +55,8 @@ export function Hero() {
           complaints, the packages, and the redemption process — here&apos;s what we found.
         </p>
         <div className="hero-cta-row">
-          <Link href="#complaint-form" className="hero-cta">
-            Submit a review
+          <Link href="#share-feedback" className="hero-cta">
+            Share feedback
           </Link>
           <Link href="#final-assessment" className="hero-cta hero-cta--ghost">
             Read our verdict

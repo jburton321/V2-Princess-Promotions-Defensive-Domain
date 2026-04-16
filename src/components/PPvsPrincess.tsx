@@ -1,5 +1,4 @@
-import { Callout } from '@/components/Callout'
-import { PrincessPhoneLink } from '@/lib/princess-phone'
+import { PrincessPhoneLink, PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
@@ -22,9 +21,9 @@ export function PPvsPrincess() {
           </p>
           <p>
             It’s still a <strong>different team</strong> from the cruise line you already trust for
-            your sailing: Princess Cruises handles your ship and FCC redemption; Princess
-            Promotions handles hotels, certificates, and package administration.
-            Knowing who does what saves time when you need help.
+            your sailing: Princess Cruises handles your ship and cruise booking; Princess Promotions
+            handles hotels, certificates, and package administration for land and package pieces.
+            Knowing who to call saves time when you need help.
           </p>
         </MatchedHeightMediaGrid>
 
@@ -49,9 +48,12 @@ export function PPvsPrincess() {
                 </svg>{' '}
                 Princess Cruises
               </div>
-              <h4>Handles Your Cruise</h4>
+              <h4>Cruise booking &amp; FCC on your fare</h4>
               <p>
-                Future Cruise Credits (FCCs), cruise bookings, onboard experience, loyalty status
+                Future Cruise Credits and onboard credits show up in your Manage Booking account on
+                princess.com. When you are ready to book, FCCs apply to cruise fare through Princess
+                Cruises, your cruise vacation planner, or your travel agent—the package credits and
+                the cruise line credits are the same instrument at redemption.
               </p>
               <div className="phone">
                 <PrincessPhoneLink />
@@ -74,20 +76,17 @@ export function PPvsPrincess() {
                 </svg>{' '}
                 Princess Promotions
               </div>
-              <h4>Handles Your Hotels</h4>
-              <p>Hotel stay certificates, hotel credits, premium land stays, pre/post-cruise stays</p>
+              <h4>Hotels, certificates &amp; land package pieces</h4>
+              <p>
+                Pre/post cruise hotel stay certificates, Premium Land Stay Certificates, hotel
+                credits, and other land components in your package are redeemed through Princess
+                Promotions online or by calling the program line below.
+              </p>
               <div className="phone">
-                <PrincessPhoneLink suffix=", option 5" />
+                <PrincessPromotionsDirectLink />
               </div>
             </div>
           </div>
-        </ScrollReveal>
-
-        <ScrollReveal>
-          <Callout variant="info">
-            <strong>Our recommendation:</strong> Before you buy, understand which entity handles
-            what. Write down both contact numbers.
-          </Callout>
         </ScrollReveal>
       </div>
     </section>

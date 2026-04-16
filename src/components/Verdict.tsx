@@ -26,10 +26,10 @@ export function Verdict() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            <strong>Our recommendation:</strong> if you&apos;re a frequent cruiser and the FCC value
-            alone justifies the package price, this is a solid program. Get everything in writing,
-            understand the cancellation window, and use the redemption guide above to maximize your
-            value.
+            <strong>Our recommendation:</strong> if you&apos;re a frequent cruiser and the{' '}
+            <em>overall</em> package—including FCCs, land stays, and perks—fits how you travel, this
+            can be a solid program. Get everything in writing, understand cancellation timing for your
+            state, and use the redemption guide above to maximize your value.
           </p>
         </ScrollReveal>
         <ScrollReveal className="verdict-final">Recommended for Cruise-Focused Buyers</ScrollReveal>
