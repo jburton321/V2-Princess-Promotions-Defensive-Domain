@@ -16,14 +16,10 @@ export function PPvsPrincess() {
           <div className="kicker">The Princess connection</div>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
           <p className="entity-split-lead">
-            <strong>Princess Promotions is an approved promotional package</strong>, offered in the
-            Princess Cruises environment and fulfilled through licensed partners.
-          </p>
-          <p>
-            It’s still a <strong>different team</strong> from the cruise line you already trust for
-            your sailing: Princess Cruises handles your ship and cruise booking; Princess Promotions
-            handles hotels, certificates, and package administration for land and package pieces.
-            Knowing who to call saves time when you need help.
+            Princess Promotions is the program that manages Princess Future Cruise Packages and
+            provides the redemption and fulfillment site for all travel products included in the
+            Princess Future Cruise Packages (other than Future Cruise Credits and Onboard Credits).
+            Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.
           </p>
         </MatchedHeightMediaGrid>
 
