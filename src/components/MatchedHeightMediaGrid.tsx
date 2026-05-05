@@ -5,6 +5,8 @@ import { useLayoutEffect, useRef, useState, type ReactNode } from 'react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
 type Props = {
+  /** When true, image column height matches measured `.txt` height. When false, flex stretch makes the image column as tall as the text column (recommended for tall copy). */
+  matchImageHeightToText?: boolean
   /** When true, image column is first in DOM (left on desktop, top when stacked). */
   imageFirst: boolean
   /** Classes on the ScrollReveal root (must include `media-grid`). */
@@ -25,12 +27,14 @@ export function MatchedHeightMediaGrid({
   imageSrc,
   imageAlt,
   sizes = '(max-width: 1100px) 100vw, 50vw',
+  matchImageHeightToText = true,
   children,
 }: Props) {
   const txtRef = useRef<HTMLDivElement>(null)
   const [textPx, setTextPx] = useState(0)
 
   useLayoutEffect(() => {
+    if (!matchImageHeightToText) return
     const el = txtRef.current
     if (!el || typeof ResizeObserver === 'undefined') return
 
@@ -50,7 +54,7 @@ export function MatchedHeightMediaGrid({
       ro.disconnect()
       window.removeEventListener('resize', measure)
     }
-  }, [])
+  }, [matchImageHeightToText])
 
   const txtCol = (
     <div ref={txtRef} className="txt">
@@ -60,8 +64,12 @@ export function MatchedHeightMediaGrid({
 
   const imgCol = (
     <div
-      className="matched-height-media"
-      style={textPx > 0 ? { height: textPx } : undefined}
+      className={
+        matchImageHeightToText
+          ? 'matched-height-media'
+          : 'matched-height-media matched-height-media--stretch'
+      }
+      style={matchImageHeightToText && textPx > 0 ? { height: textPx } : undefined}
     >
       <Image
         src={imageSrc}

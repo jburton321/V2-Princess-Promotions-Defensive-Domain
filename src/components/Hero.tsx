@@ -56,7 +56,7 @@ export function Hero() {
         </p>
         <div className="hero-cta-row">
           <Link href="#share-feedback" className="hero-cta">
-            Share feedback
+            Share your experience
           </Link>
           <Link href="#final-assessment" className="hero-cta hero-cta--ghost">
             Read our verdict
@@ -80,20 +80,6 @@ export function Hero() {
               />
             </svg>
             Trusted review
-          </span>
-          <span className="seal-p">
-            <svg width="14" height="14" viewBox="0 0 40 40" aria-hidden>
-              <circle cx="20" cy="20" r="16" fill="none" stroke="#C4922A" strokeWidth="2" />
-              <polyline
-                points="13,21 17,25 27,15"
-                fill="none"
-                stroke="#C4922A"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            Verified 2026
           </span>
           <span className="seal-p">Reviewed by the Editorial Team · March 2026</span>
         </div>

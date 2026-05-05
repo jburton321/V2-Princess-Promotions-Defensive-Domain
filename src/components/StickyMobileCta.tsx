@@ -26,7 +26,7 @@ export function StickyMobileCta() {
 
   return (
     <div className={`sticky-cta${visible ? ' show' : ''}`} id="sticky-cta">
-      <Link href="#share-feedback">Share feedback →</Link>
+      <Link href="#share-feedback">Share your experience →</Link>
       <button
         type="button"
         className="dismiss"

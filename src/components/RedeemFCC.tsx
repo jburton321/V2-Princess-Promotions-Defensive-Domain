@@ -12,13 +12,26 @@ export function RedeemFCC() {
   return (
     <section className="sec band-page redeem-fcc" id="redeem-section">
       <div className="editorial">
-        <ScrollReveal className="kicker">Redemption Guide</ScrollReveal>
+        <ScrollReveal className="kicker">Travel package benefits &amp; savings</ScrollReveal>
         <ScrollReveal>
-          <h2>How to Redeem Your Future Cruise Credits and Hotel Credits</h2>
+          <h2>How to Use Benefits</h2>
           <p className="sec-sub" style={{ marginTop: '0.5rem', marginBottom: '2rem' }}>
-            <strong>Hotel credits are separate from Future Cruise Credits (FCC).</strong> FCCs apply to
-            cruise fare through Princess Cruises; hotel stays and certificates follow the Princess
-            Promotions path.
+            Package benefits include Future Cruise Credits, onboard credits, Premium Land Stay
+            Certificates, pre/post hotel certificates, hotel credits, and more—they can be redeemed
+            online at{' '}
+            <a
+              href="https://www.princesspromotions.com"
+              className="sec-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              princesspromotions.com
+            </a>{' '}
+            or by calling <PrincessPromotionsDirectLink /> for program support. Cruise fare bookings
+            and applying FCCs often route through <PrincessPhoneLink /> or your planner/agent.{' '}
+            <strong>Hotel credits are separate from FCC line items.</strong> Select packages can also
+            earn up to 25% back in Future Cruise Credits on eligible merchandise purchases through the
+            Princess Promotions storefront—confirm eligibility on your offer.
           </p>
         </ScrollReveal>
         <div className="fcc-journey-panel">
@@ -80,28 +93,6 @@ export function RedeemFCC() {
             </div>
           </JourneyReveal>
         </div>
-        <ScrollReveal style={{ marginTop: '3rem' }}>
-          <div className="portal-callout">
-            <div className="kicker">Princess Promotions portal</div>
-            <p className="portal-callout-p">
-              Through the <strong>Princess Promotions</strong> traveler portal, many guests manage
-              hotel bookings, browse member discounts and savings, and explore add-on products tied to
-              their package.
-            </p>
-            <p className="portal-callout-p" style={{ marginTop: '1rem' }}>
-              Need to reach the program directly? Call <PrincessPromotionsDirectLink />. For Princess
-              Cruises reservations and FCC questions, use <PrincessPhoneLink />.
-            </p>
-            <a
-              href="https://www.princesspromotions.com"
-              className="portal-callout-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit princesspromotions.com →
-            </a>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   )

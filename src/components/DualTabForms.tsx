@@ -17,11 +17,10 @@ export function DualTabForms() {
       <ScrollReveal className="form-c">
         <div className="form-panel active">
           <div className="form-panel-pad">
-            <h2 className="form-panel-title">Share your feedback</h2>
+            <h2 className="form-panel-title">Share your experience</h2>
             <p className="form-panel-intro">
-              Whether your experience was great, mixed, or frustrating, your perspective helps other
-              travelers. Tell us what happened in your own words—positive stories and concerns are
-              both welcome.
+              Help others make informed decisions by leaving an honest review. Tell us what went
+              well, what could be better, and whether you&apos;d recommend this company.
             </p>
             {!done ? (
               <form
@@ -50,6 +49,11 @@ export function DualTabForms() {
                     <label className="f">
                       <span className="lt">Booking ref (optional)</span>
                       <input placeholder="Princess booking or package ref" name="f-booking" />
+                      <span className="form-field-hint">
+                        Optional—many travelers skip booking IDs with third-party publishers. Share only
+                        if you want faster matching and are comfortable with our team referencing it
+                        internally.
+                      </span>
                     </label>
                   </div>
                   <label className="f">
@@ -100,6 +104,13 @@ export function DualTabForms() {
                     <span>
                       I’d like help with an unresolved issue (our team may follow up or escalate
                       with Princess Promotions when appropriate).
+                      <span className="ckr-note">
+                        {' '}
+                        We never auto-contact Princess on your behalf. Editors review requests
+                        internally first and only relay summaries when it helps—calling{' '}
+                        <PrincessPhoneLink /> or <PrincessPromotionsDirectLink /> directly is still the
+                        fastest path for booking fixes.
+                      </span>
                     </span>
                   </label>
                   <button type="submit" className="sbt">

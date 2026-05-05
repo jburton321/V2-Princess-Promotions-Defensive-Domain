@@ -89,6 +89,17 @@ export function WhatWorksWell() {
               </p>
             </div>
           </ScrollReveal>
+          <ScrollReveal className="works-card rv-d6">
+            <div className="works-check">{check}</div>
+            <div>
+              <h3>Limited-Time Offers While You&apos;re Still Onboard Can Be Legitimate</h3>
+              <p>
+                Some perks are pitched only during your sailing—that urgency can reflect real windows
+                without invalidating the broader package. Ask what stays available after you leave the
+                ship and capture anything time-sensitive in writing so you can weigh it calmly later.
+              </p>
+            </div>
+          </ScrollReveal>
         </div>
       </div>
     </section>

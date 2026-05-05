@@ -14,19 +14,15 @@ export function HowWeReview() {
           <h2>How We Review</h2>
           <p>
             Our editors weigh public complaint patterns, cruise-community discussion, official
-            Princess and partner disclosures, and verified submissions from readers. We evaluate
-            cruise credit value, hotel offers, sales transparency, post-sale support, and overall
-            package fit — and refresh our conclusions as new, credible feedback comes in. We do not
-            surface a third-party &ldquo;stats ribbon&rdquo; or a single external score feed; summaries
-            here are from our own editorial process.
+            disclosures, and moderated reader submissions. We evaluate cruise credit value, hotel
+            offers, sales transparency, post-sale support, and overall package fit—refreshing conclusions
+            when credible new feedback arrives. Dollar callouts (like the two tiles under{' '}
+            <em>What Is Princess Promotions?</em>) summarize typical advertised tiers rather than a live
+            third-party statistics ribbon or single score feed.
           </p>
           <p>
             We don&apos;t publish a playbook of every source we read — that would skew what people
             choose to emphasize — but we apply consistent criteria across each update.
-          </p>
-          <p>
-            We accept no payment from Princess Promotions, Princess Cruises, or any affiliated
-            entity.
           </p>
           <p className="how-review-updated">
             <em>Last Updated: March 2026</em>

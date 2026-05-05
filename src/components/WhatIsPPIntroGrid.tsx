@@ -13,6 +13,7 @@ export function WhatIsPPIntroGrid({ children, imageSrc, imageAlt }: Props) {
   return (
     <MatchedHeightMediaGrid
       imageFirst={false}
+      matchImageHeightToText={false}
       gridClassName="media-grid media-grid--what-is-intro"
       imageSrc={imageSrc}
       imageAlt={imageAlt}

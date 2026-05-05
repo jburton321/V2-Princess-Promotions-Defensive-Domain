@@ -18,14 +18,14 @@ export function PPvsPrincess() {
           <p className="entity-split-lead">
             Princess Promotions is the program that manages Princess Future Cruise Packages and
             provides the redemption and fulfillment site for all travel products included in the
-            Princess Future Cruise Packages (other than Future Cruise Credits and Onboard Credits).
-            Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.
+            Princess Future Cruise Packages. Princess Future Cruise Packages are endorsed and
+            supported by Princess Cruise Line.
           </p>
         </MatchedHeightMediaGrid>
 
         <ScrollReveal>
-          <h3 className="split-section-heading">
-            How to redeem your Future Cruise Credits and hotel credits
+          <h3 className="split-section-heading split-section-heading--sentence">
+            How to Use Benefits
           </h3>
           <div className="split">
             <div className="split-l">
@@ -72,11 +72,21 @@ export function PPvsPrincess() {
                 </svg>{' '}
                 Princess Promotions
               </div>
-              <h4>Hotels, certificates &amp; land package pieces</h4>
+              <h4>Travel package benefits and savings</h4>
               <p>
-                Pre/post cruise hotel stay certificates, Premium Land Stay Certificates, hotel
-                credits, and other land components in your package are redeemed through Princess
-                Promotions online or by calling the program line below.
+                Package benefits include Future Cruise Credits, Onboard Credits, Premium Land Stay
+                Certificates, Pre/Post Hotel Certificates, Hotel Credits, and more can be redeemed
+                online at{' '}
+                <a
+                  href="https://www.princesspromotions.com"
+                  className="split-inline-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  princesspromotions.com
+                </a>{' '}
+                or by calling the program phone number below. Select packages can also earn up to 25%
+                back in Future Cruise Credits on merchandise purchases.
               </p>
               <div className="phone">
                 <PrincessPromotionsDirectLink />

@@ -56,25 +56,6 @@ export function Verdict() {
               Review
             </span>
           </div>
-          <div className="vs">
-            <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden>
-              <circle cx="20" cy="20" r="17" fill="none" stroke="#C4922A" strokeWidth="1" />
-              <circle cx="20" cy="20" r="14" fill="none" stroke="#C4922A" strokeWidth="0.4" />
-              <polyline
-                points="13,21 17,26 28,15"
-                fill="none"
-                stroke="#C4922A"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            <span>
-              Verified
-              <br />
-              2026
-            </span>
-          </div>
         </ScrollReveal>
       </div>
     </section>

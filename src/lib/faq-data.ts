@@ -7,7 +7,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Is Princess Promotions the Same as Princess Cruises?',
-    a: 'Princess Promotions is the program that manages Princess Future Cruise Packages and provides the redemption and fulfillment site for all travel products included in the Princess Future Cruise Packages (other than Future Cruise Credits and Onboard Credits). Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.',
+    a: 'Princess Promotions is the program that manages Princess Future Cruise Packages and provides the redemption and fulfillment site for all travel products included in the Princess Future Cruise Packages. Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.',
   },
   {
     q: 'What is the Princess Ultimate Future Cruise Package?',
@@ -23,7 +23,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Can I Cancel My Package?',
-    a: 'Most buyers have a seven-day cancellation window from purchase. Florida residents have 30 days to cancel, and Washington residents have 15 days. After that it is much harder. Send written cancellation right away if you are unsure; phone-only requests are risky.',
+    a: 'Most buyers have seven days to cancel from purchase. Florida residents have 30 days to cancel, and Washington residents have 15 days to cancel. After that window closes it gets much harder. Send written cancellation right away if you are unsure—phone-only requests are risky.',
   },
   {
     q: 'Why Was I Charged More Than Quoted?',
@@ -55,11 +55,27 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'How Are Hotel Credits Different From Future Cruise Credits (FCC)?',
-    a: 'Hotel credits and stay certificates are separate from Future Cruise Credits (FCC). FCCs apply to Princess cruise fare and are redeemed through Princess Cruises at 1-800-774-6237. Hotel-related value is handled through Princess Promotions: call 1-800-774-6237, option 5, or the direct line at +1 888 403 0301 for package support.',
+    a: 'Hotel credits and stay certificates are separate from Future Cruise Credits (FCC). FCCs apply to Princess cruise fare and are redeemed through Princess Cruises at 1-800-774-6237 (or via your planner or travel agent). Hotel certificates, hotel credits, and most land-package pieces are redeemed through Princess Promotions online at princesspromotions.com or by calling +1 888 403 0301.',
   },
   {
     q: 'Is There a Direct Phone Number for Princess Promotions?',
     a: 'Yes. For Princess Promotions program support you can call +1 888 403 0301. For cruise bookings and many FCC questions, guests often use 1-800-774-6237 as well.',
+  },
+  {
+    q: 'Where Do the Dollar Figures on This Page Come From?',
+    a: 'Ranges such as typical package bands reflect advertised tiers, common consumer reports, and public complaint summaries—not a live third-party statistics ribbon or single automated score. Our editors synthesize multiple sources and revisit numbers when credible new information appears.',
+  },
+  {
+    q: 'Looking for More Official Princess Promotions FAQs?',
+    a: 'This site mirrors common buyer questions in plain language (below). Program-specific policies and account-specific answers should always be confirmed on princesspromotions.com or with Princess Promotions support at +1 888 403 0301 and Princess Cruises at 1-800-774-6237.',
+  },
+  {
+    q: 'What Happens If I Request Escalation on the Feedback Form?',
+    a: 'Checking the escalation box does not auto-contact Princess Promotions. Our editorial team reviews submissions internally first. When appropriate we may summarize your situation and suggested next steps—or flag patterns we observe—but we do not replace calling Princess Cruises or Princess Promotions directly for booking issues.',
+  },
+  {
+    q: 'Should I Share My Booking Reference on This Site?',
+    a: 'It is optional. Many travelers omit booking IDs when contacting third-party publishers; leaving it blank is normal. If you include it, only share what you are comfortable having referenced if our team follows up internally—never submit sensitive payment details.',
   },
 ]
 

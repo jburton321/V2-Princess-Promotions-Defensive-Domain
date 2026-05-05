@@ -10,6 +10,7 @@ import { ImageDivider } from '@/components/ImageDivider'
 import { ProgressBar } from '@/components/ProgressBar'
 import { RedeemFCC } from '@/components/RedeemFCC'
 import { StickyMobileCta } from '@/components/StickyMobileCta'
+import { ReviewsStatus } from '@/components/ReviewsStatus'
 import { Verdict } from '@/components/Verdict'
 import { WhatIsPP } from '@/components/WhatIsPP'
 import { WhatWorksWell } from '@/components/WhatWorksWell'
@@ -42,6 +43,7 @@ export default function HomePage() {
       <FAQAccordion />
       <HowWeReview />
       <Verdict />
+      <ReviewsStatus />
       <DualTabForms />
       <Footer />
       <StickyMobileCta />

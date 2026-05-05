@@ -20,8 +20,8 @@ export function WhatIsPP() {
           <p>
             Princess Promotions is the program that manages Princess Future Cruise Packages and
             provides the redemption and fulfillment site for all travel products included in those
-            packages (other than Future Cruise Credits and Onboard Credits). Princess Future Cruise
-            Packages are endorsed and supported by Princess Cruise Line.
+            packages. Princess Future Cruise Packages are endorsed and supported by Princess Cruise
+            Line.
           </p>
           <p>
             It&apos;s still an <strong>approved promotional program</strong> you&apos;ll see at sea
@@ -46,15 +46,16 @@ export function WhatIsPP() {
         <ScrollReveal className="facts">
           <div className="fact f1">
             <div className="fv">$3K–$15K</div>
-            <div className="fl">Typical range—judge the full package, not the FCC line alone</div>
-          </div>
-          <div className="fact f2">
-            <div className="fv">$1 = 1 FCC</div>
-            <div className="fl">Future Cruise Credit (FCC) value</div>
+            <div className="fl fact-fl-prose">
+              Price range of packages with a variety of travel benefits included.
+            </div>
           </div>
           <div className="fact f3">
-            <div className="fv">At sea</div>
-            <div className="fl">Many offers are presented onboard; some perks are sail-limited</div>
+            <div className="fv">$25.5K</div>
+            <div className="fl fact-fl-prose">
+              Total published value up to about $25,500 on top tiers—FCCs, certificates, marketplace
+              savings, and more (varies by package).
+            </div>
           </div>
         </ScrollReveal>
 
@@ -64,12 +65,72 @@ export function WhatIsPP() {
             <div className="hotel-fcc-distinction-inner">
               <header className="hotel-fcc-distinction-hd">
                 <h3 className="hotel-fcc-distinction-title">
-                  Hotel <span className="hotel-fcc-distinction-accent-word">credits</span>
+                  What&apos;s typically{' '}
+                  <span className="hotel-fcc-distinction-accent-word">included</span>
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
-                  <strong>are separate from Future Cruise Credits.</strong>
+                  Packages bundle cruise fare savings with land stays and perks—exact benefits depend
+                  on what you buy. <strong>Hotel credits and certificates</strong> work differently
+                  than <strong>FCCs</strong>: FCCs lock to Princess cruise fare; hotel products route
+                  through Princess Promotions.
                 </p>
               </header>
+              <ul className="package-detail-list">
+                <li>
+                  <strong>Future Cruise Credits (FCCs)</strong>
+                  <span className="pkg-li-body">
+                    FCCs pay toward Princess cruises once you are ready to book. Each FCC is worth $1
+                    toward fare, can apply across the next 24 months (per offer terms), and may be used
+                    on one booking or split across several.
+                  </span>
+                </li>
+                <li>
+                  <strong>Earn more FCCs</strong>
+                  <span className="pkg-li-body">
+                    Shopping name-brand merchandise and wine at princesspromotions.com can earn extra
+                    FCCs back on select packages—tiers sometimes cite up to 25% back in credits on
+                    qualifying purchases.
+                  </span>
+                </li>
+                <li>
+                  <strong>Onboard credits (OBCs)</strong>
+                  <span className="pkg-li-body">
+                    An onboard credit amount may post to your account on your qualifying Princess
+                    sailing and can offset onboard extras—think excursions, beverages, boutique
+                    purchases, and Lotus Spa services—subject to fare rules.
+                  </span>
+                </li>
+                <li>
+                  <strong>Premium Land Stay Certificates</strong>
+                  <span className="pkg-li-body">
+                    Many packages include up to two five-night stay certificates redeemable at a wide
+                    catalog of hotels and resorts. Use them around a cruise or as standalone land
+                    vacations depending on terms.
+                  </span>
+                </li>
+                <li>
+                  <strong>Pre/post hotel stay certificates</strong>
+                  <span className="pkg-li-body">
+                    Select tiers add certificates tailored to hotel nights before or after your cruise,
+                    including independent hotel stays outside the sailing window.
+                  </span>
+                </li>
+                <li>
+                  <strong>Hotel credits</strong>
+                  <span className="pkg-li-body">
+                    Hotel credits are exclusive to Princess Future Cruise Packages and apply toward stays
+                    booked through the Princess Promotions hotel storefront—a broad inventory spanning
+                    mainstream brands and resort destinations.
+                  </span>
+                </li>
+                <li>
+                  <strong>Promotional onboard benefits</strong>
+                  <span className="pkg-li-body">
+                    Higher tiers sometimes bundle recurring onboard perks every time you sail while the
+                    promotion is active—confirm what attaches to your specific purchase.
+                  </span>
+                </li>
+              </ul>
               <div className="hotel-fcc-lanes">
                 <div className="hotel-fcc-lane hotel-fcc-lane--cruise">
                   <p>
@@ -97,8 +158,9 @@ export function WhatIsPP() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            If you&apos;re attending an onboard presentation or received a follow-up call,
-            here&apos;s how to evaluate the offer:
+            These checkpoints aren&apos;t here to tear down the program—they&apos;re the diligence steps
+            savvy buyers take before signing. If you&apos;re attending an onboard presentation or
+            received a follow-up call, walk through them at your pace:
           </p>
         </ScrollReveal>
 
