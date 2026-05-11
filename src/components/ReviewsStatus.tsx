@@ -10,7 +10,7 @@ export function ReviewsStatus() {
         <div className="reviews-status-in">
           <ScrollReveal>
             <h2 id="reviews-status-heading" className="reviews-status-h">
-              Reader reviews &amp; ratings
+              Reader Reviews &amp; Ratings
             </h2>
             <p className="reviews-status-p">
               Experiences submitted through the form below are reviewed by our editorial team. Once we
