@@ -10,11 +10,8 @@ export function Footer() {
       </div>
       <div className="ftr-tag">Independent consumer reviews & ratings</div>
       <p className="ftr-ind">
-        This page is managed by a third-party editorial team. <strong>Princess Promotions Reviews</strong>{' '}
-        publishes independent consumer commentary—we are not operated by Princess Promotions, Princess
-        Cruises, or Carnival Corporation, and nothing here is an official statement from those brands.
-        We describe programs using public information and moderated reader feedback. We are not owned
-        by, sponsored by, or endorsed by Princess Promotions, Princess Cruises, or their affiliates.
+        Princess Promotions Reviews is managed by a 3rd party. Our reviews are based on our own
+        research and consumer-submitted feedback.
       </p>
       <div className="ftr-d">
         © 2026 Princess Promotions Reviews. Independent editorial reviews—not operated by Princess
