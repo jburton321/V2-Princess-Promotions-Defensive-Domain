@@ -1,27 +1,5 @@
 import Link from 'next/link'
 
-function LockIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
-      <rect
-        x="5"
-        y="11"
-        width="14"
-        height="10"
-        rx="2"
-        stroke="rgba(255,255,255,0.45)"
-        strokeWidth="2"
-      />
-      <path
-        d="M8 11V7a4 4 0 0 1 8 0v4"
-        stroke="rgba(255,255,255,0.45)"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-    </svg>
-  )
-}
-
 export function Hero() {
   return (
     <section className="hero">
@@ -61,27 +39,6 @@ export function Hero() {
           <Link href="#final-assessment" className="hero-cta hero-cta--ghost">
             Read our verdict
           </Link>
-        </div>
-        <div className="hero-meta">
-          <span className="seal-p">
-            <LockIcon />
-            Secure &amp; private
-          </span>
-          <span className="seal-p">
-            <svg width="14" height="14" viewBox="0 0 40 40" aria-hidden>
-              <circle cx="20" cy="20" r="16" fill="none" stroke="#5BA0D9" strokeWidth="2" />
-              <polyline
-                points="13,21 17,25 27,15"
-                fill="none"
-                stroke="#5BA0D9"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            Trusted review
-          </span>
-          <span className="seal-p">Reviewed by the Editorial Team · March 2026</span>
         </div>
       </div>
     </section>

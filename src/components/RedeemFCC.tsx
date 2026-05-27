@@ -1,8 +1,4 @@
 import { JourneyReveal } from '@/components/JourneyReveal'
-import {
-  PrincessPhoneLink,
-  PrincessPromotionsDirectLink,
-} from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -16,9 +12,9 @@ export function RedeemFCC() {
         <ScrollReveal>
           <h2>How to Use Benefits</h2>
           <p className="sec-sub" style={{ marginTop: '0.5rem', marginBottom: '2rem' }}>
-            Package benefits include Future Cruise Credits, onboard credits, Premium Land Stay
-            Certificates, pre/post hotel certificates, hotel credits, and more—they can be redeemed
-            online at{' '}
+            Package benefits include Future Cruise Credits, Onboard Credits, Premium Land Stay
+            Certificates, Pre- or Post-Cruise Hotel Stay Certificates, Hotel Credits, and more—they
+            are redeemed online at{' '}
             <a
               href="https://www.princesspromotions.com"
               className="sec-inline-link"
@@ -26,29 +22,21 @@ export function RedeemFCC() {
               rel="noopener noreferrer"
             >
               princesspromotions.com
-            </a>{' '}
-            or by calling <PrincessPromotionsDirectLink /> for program support. Cruise fare bookings
-            and applying FCCs often route through <PrincessPhoneLink /> or your planner/agent.{' '}
-            <strong>Hotel credits are separate from FCC line items.</strong> Select packages can also
-            earn up to 25% back in Future Cruise Credits on eligible merchandise purchases through the
-            Princess Promotions storefront—confirm eligibility on your offer.
+            </a>
+            . For cruise fare and FCC questions, call 1-800-PRINCESS, log into your account at
+            princess.com, or contact your Travel Advisor.{' '}
+            <strong>Hotel Credits are separate from Future Cruise Credits.</strong> Select packages
+            can also earn up to 25% back in Future Cruise Credits on eligible merchandise purchases
+            through the Princess Promotions Marketplace—confirm eligibility on your offer.
           </p>
         </ScrollReveal>
         <div className="fcc-journey-panel">
           <JourneyReveal>
             <div className="j-card j-phone">
-              <div className="j-label">
-                Redeem Future Cruise Credits (FCC) through Princess Cruises
-              </div>
-              <div className="j-number">
-                <PrincessPhoneLink />
-              </div>
-              <div className="j-direct">
-                Princess Promotions direct line: <PrincessPromotionsDirectLink />
-              </div>
+              <div className="j-label">Redeem Future Cruise Credits (FCC) through Princess Cruises</div>
               <div className="j-note">
-                Log into My Princess at princess.com to check your FCC balance. Credits may take up to
-                60 days to appear after purchase.
+                Call 1-800-PRINCESS, log into your account at princess.com, or contact your Travel
+                Advisor. Check your FCC balance in Manage Booking before you sail.
               </div>
             </div>
 
@@ -56,7 +44,7 @@ export function RedeemFCC() {
               <div className="j-val">
                 $1 <small>= 1 FCC</small>
               </div>
-              <div className="j-slbl">Future Cruise Credit (FCC) — cruise fare only</div>
+              <div className="j-slbl">Each FCC is worth $1 toward cruise fare only</div>
             </div>
 
             <div className="j-card j-action rv rv-d2">
@@ -79,10 +67,7 @@ export function RedeemFCC() {
             </div>
 
             <div className="j-card j-img rv rv-d4">
-              <div
-                className="j-bg"
-                style={bg(siteImages.redemptionCruiseShip)}
-              />
+              <div className="j-bg" style={bg(siteImages.redemptionCruiseShip)} />
               <div className="j-ov" aria-hidden />
               <div className="j-tag">Protect Yourself</div>
               <h3>Screenshot Everything</h3>

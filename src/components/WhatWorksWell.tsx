@@ -31,7 +31,7 @@ export function WhatWorksWell() {
           <ScrollReveal className="works-card rv-d1">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Future Cruise Credits Are Real and Deliver Genuine Savings</h3>
+              <h3>Future cruise credits are real and deliver genuine savings</h3>
               <p>
                 FCCs apply at $1 = 1 credit toward cruise fare. Multiple BBB responses and consumer
                 reports confirm credits are honored. For cruisers booking 2+ sailings per year, the
@@ -42,7 +42,10 @@ export function WhatWorksWell() {
           <ScrollReveal className="works-card rv-d2">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Onboard Credit, Elite Status, and Booking Flexibility Are Legitimate Perks</h3>
+              <h3>
+                Onboard Credit, Promotional Onboard Benefits, and booking flexibility are legitimate
+                perks
+              </h3>
               <p>
                 These add measurable value on top of the FCCs and are consistently cited as positives
                 in consumer feedback.
@@ -53,34 +56,34 @@ export function WhatWorksWell() {
             <div className="works-check">{check}</div>
             <div>
               <h3>
-                Princess Cruises Is a Carnival Corporation Brand — the World&apos;s Largest Cruise
-                Company
+                Princess Cruises is a Carnival Corporation brand — the world&apos;s largest cruise
+                company
               </h3>
               <p>
                 Your cruise booking goes through one of the most established operators in the
-                industry. The Future Cruise Credits are redeemed directly through Princess Cruises,
-                not through a third party.
+                industry. Future Cruise Credits are redeemed directly through Princess Cruises.
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal className="works-card rv-d4">
             <div className="works-check">{check}</div>
             <div>
-              <h3>The Princess Promotions Hub Brings Hotel Booking, Savings, and Add-Ons Together</h3>
+              <h3>
+                The Princess Promotions hub brings hotel booking, savings, and add-ons together
+              </h3>
               <p>
                 Through the <strong>Princess Promotions</strong> digital experience, many guests use a
-                single hub to manage hotel stays,
-                browse member-oriented discounts, and see savings opportunities alongside their
-                package. The same environment often surfaces other travel products and upgrades that
-                complement your cruise — so you can plan land stays, compare offers, and explore
-                add-ons without juggling a dozen different sites.
+                single hub to manage hotel stays, browse member discounts, and see savings
+                opportunities alongside their package. The same environment often surfaces other travel
+                products and upgrades that complement your cruise — so you can plan land stays, compare
+                offers, and explore add-ons without juggling a dozen different sites.
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal className="works-card rv-d5">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Flexibility When You Love Princess But Aren&apos;t Ready to Pick a Sail Date</h3>
+              <h3>Flexibility when you love Princess but aren&apos;t ready to pick a sail date</h3>
               <p>
                 Another common upside: you can lock in package value when you know you want to sail
                 with Princess within the next couple of years, without having to decide immediately
@@ -92,11 +95,11 @@ export function WhatWorksWell() {
           <ScrollReveal className="works-card rv-d6">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Limited-Time Offers While You&apos;re Still Onboard Can Be Legitimate</h3>
+              <h3>Limited-time offers while you&apos;re still onboard can be legitimate</h3>
               <p>
-                Some perks are pitched only during your sailing—that urgency can reflect real windows
-                without invalidating the broader package. Ask what stays available after you leave the
-                ship and capture anything time-sensitive in writing so you can weigh it calmly later.
+                Some offers are available only during your sailing. Ask what stays available after you
+                leave the ship and capture anything time-sensitive in writing so you can weigh it
+                calmly later.
               </p>
             </div>
           </ScrollReveal>

@@ -3,7 +3,6 @@ import { FAQAccordion } from '@/components/FAQAccordion'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { HdrStack } from '@/components/HdrStack'
-import { IndependenceAlertBar } from '@/components/IndependenceAlertBar'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
 import { ImageDivider } from '@/components/ImageDivider'
@@ -24,7 +23,6 @@ export default function HomePage() {
     <div className="page-sections">
       <ProgressBar />
       <HdrStack>
-        <IndependenceAlertBar />
         <Header />
       </HdrStack>
       <Hero />

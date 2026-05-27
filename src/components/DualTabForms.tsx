@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { ScrollReveal } from '@/components/ScrollReveal'
-import { PrincessPhoneLink, PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 
 /**
  * Single feedback form (Markup #38–40): captures positive and negative experiences
@@ -20,7 +19,7 @@ export function DualTabForms() {
             <h2 className="form-panel-title">Share your experience</h2>
             <p className="form-panel-intro">
               Help others make informed decisions by leaving an honest review. Tell us what went
-              well, what could be better, and whether you&apos;d recommend this company.
+              well, what could be better, and whether you&apos;d recommend Future Cruise Packages.
             </p>
             {!done ? (
               <form
@@ -41,32 +40,17 @@ export function DualTabForms() {
                       <input type="email" required placeholder="you@email.com" name="f-email" />
                     </label>
                   </div>
-                  <div className="fr h">
-                    <label className="f">
-                      <span className="lt">Phone (optional)</span>
-                      <input type="tel" placeholder="(555) 555-5555" name="f-phone" />
-                    </label>
-                    <label className="f">
-                      <span className="lt">Booking ref (optional)</span>
-                      <input placeholder="Princess booking or package ref" name="f-booking" />
-                      <span className="form-field-hint">
-                        Optional—many travelers skip booking IDs with third-party publishers. Share only
-                        if you want faster matching and are comfortable with our team referencing it
-                        internally.
-                      </span>
-                    </label>
-                  </div>
                   <label className="f">
-                    <span className="lt">Topic (optional)</span>
-                    <select className="form-dropdown" name="f-topic" defaultValue="">
-                      <option value="">General experience</option>
-                      <option>Hotel stays / certificates</option>
-                      <option>FCC / cruise booking</option>
-                      <option>Billing / charges</option>
-                      <option>Cancellation</option>
-                      <option>Advisor / support</option>
-                      <option>Other</option>
-                    </select>
+                    <span className="lt">Phone (optional)</span>
+                    <input type="tel" placeholder="(555) 555-5555" name="f-phone" />
+                  </label>
+                  <label className="f">
+                    <span className="lt">Title Your Review</span>
+                    <input
+                      required
+                      placeholder="Summarize your experience in a few words"
+                      name="f-title"
+                    />
                   </label>
                   <label className="f">
                     <span className="lt">Your experience</span>
@@ -99,20 +83,6 @@ export function DualTabForms() {
                       ))}
                     </div>
                   </label>
-                  <label className="ckr" htmlFor="f-escalate">
-                    <input type="checkbox" id="f-escalate" name="f-escalate" />
-                    <span>
-                      I’d like help with an unresolved issue (our team may follow up or escalate
-                      with Princess Promotions when appropriate).
-                      <span className="ckr-note">
-                        {' '}
-                        We never auto-contact Princess on your behalf. Editors review requests
-                        internally first and only relay summaries when it helps—calling{' '}
-                        <PrincessPhoneLink /> or <PrincessPromotionsDirectLink /> directly is still the
-                        fastest path for booking fixes.
-                      </span>
-                    </span>
-                  </label>
                   <button type="submit" className="sbt">
                     Submit feedback
                   </button>
@@ -136,20 +106,9 @@ export function DualTabForms() {
                 </div>
                 <h3>We&apos;ve received your feedback</h3>
                 <p>
-                  Thank you for taking the time to write in. Our team will review your message and
-                  may reach out if you requested follow-up or escalation.
+                  Thank you for taking the time to write in. Our team will review your message for
+                  publication when appropriate.
                 </p>
-                <div className="confirm-phone">
-                  For booking or package help from Princess, call{' '}
-                  <strong>
-                    <PrincessPhoneLink />
-                  </strong>{' '}
-                  (cruise line) or{' '}
-                  <strong>
-                    <PrincessPromotionsDirectLink />
-                  </strong>{' '}
-                  (Princess Promotions program support).
-                </div>
               </div>
             )}
           </div>

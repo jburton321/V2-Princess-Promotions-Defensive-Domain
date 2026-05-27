@@ -12,50 +12,30 @@ export function Verdict() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Princess Promotions is a legitimate program backed by Princess Cruises, a subsidiary of
-            Carnival Corporation. The Future Cruise Credits work as described, and for frequent
-            cruisers, they represent real, documented savings.
+            Princess Promotions is an authentic program backed by Princess Cruises. For regular
+            cruisers, the Future Cruise Credits function exactly as advertised and provide real value.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            The hotel credit component is where expectations need to be managed. Credits may apply at
-            less than face value, and platform pricing should be compared against Booking.com or
-            Expedia before committing. But this is a transparency issue, not a legitimacy issue.
+            However, it is important to read the fine print on the hotel credit component. These
+            credits don&apos;t always apply at their full face value, and travelers should compare the
+            platform&apos;s rates with standard booking sites like Booking.com or Expedia before
+            committing. This is simply something to be aware of before purchasing, rather than a
+            question of the program&apos;s legitimacy.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            <strong>Our recommendation:</strong> if you&apos;re a frequent cruiser and the{' '}
-            <em>overall</em> package—including FCCs, land stays, and perks—fits how you travel, this
-            can be a solid program. Get everything in writing, understand cancellation timing for your
-            state, and use the redemption guide above to maximize your value.
+            Ultimately, if you are a frequent cruiser and the combination of cruise credits, land stays,
+            and perks aligns with your travel habits, this package is worth considering. Be sure to get
+            the details in writing, understand your state&apos;s cancellation policies, and follow the
+            redemption guide above to maximize your benefits.
           </p>
         </ScrollReveal>
         <ScrollReveal className="verdict-final">Recommended for Cruise-Focused Buyers</ScrollReveal>
         <ScrollReveal className="verdict-sig">
           — The Editorial Team, Princess Promotions Reviews
-        </ScrollReveal>
-        <ScrollReveal className="verdict-seals">
-          <div className="vs">
-            <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden>
-              <circle cx="20" cy="20" r="17" fill="none" stroke="#5BA0D9" strokeWidth="1" />
-              <circle cx="20" cy="20" r="14" fill="none" stroke="#5BA0D9" strokeWidth="0.4" />
-              <polyline
-                points="13,21 17,26 28,15"
-                fill="none"
-                stroke="#5BA0D9"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            <span>
-              Trusted
-              <br />
-              Review
-            </span>
-          </div>
         </ScrollReveal>
       </div>
     </section>

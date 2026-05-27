@@ -14,8 +14,8 @@ export function Footer() {
         research and consumer-submitted feedback.
       </p>
       <div className="ftr-d">
-        © 2026 Princess Promotions Reviews. Independent editorial reviews—not operated by Princess
-        Promotions, Princess Cruises, Carnival Corporation, or their affiliates.
+        © 2026 Princess Promotions Reviews. Not managed, operated, or affiliated with Princess
+        Cruises or Carnival Corporation.
       </div>
     </footer>
   )

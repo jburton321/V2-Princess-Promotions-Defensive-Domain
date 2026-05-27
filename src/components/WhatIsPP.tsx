@@ -1,4 +1,3 @@
-import { PrincessPhoneLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { WhatIsPPIntroGrid } from '@/components/WhatIsPPIntroGrid'
 import { siteImages } from '@/lib/site-images'
@@ -36,9 +35,10 @@ export function WhatIsPP() {
             <p>
               The <strong>Princess Ultimate Future Cruise Package</strong> bundles your next Princess
               cruise with other travel products—even when you have not picked a date or itinerary
-              yet. It typically includes Future Cruise Credits (FCCs: $1 each toward cruise fare),
-              pre/post hotel stay certificates, Premium Land Stay Certificates, hotel credits
-              ($600–$4,000), onboard credits, and promotional onboard benefits when you sail.
+              yet. It typically includes Future Cruise Credits (FCCs: each FCC is worth $1 toward
+              cruise fare), Pre- or Post-Cruise Hotel Stay Certificates, Premium Land Stay
+              Certificates, Hotel Credits ($600–$4,000), Onboard Credits, and, on select packages,
+              Promotional Onboard Benefits when you sail.
             </p>
           </blockquote>
         </WhatIsPPIntroGrid>
@@ -53,7 +53,7 @@ export function WhatIsPP() {
           <div className="fact f3">
             <div className="fv">$25.5K</div>
             <div className="fl fact-fl-prose">
-              Total published value up to about $25,500 on top tiers—FCCs, certificates, marketplace
+              Total published value up to about $25,500 on top tiers—FCCs, certificates, Marketplace
               savings, and more (varies by package).
             </div>
           </div>
@@ -65,14 +65,14 @@ export function WhatIsPP() {
             <div className="hotel-fcc-distinction-inner">
               <header className="hotel-fcc-distinction-hd">
                 <h3 className="hotel-fcc-distinction-title">
-                  What&apos;s typically{' '}
-                  <span className="hotel-fcc-distinction-accent-word">included</span>
+                  <span className="hotel-fcc-distinction-accent-word">Hotel Credits</span>
+                  {' '}
+                  are separate from Future Cruise Credits
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
-                  Packages bundle cruise fare savings with land stays and perks—exact benefits depend
-                  on what you buy. <strong>Hotel credits and certificates</strong> work differently
-                  than <strong>FCCs</strong>: FCCs lock to Princess cruise fare; hotel products route
-                  through Princess Promotions.
+                  Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, land
+                  stays, and perks—exact benefits depend on what you buy. Package benefits and credit
+                  amounts vary depending on the travel package selected.
                 </p>
               </header>
               <ul className="package-detail-list">
@@ -93,9 +93,9 @@ export function WhatIsPP() {
                   </span>
                 </li>
                 <li>
-                  <strong>Onboard credits (OBCs)</strong>
+                  <strong>Onboard Credits (OBCs)</strong>
                   <span className="pkg-li-body">
-                    An onboard credit amount may post to your account on your qualifying Princess
+                    An Onboard Credit amount may post to your account on your qualifying Princess
                     sailing and can offset onboard extras—think excursions, beverages, boutique
                     purchases, and Lotus Spa services—subject to fare rules.
                   </span>
@@ -109,37 +109,37 @@ export function WhatIsPP() {
                   </span>
                 </li>
                 <li>
-                  <strong>Pre/post hotel stay certificates</strong>
+                  <strong>Pre- or Post-Cruise Hotel Stay Certificates</strong>
                   <span className="pkg-li-body">
                     Select tiers add certificates tailored to hotel nights before or after your cruise,
                     including independent hotel stays outside the sailing window.
                   </span>
                 </li>
                 <li>
-                  <strong>Hotel credits</strong>
+                  <strong>Hotel Credits</strong>
                   <span className="pkg-li-body">
-                    Hotel credits are exclusive to Princess Future Cruise Packages and apply toward stays
+                    Hotel Credits are exclusive to Princess Future Cruise Packages and apply toward stays
                     booked through the Princess Promotions hotel storefront—a broad inventory spanning
                     mainstream brands and resort destinations.
                   </span>
                 </li>
                 <li>
-                  <strong>Promotional onboard benefits</strong>
+                  <strong>Promotional Onboard Benefits</strong>
                   <span className="pkg-li-body">
-                    Higher tiers sometimes bundle recurring onboard perks every time you sail while the
-                    promotion is active—confirm what attaches to your specific purchase.
+                    The highest-tier package includes recurring onboard perks every time you sail while
+                    your package is active—confirm what attaches to your specific purchase.
                   </span>
                 </li>
               </ul>
               <div className="hotel-fcc-lanes">
                 <div className="hotel-fcc-lane hotel-fcc-lane--cruise">
-                  <p>
-                    FCCs are redeemed through Princess Cruises (<PrincessPhoneLink />
-                    ).
-                  </p>
+                  <p>FCCs are redeemed through Princess Cruises.</p>
                 </div>
                 <div className="hotel-fcc-lane hotel-fcc-lane--hotel">
-                  <p>Hotel certificates and credits are managed by Princess Promotions.</p>
+                  <p>
+                    Pre- or Post-Cruise Hotel Stay Certificates and Hotel Credits are redeemed through
+                    Princess Promotions.
+                  </p>
                 </div>
               </div>
             </div>
