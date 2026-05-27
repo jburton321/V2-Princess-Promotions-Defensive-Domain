@@ -18,8 +18,7 @@ export function DualTabForms() {
           <div className="form-panel-pad">
             <h2 className="form-panel-title">Share your experience</h2>
             <p className="form-panel-intro">
-              Help others make informed decisions by leaving an honest review. Tell us what went
-              well, what could be better, and whether you&apos;d recommend Future Cruise Packages.
+              Help others make informed decisions by leaving an honest review.
             </p>
             {!done ? (
               <form

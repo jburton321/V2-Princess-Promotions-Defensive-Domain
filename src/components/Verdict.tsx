@@ -34,9 +34,6 @@ export function Verdict() {
           </p>
         </ScrollReveal>
         <ScrollReveal className="verdict-final">Recommended for Cruise-Focused Buyers</ScrollReveal>
-        <ScrollReveal className="verdict-sig">
-          — The Editorial Team, Princess Promotions Reviews
-        </ScrollReveal>
       </div>
     </section>
   )
