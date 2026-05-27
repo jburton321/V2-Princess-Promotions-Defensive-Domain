@@ -725,9 +725,6 @@ label.f textarea{min-height:120px;resize:vertical}
 .works-grid{display:grid;gap:var(--g);margin:2rem 0}
 @media(min-width:900px){
   .works-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  /* Wide cards for longer copy; sixth card spans full row so the grid stays balanced */
-  .works-card.rv-d5{grid-column:1/-1;max-width:100%}
-  .works-card.rv-d6{grid-column:1/-1;max-width:min(48rem,100%);justify-self:center;width:100%}
 }
 .works-card{background:var(--grn-pl);border:1px solid rgba(45,139,87,.12);border-radius:var(--r);padding:2rem;display:flex;gap:1.25rem;align-items:flex-start;transition:transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}
 .works-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.05)}
