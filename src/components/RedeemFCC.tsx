@@ -1,5 +1,8 @@
 import { JourneyReveal } from '@/components/JourneyReveal'
-import { PrincessPhoneLink } from '@/lib/princess-phone'
+import {
+  PrincessPromotionsDirectLink,
+  PRINCESS_PHONE_HREF,
+} from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -13,27 +16,29 @@ export function RedeemFCC() {
         <ScrollReveal>
           <h2>How to Use Benefits</h2>
           <p className="sec-sub" style={{ marginTop: '0.5rem', marginBottom: '2rem' }}>
-            The steps below focus on Future Cruise Credits (FCCs) on cruise fare. For cruise fare and
-            FCC questions, call <PrincessPhoneLink />, log into your account at princess.com, or contact
-            your Travel Advisor. Package benefits and hotel redemption are covered above in{' '}
-            <a href="#how-to-use-benefits" className="sec-inline-link">
-              How to use benefits
-            </a>
-            . <strong>Hotel Credits are separate from Future Cruise Credits.</strong> Select packages
-            can earn up to 25% back in Future Cruise Credits on eligible merchandise purchases through
-            the Princess Promotions Marketplace—confirm eligibility on your offer.
+            Package benefits include Future Cruise Credits, Onboard Credits, Premium Land Stay
+            Certificates, Pre/post Hotel Certificates, Hotel Credits, and more—they can be redeemed
+            online at{' '}
+            <a
+              href="https://www.princesspromotions.com"
+              className="sec-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              princesspromotions.com
+            </a>{' '}
+            or by calling <PrincessPromotionsDirectLink /> for program support. Cruise fare bookings
+            and applying FCCs often route through{' '}
+            <a href={PRINCESS_PHONE_HREF} className="tel-princess">
+              1-800-774-6237
+            </a>{' '}
+            or your planner/agent. Hotel Credits are separate from FCC line items. Select packages can
+            also earn up to 25% back in Future Cruise Credits on eligible merchandise purchases
+            through the Princess Promotions storefront—confirm eligibility on your offer.
           </p>
         </ScrollReveal>
         <div className="fcc-journey-panel">
           <JourneyReveal>
-            <div className="j-card j-phone">
-              <div className="j-label">Redeem Future Cruise Credits (FCC) through Princess Cruises</div>
-              <div className="j-note">
-                Call <PrincessPhoneLink />, log into your account at princess.com, or contact your
-                Travel Advisor. Check your FCC balance in Manage Booking before you sail.
-              </div>
-            </div>
-
             <div className="j-card j-stat rv rv-d1">
               <div className="j-val">
                 $1 <small>= 1 FCC</small>
@@ -63,11 +68,12 @@ export function RedeemFCC() {
             <div className="j-card j-img rv rv-d4">
               <div className="j-bg" style={bg(siteImages.redemptionCruiseShip)} />
               <div className="j-ov" aria-hidden />
-              <div className="j-tag">Protect Yourself</div>
-              <h3>Screenshot Everything</h3>
+              <div className="j-tag">Good to know</div>
+              <h3>Keep your FCC records handy</h3>
               <p>
-                Capture your FCC balance before and after every transaction. Request written
-                confirmation of how credits were applied.
+                Many travelers save a quick screenshot of their FCC balance around booking changes—a
+                simple habit that makes follow-up easier if a question comes up later. Written
+                confirmation from Princess, when you receive it, is worth keeping too.
               </p>
             </div>
           </JourneyReveal>
