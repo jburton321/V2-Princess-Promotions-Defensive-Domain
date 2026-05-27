@@ -13,9 +13,9 @@ export function RedeemFCC() {
         <ScrollReveal>
           <h2>How to Use Benefits</h2>
           <p className="sec-sub" style={{ marginTop: '0.5rem', marginBottom: '2rem' }}>
-            The steps below focus on Future Cruise Credits (FCCs) on cruise fare. Package benefits,
-            hotel certificates, Hotel Credits, and the Princess Promotions program line are covered
-            above in{' '}
+            The steps below focus on Future Cruise Credits (FCCs) on cruise fare. For cruise fare and
+            FCC questions, call <PrincessPhoneLink />, log into your account at princess.com, or contact
+            your Travel Advisor. Package benefits and hotel redemption are covered above in{' '}
             <a href="#how-to-use-benefits" className="sec-inline-link">
               How to use benefits
             </a>

@@ -8,7 +8,7 @@ export function Footer() {
           <div className="fs">Reviews</div>
         </div>
       </div>
-      <div className="ftr-tag">Consumer reviews &amp; ratings</div>
+      <div className="ftr-tag">Independent consumer reviews &amp; ratings</div>
       <p className="ftr-ind">
         Princess Promotions Reviews is managed by a 3rd party. Our reviews are based on our own
         research and consumer-submitted feedback.

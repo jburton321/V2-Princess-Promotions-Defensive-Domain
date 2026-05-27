@@ -19,7 +19,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: "What if I Can't Reach My Planning Advisor?",
-    a: 'Use the cruise-line contact in How to Use Benefits on this page and ask for a supervisor or a different advisor. Log every attempt with dates. If you are inside the cancellation window, send written cancellation by email immediately—do not rely on voicemail alone.',
+    a: 'Call 1-800-PRINCESS and ask for a supervisor or a different advisor. Log every attempt with dates. If you are inside the cancellation window, send written cancellation by email immediately—do not rely on voicemail alone.',
   },
   {
     q: 'Can I Cancel My Package?',
@@ -39,7 +39,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: "My Planning Advisor Won't Return My Calls. What Can I Do?",
-    a: 'Use the cruise-line contact in How to Use Benefits, request a supervisor, and document each attempt. If no response after seven business days, try again in writing through official Princess channels.',
+    a: 'Call 1-800-PRINCESS, request a supervisor, and document each attempt. If no response after seven business days, try again in writing through official Princess channels.',
   },
   {
     q: "I'm Considering Buying at an Onboard Presentation. What Should I Know?",
@@ -55,11 +55,11 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'How Are Hotel Credits Different From Future Cruise Credits (FCC)?',
-    a: 'Hotel Credits and stay certificates are separate from Future Cruise Credits (FCC). FCCs apply to Princess cruise fare and are redeemed through Princess Cruises—see How to Use Benefits on this page for cruise contact. Pre- or Post-Cruise Hotel Stay Certificates, Hotel Credits, and most land-package pieces are redeemed through Princess Promotions at princesspromotions.com or via the program line in How to use benefits above.',
+    a: 'Hotel Credits and stay certificates are separate from Future Cruise Credits (FCC). FCCs apply to Princess cruise fare and are redeemed through Princess Cruises via 1-800-PRINCESS, your account at princess.com, or your travel advisor. Pre- or Post-Cruise Hotel Stay Certificates and Hotel Credits are redeemed through Princess Promotions online at princesspromotions.com or by calling the program line shown in How to use benefits.',
   },
   {
     q: 'Is There a Direct Phone Number for Princess Promotions?',
-    a: 'For package benefits and hotel redemption, use How to use benefits near the top of this page (princesspromotions.com and the program line shown there). For FCC and cruise fare, use the cruise-line contact in How to Use Benefits below.',
+    a: 'For cruise bookings and many FCC questions, guests typically use 1-800-PRINCESS or their account at princess.com. For Princess Promotions program support and hotel redemption, use princesspromotions.com or the program line in How to use benefits near the top of this page.',
   },
   {
     q: 'Where Do the Dollar Figures on This Page Come From?',
@@ -67,7 +67,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Looking for More Official Princess Promotions FAQs?',
-    a: 'This site mirrors common buyer questions in plain language (below). Program-specific policies and account-specific answers should always be confirmed on princesspromotions.com or through the contacts summarized in How to use benefits and How to Use Benefits on this page.',
+    a: 'This site mirrors common buyer questions in plain language (below). Program-specific policies and account-specific answers should always be confirmed on princesspromotions.com or with Princess Cruises at 1-800-PRINCESS.',
   },
 ]
 

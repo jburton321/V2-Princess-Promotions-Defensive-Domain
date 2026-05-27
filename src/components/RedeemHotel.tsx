@@ -1,4 +1,5 @@
 import { Callout } from '@/components/Callout'
+import { PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
 import { siteImages } from '@/lib/site-images'
 
@@ -25,7 +26,7 @@ export function RedeemHotel() {
             >
               princesspromotions.com
             </a>{' '}
-            or via the program line in How to use benefits— not through the cruise booking line.
+            or by calling <PrincessPromotionsDirectLink />.
           </p>
           <p>
             <strong>Credits may apply at 50% face value.</strong> This is the most complained-about

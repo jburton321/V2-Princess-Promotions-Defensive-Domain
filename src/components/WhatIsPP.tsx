@@ -133,12 +133,12 @@ export function WhatIsPP() {
               </ul>
               <div className="hotel-fcc-lanes">
                 <div className="hotel-fcc-lane hotel-fcc-lane--cruise">
-                  <p>FCCs are redeemed through Princess Cruises (see How to Use Benefits below).</p>
+                  <p>FCCs are redeemed through Princess Cruises.</p>
                 </div>
                 <div className="hotel-fcc-lane hotel-fcc-lane--hotel">
                   <p>
                     Pre- or Post-Cruise Hotel Stay Certificates and Hotel Credits are redeemed through
-                    Princess Promotions (see How to use benefits above).
+                    Princess Promotions.
                   </p>
                 </div>
               </div>
