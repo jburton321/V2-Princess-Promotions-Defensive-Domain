@@ -12,28 +12,26 @@ export function Verdict() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Princess Promotions is an authentic program backed by Princess Cruises. For regular
-            cruisers, the Future Cruise Credits function exactly as advertised and provide real value.
+            Princess Promotions is a legitimate program backed by Princess Cruises. For regular
+            cruisers, Future Cruise Credits function as described and deliver real value toward cruise
+            fare.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            However, it is important to read the fine print on the hotel credit component. These
-            credits don&apos;t always apply at their full face value, and travelers should compare the
-            platform&apos;s rates with standard booking sites like Booking.com or Expedia before
-            committing. This is simply something to be aware of before purchasing, rather than a
-            question of the program&apos;s legitimacy.
+            The hotel credit component deserves closer review before you buy. Credits don&apos;t always
+            apply at full face value, and platform rates may run higher than standard booking sites like
+            Booking.com or Expedia. Comparing both before committing is a smart step.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Ultimately, if you are a frequent cruiser and the combination of cruise credits, land stays,
-            and perks aligns with your travel habits, this package is worth considering. Be sure to get
-            the details in writing, understand your state&apos;s cancellation policies, and follow the
-            redemption guide above to maximize your benefits.
+            Whether this package makes sense depends on how you travel. Frequent Princess cruisers who
+            will use the credits and land stay certificates tend to get the most out of it. If
+            you&apos;re on the fence, get the full cost breakdown in writing, confirm your state&apos;s
+            cancellation window, and use the redemption guide above before making a decision.
           </p>
         </ScrollReveal>
-        <ScrollReveal className="verdict-final">Recommended for Cruise-Focused Buyers</ScrollReveal>
       </div>
     </section>
   )

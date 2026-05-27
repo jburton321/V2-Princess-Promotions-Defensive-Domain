@@ -12,10 +12,7 @@ export function Footer() {
         Princess Promotions Reviews is operated by a third party. Our reviews are based on our own
         research and consumer-submitted feedback.
       </p>
-      <div className="ftr-d">
-        © 2026 Princess Promotions Reviews. Not managed, operated, or affiliated with Princess
-        Cruises or Carnival Corporation.
-      </div>
+      <div className="ftr-d">© 2026 Princess Promotions Reviews.</div>
     </footer>
   )
 }
