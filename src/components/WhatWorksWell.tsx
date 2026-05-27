@@ -95,7 +95,7 @@ export function WhatWorksWell() {
           <ScrollReveal className="works-card rv-d6">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Limited-time offers while you&apos;re still onboard can be legitimate</h3>
+              <h3>Limited-time offers while you&apos;re still onboard are legitimate</h3>
               <p>
                 Some offers are available only during your sailing. Ask what stays available after you
                 leave the ship and capture anything time-sensitive in writing so you can weigh it

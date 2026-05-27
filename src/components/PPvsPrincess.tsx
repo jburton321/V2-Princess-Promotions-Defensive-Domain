@@ -1,4 +1,5 @@
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
+import { PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { siteImages } from '@/lib/site-images'
 
@@ -15,14 +16,13 @@ export function PPvsPrincess() {
           <div className="kicker">The Princess connection</div>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
           <p className="entity-split-lead">
-            Princess Promotions is the program that manages Princess Future Cruise Packages and
-            provides the redemption and fulfillment site for all travel products included in the
-            Princess Future Cruise Packages. Princess Future Cruise Packages are endorsed and
-            supported by Princess Cruise Line.
+            No—they are related partners, not the same company. Princess Promotions manages package
+            fulfillment and land products; Princess Cruises handles your sailings and FCC redemption
+            on cruise fare. See how to use benefits below.
           </p>
         </MatchedHeightMediaGrid>
 
-        <ScrollReveal>
+        <ScrollReveal id="how-to-use-benefits">
           <h3 className="split-section-heading split-section-heading--sentence">
             How to use benefits
           </h3>
@@ -48,9 +48,9 @@ export function PPvsPrincess() {
                   rel="noopener noreferrer"
                 >
                   princesspromotions.com
-                </a>
-                . Select packages can also earn up to 25% back in Future Cruise Credits on merchandise
-                purchases.
+                </a>{' '}
+                or by calling <PrincessPromotionsDirectLink />. Select packages can also earn up to 25%
+                back in Future Cruise Credits on merchandise purchases.
               </p>
             </div>
           </div>

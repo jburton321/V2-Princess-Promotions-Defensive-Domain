@@ -17,6 +17,7 @@ type ScrollRevealProps = {
   children: ReactNode
   className?: string
   style?: CSSProperties
+  id?: string
   /** Lets one child participate in a parent CSS grid (e.g. `.journey`). */
   displayContents?: boolean
 }
@@ -25,6 +26,7 @@ export function ScrollReveal({
   children,
   className = '',
   style,
+  id,
   displayContents,
 }: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null)
@@ -68,6 +70,7 @@ export function ScrollReveal({
   return (
     <div
       ref={ref}
+      id={id}
       className={['rv', className, revealed ? 'v' : ''].filter(Boolean).join(' ')}
       style={mergedStyle}
     >

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { PrincessPhoneLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
 const SIGNIN =
@@ -35,7 +34,8 @@ export function LoginCtaBand({ variant = 'default' }: LoginCtaBandProps) {
           Log In to Your Account →
         </Link>
         <div className="cta-sub">
-          Need help? Call <PrincessPhoneLink />
+          Need help with cruise fare or FCCs? See How to Use Benefits on this page. For package and
+          hotel support, see How to use benefits.
         </div>
       </div>
     </ScrollReveal>

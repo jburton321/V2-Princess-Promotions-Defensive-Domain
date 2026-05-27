@@ -1,5 +1,4 @@
 import { Callout } from '@/components/Callout'
-import { PrincessPhoneLink } from '@/lib/princess-phone'
 import { MatchedHeightMediaGrid } from '@/components/MatchedHeightMediaGrid'
 import { siteImages } from '@/lib/site-images'
 
@@ -16,9 +15,17 @@ export function RedeemHotel() {
           <div className="kicker">Hotel Redemption</div>
           <h2>How to Use Princess Promotions Hotel Certificates and Credits</h2>
           <p className="hotel-split-lead">
-            Unlike FCCs, these are managed by <strong>Princess Promotions directly</strong>. Call{' '}
-            <PrincessPhoneLink suffix=", option 5" />
-            .
+            Unlike FCCs, hotel certificates and Hotel Credits are redeemed through Princess
+            Promotions at{' '}
+            <a
+              href="https://www.princesspromotions.com"
+              className="split-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              princesspromotions.com
+            </a>{' '}
+            or via the program line in How to use benefits— not through the cruise booking line.
           </p>
           <p>
             <strong>Credits may apply at 50% face value.</strong> This is the most complained-about

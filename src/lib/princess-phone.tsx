@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 
 /** Princess Cruises main line — display matches dial string (same as 1-800-PRINCESS). */
+/** Page contact policy (Markup #74/#90/#105): cruise line number only in RedeemFCC j-phone; PP direct line only in PPvsPrincess split-r. */
 export const PRINCESS_PHONE_HREF = 'tel:+18007746237'
 
 export const PRINCESS_PHONE_DISPLAY = '1-800-PRINCESS'
