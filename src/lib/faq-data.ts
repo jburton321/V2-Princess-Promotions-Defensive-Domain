@@ -7,7 +7,11 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Is Princess Promotions the Same as Princess Cruises?',
-    a: 'Princess Promotions is the program that manages Princess Future Cruise Packages and provides the redemption and fulfillment site for all travel products included in the Princess Future Cruise Packages. Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.',
+    a: 'No. Princess Promotions is a third-party company contracted by Princess Cruises to sell products that enhance vacation experiences for their customers. Princess Cruises handles your sailings and FCC redemption on cruise fares. Princess Promotions manages package fulfillment, land products, and hotel redemption at princesspromotions.com.',
+  },
+  {
+    q: "What Is Princess Promotions' Relationship With Princess Cruises?",
+    a: 'Princess Promotions is a third-party vendor contracted directly by Princess Cruises to sell vacation enhancement products, both onboard during your sailing and via phone follow-up. The program is not a separate cruise line and does not operate independently of that relationship. Princess Future Cruise Packages are endorsed and supported by Princess Cruise Line.',
   },
   {
     q: 'What is the Princess Ultimate Future Cruise Package?',
