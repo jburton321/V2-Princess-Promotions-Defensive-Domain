@@ -15,8 +15,8 @@
 /* --font-* must exist on :root (see layout: font variable classes on <html>). Fallback keeps sans if vars are missing. */
 --sans: var(--font-sans, system-ui), system-ui, sans-serif;
 --serif: var(--font-serif, Georgia), Georgia, serif;
-/* Fallback until HdrStack measures fixed chrome (alert + header) */
---hdr-stack-h:72px;
+/* Header bar removed (client #135). Keep at 0 so hero starts directly under the progress bar. */
+--hdr-stack-h:0px;
 /* Air between fixed chrome and hero copy (larger on narrow viewports) */
 --hero-gap-under-chrome:1rem;
 }

@@ -24,18 +24,21 @@ export function WhatWorksWell() {
           <div className="sec-rule" aria-hidden />
         </ScrollReveal>
         <ScrollReveal className="kicker">From travelers</ScrollReveal>
-        <ScrollReveal className="sec-title">
-          Here&apos;s what&apos;s popular among satisfied customers
+        <ScrollReveal
+          className="sec-title"
+          style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)' }}
+        >
+          Here&apos;s What&apos;s Popular Among Satisfied Customers
         </ScrollReveal>
         <div className="works-grid">
           <ScrollReveal className="works-card rv-d1">
             <div className="works-check">{check}</div>
             <div>
-              <h3>Future cruise credits are real and deliver genuine savings</h3>
+              <h3>Future Cruise Credits adds meaningful value</h3>
               <p>
-                FCCs apply at $1 = 1 credit toward cruise fare. Multiple BBB responses and consumer
-                reports confirm credits are honored. For cruisers booking 2+ sailings per year, the
-                FCC value consistently makes the package worthwhile.
+                Guests who were already planning to sail with Princess Cruise Lines in the next couple
+                of years found FCCs useful because they could apply it toward travel they already
+                intended to book.
               </p>
             </div>
           </ScrollReveal>
@@ -56,27 +59,22 @@ export function WhatWorksWell() {
             <div className="works-check">{check}</div>
             <div>
               <h3>
-                Princess Cruises is a Carnival Corporation brand — the world&apos;s largest cruise
-                company
+                Princess Cruise Lines is a Carnival Corporation brand — the world&apos;s largest
+                cruise company
               </h3>
               <p>
                 Your cruise booking goes through one of the most established operators in the
-                industry. Future Cruise Credits are redeemed directly through Princess Cruises.
+                industry. Future Cruise Credits are redeemed directly through Princess Cruise Lines.
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal className="works-card rv-d4">
             <div className="works-check">{check}</div>
             <div>
-              <h3>
-                The Princess Promotions hub brings hotel booking, savings, and add-ons together
-              </h3>
+              <h3>A convenient platform for cruise-related travel</h3>
               <p>
-                Through the <strong>Princess Promotions</strong> digital experience, many guests use a
-                single hub to manage hotel stays, browse member discounts, and see savings
-                opportunities alongside their package. The same environment often surfaces other travel
-                products and upgrades that complement your cruise — so you can plan land stays, compare
-                offers, and explore add-ons without juggling a dozen different sites.
+                Many guests enjoy having one place to book and manage travel extras that complement
+                their cruise, including hotel stays before and after sailing.
               </p>
             </div>
           </ScrollReveal>
@@ -97,8 +95,8 @@ export function WhatWorksWell() {
             <div>
               <h3>Limited-time offers while you&apos;re still onboard are legitimate</h3>
               <p>
-                Some offers are available only during your sailing. Ask what stays available after you
-                leave the ship and capture anything time-sensitive in writing so you can weigh it
+                Some offers are available only during your sailing. Ask what stays are available after
+                you leave the ship and capture anything time-sensitive in writing so you can weigh it
                 calmly later.
               </p>
             </div>

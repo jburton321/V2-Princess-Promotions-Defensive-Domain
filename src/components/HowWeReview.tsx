@@ -15,17 +15,15 @@ export function HowWeReview() {
           <p>
             Our editors weigh public complaint patterns, cruise-community discussion, official
             disclosures, and moderated reader submissions. We evaluate cruise credit value, hotel
-            offers, sales transparency, post-sale support, and overall package fit—refreshing conclusions
-            when credible new feedback arrives. Dollar callouts (like the two tiles under{' '}
-            <em>What Is Princess Promotions?</em>) summarize typical advertised tiers rather than a live
-            third-party statistics ribbon or single score feed.
+            offers, sales transparency, post-sale support, and overall package fit—refreshing
+            conclusions when credible new feedback arrives.
           </p>
           <p>
             We don&apos;t publish a playbook of every source we read — that would skew what people
             choose to emphasize — but we apply consistent criteria across each update.
           </p>
           <p className="how-review-updated">
-            <em>Last Updated: March 2026</em>
+            <em>Last Updated: June 2026</em>
           </p>
         </ScrollReveal>
       </div>

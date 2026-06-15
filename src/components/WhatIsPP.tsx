@@ -1,3 +1,4 @@
+import { PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { WhatIsPPIntroGrid } from '@/components/WhatIsPPIntroGrid'
 import { siteImages } from '@/lib/site-images'
@@ -20,41 +21,26 @@ export function WhatIsPP() {
             Princess Promotions is the program that manages Princess Future Cruise Packages and
             provides the redemption and fulfillment site for all travel products included in those
             packages. Princess Future Cruise Packages are endorsed and supported by Princess Cruise
-            Line.
+            Lines.
           </p>
           <p>
             It&apos;s still an <strong>approved promotional program</strong> you&apos;ll see at sea
             or on a call, with Princess branding and structured redemption paths—not a separate
             cruise line.
           </p>
-          <p>
-            If you&apos;re hearing about it for the first time, slow down, compare the numbers, and
-            use the checklists below.
-          </p>
-          <blockquote className="m-0 min-w-0 rounded-[0_14px_14px_0] border-l-[3px] border-blue bg-blue-pl py-4 pl-[1.15rem] pr-[1.1rem] font-sans text-[0.95rem] leading-[1.65] text-tx-2 [&_p]:m-0 [&_strong]:font-semibold [&_strong]:text-navy-mid">
-            <p>
-              The <strong>Princess Ultimate Future Cruise Package</strong> bundles your next Princess
-              cruise with other travel products—even when you have not picked a date or itinerary
-              yet. It typically includes Future Cruise Credits (FCCs: each FCC is worth $1 toward
-              cruise fare), Pre- or Post-Cruise Hotel Stay Certificates, Premium Land Stay
-              Certificates, Hotel Credits ($600–$4,000), Onboard Credits, and, on select packages,
-              Promotional Onboard Benefits when you sail.
-            </p>
-          </blockquote>
         </WhatIsPPIntroGrid>
 
         <ScrollReveal className="facts">
           <div className="fact f1">
-            <div className="fv">$3K–$15K</div>
+            <div className="fv">Priced at $3K–$15K</div>
             <div className="fl fact-fl-prose">
-              Price range of packages with a variety of travel benefits included.
+              Packages with a variety of travel benefits included.
             </div>
           </div>
           <div className="fact f3">
-            <div className="fv">$25.5K</div>
+            <div className="fv">Valued at up to $25K</div>
             <div className="fl fact-fl-prose">
-              Total published value up to about $25,500 on top tiers—FCCs, certificates, Marketplace
-              savings, and more (varies by package).
+              Total estimated value of travel benefits, based on highest package type.
             </div>
           </div>
         </ScrollReveal>
@@ -65,80 +51,85 @@ export function WhatIsPP() {
             <div className="hotel-fcc-distinction-inner">
               <header className="hotel-fcc-distinction-hd">
                 <h3 className="hotel-fcc-distinction-title">
-                  <span className="hotel-fcc-distinction-accent-word">Hotel Credits</span>
-                  {' '}
-                  are separate from Future Cruise Credits
+                  <span className="hotel-fcc-distinction-accent-word">What&apos;s Included?</span>
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
                   Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, land
-                  stays, and perks—exact benefits depend on what you buy. Package benefits and credit
-                  amounts vary depending on the travel package selected.
+                  stays, and perks. Package benefits and credit amounts vary depending on the travel
+                  package selected.
                 </p>
               </header>
               <ul className="package-detail-list">
                 <li>
                   <strong>Future Cruise Credits (FCCs)</strong>
                   <span className="pkg-li-body">
-                    FCCs pay toward Princess cruises once you are ready to book. Each FCC is worth $1
-                    toward fare, can apply across the next 24 months (per offer terms), and may be used
-                    on one booking or split across several.
+                    FCCs can be applied toward Princess cruise fare. Each FCC is worth $1 toward fare
+                    and may be used on one booking or split across multiple bookings.
                   </span>
                 </li>
                 <li>
                   <strong>Earn more FCCs</strong>
                   <span className="pkg-li-body">
-                    Shopping name-brand merchandise and wine at princesspromotions.com can earn extra
-                    FCCs back on select packages—tiers sometimes cite up to 25% back in credits on
-                    qualifying purchases.
+                    Shopping name-brand merchandise and wine at princesspromotions.com can earn FCCs
+                    back—select tiers earn up to 25% in FCCs to use towards future cruises.
                   </span>
                 </li>
                 <li>
                   <strong>Onboard Credits (OBCs)</strong>
                   <span className="pkg-li-body">
-                    An Onboard Credit amount may post to your account on your qualifying Princess
-                    sailing and can offset onboard extras—think excursions, beverages, boutique
-                    purchases, and Lotus Spa services—subject to fare rules.
-                  </span>
-                </li>
-                <li>
-                  <strong>Premium Land Stay Certificates</strong>
-                  <span className="pkg-li-body">
-                    Many packages include up to two five-night stay certificates redeemable at a wide
-                    catalog of hotels and resorts. Use them around a cruise or as standalone land
-                    vacations depending on terms.
+                    Onboard Credit is applied to the first cruise booked with your Future Cruise
+                    Package and can be used towards onboard extras like excursions, beverages, boutique
+                    purchases, and Lotus Spa services.
                   </span>
                 </li>
                 <li>
                   <strong>Pre- or Post-Cruise Hotel Stay Certificates</strong>
                   <span className="pkg-li-body">
-                    Select tiers add certificates tailored to hotel nights before or after your cruise,
-                    including independent hotel stays outside the sailing window.
+                    Some packages include certificates that can be redeemed for 2-night stays before or
+                    after your cruise.
+                  </span>
+                </li>
+                <li>
+                  <strong>Premium Land Stay Certificates</strong>
+                  <span className="pkg-li-body">
+                    Packages include certificates that can be redeemed for 5-night stays at
+                    participating hotels and resorts. They can be used before or after a cruise, or as
+                    their own land vacation.
                   </span>
                 </li>
                 <li>
                   <strong>Hotel Credits</strong>
                   <span className="pkg-li-body">
-                    Hotel Credits are exclusive to Princess Future Cruise Packages and apply toward stays
-                    booked through the Princess Promotions hotel storefront—a broad inventory spanning
-                    mainstream brands and resort destinations.
-                  </span>
-                </li>
-                <li>
-                  <strong>Promotional Onboard Benefits</strong>
-                  <span className="pkg-li-body">
-                    The highest-tier package includes recurring onboard perks every time you sail while
-                    your package is active—confirm what attaches to your specific purchase.
+                    Hotel Credits can help cover eligible hotel or resort stays beyond those included
+                    with the other certificates.
                   </span>
                 </li>
               </ul>
+              <h3 className="hotel-fcc-distinction-title" style={{ marginTop: '2rem' }}>
+                How to Use Benefits
+              </h3>
               <div className="hotel-fcc-lanes">
                 <div className="hotel-fcc-lane hotel-fcc-lane--cruise">
-                  <p>FCCs are redeemed through Princess Cruises.</p>
+                  <p>
+                    Future Cruise Credits and Onboard Credits can be viewed in your Princess.com
+                    account. When you&apos;re ready to book, Future Cruise Credits may be redeemed
+                    directly with Princess, through your Cruise Vacation Planner, or with your travel
+                    agent.
+                  </p>
                 </div>
                 <div className="hotel-fcc-lane hotel-fcc-lane--hotel">
                   <p>
-                    Pre- or Post-Cruise Hotel Stay Certificates and Hotel Credits are redeemed through
-                    Princess Promotions.
+                    Stay Certificates and Hotel Credits can be redeemed through Princess Promotions by
+                    calling <PrincessPromotionsDirectLink /> or visiting{' '}
+                    <a
+                      href="https://www.princesspromotions.com"
+                      className="split-inline-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      princesspromotions.com
+                    </a>
+                    .
                   </p>
                 </div>
               </div>
@@ -158,9 +149,8 @@ export function WhatIsPP() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            These checkpoints aren&apos;t here to tear down the program—they&apos;re the diligence steps
-            savvy buyers take before signing. If you&apos;re attending an onboard presentation or
-            received a follow-up call, walk through them at your pace:
+            We&apos;ve looked through customer reviews and common questions to pull together a few
+            helpful tips and things to know before you buy.
           </p>
         </ScrollReveal>
 
@@ -181,7 +171,7 @@ export function WhatIsPP() {
               <span className="what-is-buy-card__num" aria-hidden>
                 02
               </span>
-              <h3 className="what-is-buy-card__title">Get the Total Cost in Writing.</h3>
+              <h3 className="what-is-buy-card__title">Get the total cost in writing.</h3>
               <p className="what-is-buy-card__body">
                 Ask for a line-by-line breakdown of the purchase price, all installments, and any
                 additional fees. Multiple complaints stem from consumers who believed the down payment
@@ -195,18 +185,18 @@ export function WhatIsPP() {
               <h3 className="what-is-buy-card__title">Understand cancellation timing.</h3>
               <p className="what-is-buy-card__body">
                 Most buyers have seven days to cancel from purchase. Florida residents have 30 days,
-                and Washington residents have 15. Send written cancellation via email—don&apos;t rely
-                on phone calls alone.
+                and Washington residents have 15. Cancellations are handled by phone, with written
+                cancellation by mail as the only other option—so call promptly and keep a record.
               </p>
             </li>
             <li className="what-is-buy-card">
               <span className="what-is-buy-card__num" aria-hidden>
                 04
               </span>
-              <h3 className="what-is-buy-card__title">Ask About Your State&apos;s Refund Policies.</h3>
+              <h3 className="what-is-buy-card__title">Ask about the cancellation and refund policy.</h3>
               <p className="what-is-buy-card__body">
-                Some states have different rules about refunds for these types of packages. Confirm what
-                applies to you before signing.
+                Ask about the cancellation and refund policy that applies to your purchase before
+                signing.
               </p>
             </li>
           </ul>
