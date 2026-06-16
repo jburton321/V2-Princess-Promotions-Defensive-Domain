@@ -14,8 +14,9 @@ export function HowWeReview() {
           <h2>How We Review</h2>
           <p>
             Our editors weigh public complaint patterns, cruise-community discussion, official
-            disclosures, and moderated reader submissions. We evaluate cruise credit value, hotel
-            offers, sales transparency, post-sale support, and overall package fit, refreshing
+            disclosures, and moderated reader submissions. We evaluate total Future Cruise Package
+            value, hotel offers, sales transparency, post-sale support, and overall package fit,
+            refreshing
             conclusions when credible new feedback arrives.
           </p>
         </ScrollReveal>

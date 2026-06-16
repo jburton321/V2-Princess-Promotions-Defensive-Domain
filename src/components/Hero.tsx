@@ -1,20 +1,18 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function Hero() {
   return (
     <section className="hero">
       <div className="hero-bg" aria-hidden>
-        <video
+        <Image
           className="hero-bg-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/images/hero-aerial.jpg"
-        >
-          <source src="/videos/hero-loop.mp4" type="video/mp4" />
-        </video>
+          src="/images/hero-overwater-bungalow.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+        />
       </div>
       <div className="hero-content">
         <h1>

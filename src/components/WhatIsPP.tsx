@@ -110,7 +110,7 @@ export function WhatIsPP() {
                 </li>
               </ul>
               <h3 className="hotel-fcc-distinction-title" style={{ marginTop: '2rem' }}>
-                How to Use Benefits
+                Top Tips for Benefits
               </h3>
               <div className="hotel-fcc-lanes">
                 <div className="hotel-fcc-lane hotel-fcc-lane--cruise">

@@ -10,9 +10,9 @@ export const siteImages = {
   /** Sun Princess at sea — big typographic “scam?” section */
   bigAnswerBg: '/images/big-answer-sun-princess.png',
   verdictBg: '/images/verdict-background.jpg',
-  dividerCruiseAerial: '/images/divider-cruise-ship-aerial.jpg',
-  dividerDestination: '/images/divider-destination-landscape.jpg',
-  editorialCruiseInterior: '/images/editorial-cruise-interior.jpg',
+  dividerCruiseAerial: '/images/divider-cruise-fjord-aerial.png',
+  dividerDestination: '/images/divider-corniche-coast.png',
+  editorialCruiseInterior: '/images/editorial-royal-princess-v2.png',
   editorialPrincessShip: '/images/editorial-princess-ship.jpg',
   issueFccAccounting: '/images/issue-fcc-accounting.jpg',
   issueHotelCertificates: '/images/issue-hotel-certificates.jpg',
