@@ -1,4 +1,4 @@
-/** SEO-critical JSON-LD — byte-for-byte from V9 HTML (CURSOR-PROMPT). */
+/** SEO-critical JSON-LD - byte-for-byte from V9 HTML (CURSOR-PROMPT). */
 
 export const jsonLdOrganization =
   '{"@context":"https://schema.org","@type":"Organization","name":"Princess Promotions Reviews","url":"https://princesspromtionsreviews.com/","description":"Independent consumer review site covering Princess Promotions Future Cruise Packages in connection with Princess Cruises, a subsidiary of Carnival Corporation."}'

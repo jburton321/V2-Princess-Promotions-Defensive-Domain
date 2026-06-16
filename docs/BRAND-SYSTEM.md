@@ -1,4 +1,4 @@
-# Princess Promotions Reviews — Brand System
+# Princess Promotions Reviews - Brand System
 
 Single source of truth for all visual and brand decisions.
 
@@ -49,11 +49,11 @@ Single source of truth for all visual and brand decisions.
 
 ### Rules
 
-1. Gold is ONLY for trust elements — seals, stars, score badge, stat values on dark
-2. Blue is the action color — CTAs, links, kickers, accent bars
-3. Navy is authority — headings, dark sections, hero cards
-4. Never use pure black (#000) — use Navy or Text Primary
-5. Never use pure white (#FFF) for page bg — use #F5F6F9. White is for cards only
+1. Gold is ONLY for trust elements - seals, stars, score badge, stat values on dark
+2. Blue is the action color - CTAs, links, kickers, accent bars
+3. Navy is authority - headings, dark sections, hero cards
+4. Never use pure black (#000) - use Navy or Text Primary
+5. Never use pure white (#FFF) for page bg - use #F5F6F9. White is for cards only
 6. Score thresholds: Red < 3.0, Amber 3.0–3.9, Green 4.0+
 
 ---
@@ -72,7 +72,7 @@ Single source of truth for all visual and brand decisions.
 | Element | Font | Weight | Size |
 |---------|------|--------|------|
 | H1 hero | Instrument Serif | 400 | clamp(3rem, 8vw, 6.5rem) |
-| H1 hero italic | Instrument Serif | 400 italic | Same — Blue Light color |
+| H1 hero italic | Instrument Serif | 400 italic | Same - Blue Light color |
 | H2 section titles | Instrument Serif | 400 | clamp(2rem, 5vw, 3.5rem) |
 | H2 editorial | Instrument Serif | 400 | clamp(1.8rem, 4vw, 2.8rem) |
 | H2 "Is It a Scam?" | Instrument Serif | 400 | clamp(2.5rem, 7vw, 5rem) |
@@ -98,7 +98,7 @@ Single source of truth for all visual and brand decisions.
 
 ## Logo
 
-Typographic lockup with blue accent bar. No icon — the bar IS the mark.
+Typographic lockup with blue accent bar. No icon - the bar IS the mark.
 
 ### Files
 
@@ -119,7 +119,7 @@ Typographic lockup with blue accent bar. No icon — the bar IS the mark.
 
 ### Rules
 
-1. Blue bar always present — it IS the mark
+1. Blue bar always present - it IS the mark
 2. "REVIEWS" always tracked (0.45em), uppercase, brand blue
 3. On dark: name = white, "REVIEWS" = Blue Light, bar = Blue Light
 4. Never place on blue or gold backgrounds
@@ -189,7 +189,7 @@ All bento grids, journey grids: 14px.
 
 - Default: opacity 0, translateY(60px)
 - Active (.v): opacity 1, translateY(0)
-- Easing: cubic-bezier(.16, 1, .3, 1) — spring-like
+- Easing: cubic-bezier(.16, 1, .3, 1) - spring-like
 - Duration: 0.8s
 - Stagger delays: rv-d1 = 0.1s → rv-d6 = 0.6s
 - Trigger: IntersectionObserver, threshold 0.08, rootMargin 0px 0px -60px 0px
@@ -217,7 +217,7 @@ All bento grids, journey grids: 14px.
 ### Rules
 
 1. No animation on load except hero
-2. Cards animate once on scroll — never re-animate
+2. Cards animate once on scroll - never re-animate
 3. No parallax, no scroll-jacking, no autoplay carousels
 4. All transitions under 0.8s
 

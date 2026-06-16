@@ -9,7 +9,7 @@ import { siteImages } from '@/lib/site-images'
 import { getSiteUrl } from '@/lib/site-url'
 import './globals.css'
 
-/** Inter — sans-serif for UI and body copy. Vendored under `public/fonts/`. */
+/** Inter - sans-serif for UI and body copy. Vendored under `public/fonts/`. */
 const inter = localFont({
   src: [
     { path: '../../public/fonts/inter-latin-400-normal.woff2', weight: '400', style: 'normal' },
@@ -21,7 +21,7 @@ const inter = localFont({
   display: 'swap',
 })
 
-/** Instrument Serif — display serif for headings / stats / quotes (not body copy). */
+/** Instrument Serif - display serif for headings / stats / quotes (not body copy). */
 const instrumentSerif = localFont({
   src: [
     {
@@ -40,7 +40,7 @@ const instrumentSerif = localFont({
 })
 
 const siteUrl = getSiteUrl()
-/** Absolute URL — crawlers (Facebook, X, iMessage) require a public https URL, not a path. */
+/** Absolute URL - crawlers (Facebook, X, iMessage) require a public https URL, not a path. */
 const openGraphImageUrl = new URL(siteImages.openGraph, siteUrl).href
 
 export const metadata: Metadata = {

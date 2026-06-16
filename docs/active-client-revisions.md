@@ -1,4 +1,4 @@
-# Princess Promotions — Active Client Revisions
+# Princess Promotions - Active Client Revisions
 
 *Source: v2 Vercel preview comment export (2026-06-15). Resolved items (131) excluded. Generated 2026-06-15.*
 
@@ -13,7 +13,7 @@
 | Ready to action | 52 |
 | Blocked / needs input | 8 |
 
-**Implementation run — all 52 ready-to-action revisions applied.** Every ready item has been implemented in the V3 codebase and verified against the v2 review screenshots. #151 was resolved when the Hotel Credits sentence was rewritten under #184. #135 ("Remove banner") removed the fixed top header bar (logo + "Share your experience" button); the hero now starts under the progress bar. #136 was moved to Blocked. #131 and #179 were already satisfied or consolidated into related edits.
+**Implementation run - all 52 ready-to-action revisions applied.** Every ready item has been implemented in the V3 codebase and verified against the v2 review screenshots. #151 was resolved when the Hotel Credits sentence was rewritten under #184. #135 ("Remove banner") removed the fixed top header bar (logo + "Share your experience" button); the hero now starts under the progress bar. #136 was moved to Blocked. #131 and #179 were already satisfied or consolidated into related edits.
 
 **Blocked work depends on others (8 items):** copy from Marlene (#75), Sales Team positioning (#98), the video decision (#132), Nicole's narrowing (#133), lifestyle imagery from ONE Agency (#155, #161, #195), and the closing/SEO copy with no V3 home (#136).
 
@@ -37,7 +37,7 @@
 
 | # | Date | Status | Revision | Screenshot |
 | --- | --- | --- | --- | --- |
-| 126 | 2026-06-03 | ✅ Done | No email for cancellations — Retentions prefers telephone; only other option is physical mail. Update cancellation copy. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/c779a82b-c039-4a10-8721-058af2fb0919.png) |
+| 126 | 2026-06-03 | ✅ Done | No email for cancellations - Retentions prefers telephone; only other option is physical mail. Update cancellation copy. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/c779a82b-c039-4a10-8721-058af2fb0919.png) |
 | 127 | 2026-06-03 | ✅ Done | Don't read like legal advice on state refunds. Say 'ask about the cancellation and refund policy applicable to your purchase.' | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/bb6ea54b-3af8-4cf7-bd4c-9559d8aabe81.png) |
 | 130 | 2026-06-03 | ✅ Done | Clarify or remove the 'live third-party statistics ribbon or single score feed' sentence. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/048e8fc9-3e92-43fc-8c3f-3e761f8a6fde.png) |
 | 144 | 2026-06-05 | ✅ Done | Update headline to 'What's Included?'. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/53343254-05ab-424a-a40a-ebf7c63aed39.png) |
@@ -47,10 +47,10 @@
 | 170 | 2026-06-10 | ✅ Done | New 'How to Use Benefits' section (FCCs/OBCs via Princess.com; Stay Certificates & Hotel Credits via Princess Promotions, +1 888 403 0301 / princesspromotions.com). | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/8a61ce7a-25e0-48ad-a948-c413b9413e8a.png) |
 | 173 | 2026-06-10 | ✅ Done | Update to: 'FCCs can be applied toward Princess cruise fare. Each FCC is worth $1 toward fare and may be used on one booking or split across multiple bookings.' | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/1febbe33-76ba-4167-99f4-68503226911f.png) |
 | 174 | 2026-06-10 | ✅ Done | Update to: 'We've looked through customer reviews and common questions to pull together a few helpful tips and things to know before you buy.' | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/68321175-ff86-4f21-950f-1b119e41788f.png) |
-| 175 | 2026-06-10 | ✅ Done | 'A convenient platform for cruise-related travel' — one place to book and manage travel extras incl. pre/post-cruise hotel stays. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/2cc49c66-949d-4c3b-a441-6d05855154b2.png) |
-| 177 | 2026-06-10 | ✅ Done | 'What FCCs Cover' — new cruise booking, companion's fare on same booking, Princess Plus/Premier, room upgrades and more. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/772a050d-9382-496e-9fe8-d6fac4d77924.png) |
+| 175 | 2026-06-10 | ✅ Done | 'A convenient platform for cruise-related travel' - one place to book and manage travel extras incl. pre/post-cruise hotel stays. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/2cc49c66-949d-4c3b-a441-6d05855154b2.png) |
+| 177 | 2026-06-10 | ✅ Done | 'What FCCs Cover' - new cruise booking, companion's fare on same booking, Princess Plus/Premier, room upgrades and more. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/772a050d-9382-496e-9fe8-d6fac4d77924.png) |
 | 178 | 2026-06-10 | ✅ Done | Rewrite Final Assessment: legitimate program backed by Princess Cruise Lines; best value for guests sailing & staying over the 2-year term; compare benefits/price to planned travel. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/4e2d1ac4-9d70-474c-9ded-95df7a778a6a.png) |
-| 181 | 2026-06-10 | ✅ Done | 'Future Cruise Credits adds meaningful value' — guests already planning to sail with Princess found FCCs useful for travel they intended to book. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/50cd181d-9ee7-4275-9f6d-05285c3283d6.png) |
+| 181 | 2026-06-10 | ✅ Done | 'Future Cruise Credits adds meaningful value' - guests already planning to sail with Princess found FCCs useful for travel they intended to book. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/50cd181d-9ee7-4275-9f6d-05285c3283d6.png) |
 | 182 | 2026-06-10 | ✅ Done | Stay certs: 5-night stays at participating hotels/resorts; usable before/after a cruise or as a standalone land vacation. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/424f6265-90db-4872-afb1-e430ec2806b2.png) |
 | 183 | 2026-06-10 | ✅ Done | Some packages include certificates for 2-night stays before or after your cruise. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/a2a8797a-8d26-4db4-b94e-f904aa7f6b49.png) |
 | 184 | 2026-06-10 | ✅ Done | 'Hotel Credits can help cover eligible hotel or resort stays beyond those included with the other certificates.' | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/eaf8e26b-3702-482c-b59a-ecf0374bc92c.png) |
@@ -76,7 +76,7 @@
 | # | Date | Status | Revision | Screenshot |
 | --- | --- | --- | --- | --- |
 | 125 | 2026-06-03 | ✅ Done | Use plural 'Princess Cruise Lines'. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/0318a7d6-4a28-4030-a3cf-7029bad3370b.png) |
-| 128 | 2026-06-03 | ✅ Done | Missing 'are' — 'what stays are available'. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/3148d0a3-5892-422e-a1f2-20148725d149.png) |
+| 128 | 2026-06-03 | ✅ Done | Missing 'are' - 'what stays are available'. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/3148d0a3-5892-422e-a1f2-20148725d149.png) |
 | 131 | 2026-06-03 | ✅ Done | Should read 'managed by'. | [view](https://media.markup.io/green/comment-screenshots/processed/064829af-de12-4c2a-b446-4cb6d5df78bd/31fd279c-bd19-42a0-a439-567f4e3d833a.png) |
 | 148 | 2026-06-06 | ✅ Done | Match capitalization across the 4 tile headlines. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/c6c12a2f-56ab-47dd-868d-55186e421d33.png) |
 | 149 | 2026-06-06 | ✅ Done | Title-case and reduce size to match other headlines. | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/26b9d16b-7fc4-4eca-8cc7-d7bde09f1dc5.png) |
@@ -104,8 +104,8 @@
 | 75 | 2026-05-15 | ⛔ Blocked | Marlene will provide the verbiage for these paragraphs. | Marlene | [view](https://media.markup.io/green/comment-screenshots/processed/54962222-fb56-4377-b3e3-6b6647ba932e/8c0aae84-7bb4-4684-b50d-a9bc1d9a2359.png) |
 | 98 | 2026-05-20 | ⛔ Blocked | Need Sales Team guidance on how to position this. | Sales Team | [view](https://media.markup.io/green/comment-screenshots/processed/3df19285-600b-4367-bee7-d85ce24e49ac/26d2f4f9-0eb9-4c08-958d-e0861dbb559a.png) |
 | 132 | 2026-06-03 | ⛔ Blocked | Is the video distracting (high-speed portions)? Decision needed. | Stakeholder | [view](https://media.markup.io/green/comment-screenshots/processed/3df19285-600b-4367-bee7-d85ce24e49ac/6831d8e7-ec7f-4337-9c8c-e89fe7115881.png) |
-| 133 | 2026-06-04 | ⛔ Blocked | Narrow these down — Nicole will go over these. | Nicole | [view](https://media.markup.io/green/comment-screenshots/processed/6836e67b-aca2-420f-8157-6b7bb3df5b22/240d43cb-3725-42fb-80e2-6ea7fc337272.png) |
-| 155 | 2026-06-09 | ⛔ Blocked | Mix up image types — more lifestyle pictures, not just ship images. | ONE Agency | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/71f5e5bb-5902-4327-9aaa-5aa759d2c476.png) |
-| 161 | 2026-06-09 | ⛔ Blocked | Too hard to see — visual/design treatment needed. | Design | [view](https://media.markup.io/green/comment-screenshots/processed/54962222-fb56-4377-b3e3-6b6647ba932e/ad79494a-857f-46cd-8024-dffbaa639090.png) |
+| 133 | 2026-06-04 | ⛔ Blocked | Narrow these down - Nicole will go over these. | Nicole | [view](https://media.markup.io/green/comment-screenshots/processed/6836e67b-aca2-420f-8157-6b7bb3df5b22/240d43cb-3725-42fb-80e2-6ea7fc337272.png) |
+| 155 | 2026-06-09 | ⛔ Blocked | Mix up image types - more lifestyle pictures, not just ship images. | ONE Agency | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/71f5e5bb-5902-4327-9aaa-5aa759d2c476.png) |
+| 161 | 2026-06-09 | ⛔ Blocked | Too hard to see - visual/design treatment needed. | Design | [view](https://media.markup.io/green/comment-screenshots/processed/54962222-fb56-4377-b3e3-6b6647ba932e/ad79494a-857f-46cd-8024-dffbaa639090.png) |
 | 195 | 2026-06-12 | ⛔ Blocked | Need different lifestyle images throughout the page. | ONE Agency | [view](https://media.markup.io/green/comment-screenshots/processed/54962222-fb56-4377-b3e3-6b6647ba932e/7f817e3b-8abc-4bad-a2b3-779211e5e64a.png) |
-| 136 | 2026-06-05 | ⛔ Blocked | Update closing copy + move SEO keywords into FAQs. Blocked: v2 closing/SEO section has no V3 home — needs a target location. | Needs target | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/8be2d6ca-2997-4332-b0c7-1fe12a4b6d9a.png) |
+| 136 | 2026-06-05 | ⛔ Blocked | Update closing copy + move SEO keywords into FAQs. Blocked: v2 closing/SEO section has no V3 home - needs a target location. | Needs target | [view](https://media.markup.io/green/comment-screenshots/processed/ad255356-715f-496b-9c08-25afce40457b/8be2d6ca-2997-4332-b0c7-1fe12a4b6d9a.png) |

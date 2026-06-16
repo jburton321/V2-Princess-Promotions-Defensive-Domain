@@ -1,4 +1,4 @@
-# CURSOR PROMPT — Princess Promotions Reviews
+# CURSOR PROMPT - Princess Promotions Reviews
 
 Paste everything below into Cursor as your first prompt after opening this repo.
 
@@ -6,7 +6,7 @@ Paste everything below into Cursor as your first prompt after opening this repo.
 
 ## Context
 
-This repo contains all source files for a competition-grade (Awwwards / CSS Design Awards / FWA) defensive domain review website: **princesspromtionsreviews.com**. It's an independent third-party consumer review site about Princess Promotions — NOT affiliated with Princess Promotions, Princess Cruises, or Carnival Corporation.
+This repo contains all source files for a competition-grade (Awwwards / CSS Design Awards / FWA) defensive domain review website: **princesspromtionsreviews.com**. It's an independent third-party consumer review site about Princess Promotions - NOT affiliated with Princess Promotions, Princess Cruises, or Carnival Corporation.
 
 The files are already organized in this repo. Your job is to convert the single-file HTML site into a component-based Next.js 14 (App Router) project and get it running.
 
@@ -23,7 +23,7 @@ The files are already organized in this repo. Your job is to convert the single-
 ├── src/
 │   └── princesspromtionsreviews-v9.html   ← THE source site. Convert this.
 │
-├── docs/                           ← Reference only — do NOT deploy
+├── docs/                           ← Reference only - do NOT deploy
 │   ├── BRAND-SYSTEM.md             ← Brand rules, colors, type, spacing, animation
 │   ├── defensive-domain-strategy-v3.docx
 │   ├── pp-research-brief.docx
@@ -51,8 +51,8 @@ The files are already organized in this repo. Your job is to convert the single-
 
 Before writing any code:
 
-1. **Read `src/princesspromtionsreviews-v9.html`** in full. This is the complete site — all CSS, HTML, JS, and structured data. Every design decision is intentional.
-2. **Read `docs/BRAND-SYSTEM.md`** for the complete brand reference — colors, typography, logo rules, spacing, animation specs, and rating scores.
+1. **Read `src/princesspromtionsreviews-v9.html`** in full. This is the complete site - all CSS, HTML, JS, and structured data. Every design decision is intentional.
+2. **Read `docs/BRAND-SYSTEM.md`** for the complete brand reference - colors, typography, logo rules, spacing, animation specs, and rating scores.
 
 These two files are your source of truth. If anything in this prompt conflicts with the HTML source, the HTML wins.
 
@@ -72,7 +72,7 @@ Then create this component structure:
 
 ```
 app/
-├── layout.tsx              # Root layout — fonts, metadata, 3 JSON-LD blocks
+├── layout.tsx              # Root layout - fonts, metadata, 3 JSON-LD blocks
 ├── page.tsx                # Main page composing all sections in order
 ├── globals.css             # CSS custom properties from the HTML <style> block
 └── favicon.ico             # Generated from public/favicons/ SVG
@@ -84,12 +84,12 @@ components/
 ├── IndependenceBar.tsx     # Blue accent disclaimer card
 ├── RatingGrid.tsx          # 5-col bento + overall card, counter animations
 ├── ImageDivider.tsx        # Full-width image break (reusable)
-├── WhatIsPP.tsx            # Editorial — media grid, fact strip, callout
-├── PPvsPrincess.tsx        # Editorial — media grid, pull quote, split compare
+├── WhatIsPP.tsx            # Editorial - media grid, fact strip, callout
+├── PPvsPrincess.tsx        # Editorial - media grid, pull quote, split compare
 ├── BigAnswer.tsx           # Centered typographic "Is It a Scam? No." moment
 ├── IssueBento.tsx          # 4-col grid, 6 distinct card types
-├── RedeemFCC.tsx           # Journey bento — phone/stat/action/warning/image
-├── RedeemHotel.tsx         # Editorial — media grid, callout
+├── RedeemFCC.tsx           # Journey bento - phone/stat/action/warning/image
+├── RedeemHotel.tsx         # Editorial - media grid, callout
 ├── TestimonialScroll.tsx   # Horizontal scroll gallery + scroll hint
 ├── FAQAccordion.tsx        # CSS grid expand + rotating plus
 ├── HowWeReview.tsx         # Methodology card
@@ -196,15 +196,15 @@ Apply both as CSS variable classes on `<body>`.
 
 ```typescript
 export const metadata: Metadata = {
-  title: 'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
+  title: 'Princess Promotions Reviews - Scam or Legit? Independent Consumer Review [2026]',
   description: 'Are Princess Promotions Future Cruise Packages worth it? We independently reviewed BBB complaints, hotel credit issues, FCC redemption, and real customer feedback. Read before you buy.',
   keywords: 'Princess Promotions reviews, Princess Promotions scam, is Princess Promotions legit, Princess Promotions hotel credits, Princess Promotions future cruise credit, Princess Promotions cancel, Princess Promotions refund, Princess Promotions vs Princess Cruises, Princess Promotions BBB complaints, Princess Promotions hidden fees, Princess Promotions hotel certificate, Open Network Exchange ONE Inc',
   robots: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large' as const },
   alternates: { canonical: 'https://princesspromtionsreviews.com/' },
   openGraph: {
     type: 'article',
-    title: 'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
-    description: 'We independently investigated Princess Promotions Future Cruise Packages. BBB complaints, hotel credit issues, FCC redemption, and real customer feedback — all reviewed.',
+    title: 'Princess Promotions Reviews - Scam or Legit? Independent Consumer Review [2026]',
+    description: 'We independently investigated Princess Promotions Future Cruise Packages. BBB complaints, hotel credit issues, FCC redemption, and real customer feedback - all reviewed.',
     url: 'https://princesspromtionsreviews.com/',
     siteName: 'Princess Promotions Reviews',
     images: [{ url: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=80', width: 1200, height: 630 }],
@@ -214,19 +214,19 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Princess Promotions Reviews — Scam or Legit? [2026]',
+    title: 'Princess Promotions Reviews - Scam or Legit? [2026]',
     description: 'Independent review of Princess Promotions Future Cruise Packages. Hotel credits, FCCs, BBB complaints, and real customer feedback analyzed.',
     images: ['https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=80'],
   },
 }
 ```
 
-### JSON-LD — 3 Blocks
+### JSON-LD - 3 Blocks
 
 Extract these EXACTLY from the bottom of the HTML file. Render all three in `layout.tsx` via `<script type="application/ld+json">`:
-1. **Organization** — site identity
-2. **Article + AggregateRating** — 3.1/5, 247 reviews (Google star snippets)
-3. **FAQPage** — 5 questions (Google accordion rich snippets)
+1. **Organization** - site identity
+2. **Article + AggregateRating** - 3.1/5, 247 reviews (Google star snippets)
+3. **FAQPage** - 5 questions (Google accordion rich snippets)
 
 ---
 
@@ -269,7 +269,7 @@ Rating numbers count from 0 → target (e.g., 0 → 3.8). requestAnimationFrame,
 ### 5. Scroll Reveal
 All `.rv` elements: opacity 0, translateY(60px) → 1, 0. Easing: cubic-bezier(.16,1,.3,1). Duration 0.8s. Stagger delays rv-d1 to rv-d6 (0.1s increments). Observe once.
 
-### 6. Issue Bento — 6 Card Types (4-col grid)
+### 6. Issue Bento - 6 Card Types (4-col grid)
 | # | Type | Span | Visual Treatment |
 |---|------|------|------------------|
 | 1 | Hero | 2×2 | Navy bg, serif h3, gold stats (50%, #1) |
@@ -307,7 +307,7 @@ npm install
 npm run dev
 ```
 
-Verify at `localhost:3000` — must match the V9 HTML exactly.
+Verify at `localhost:3000` - must match the V9 HTML exactly.
 
 ---
 
@@ -344,7 +344,7 @@ Verify at `localhost:3000` — must match the V9 HTML exactly.
 
 1. **Do NOT rewrite copy.** Based on real BBB/Cruise Critic/PissedConsumer complaint research.
 2. **Do NOT modify JSON-LD schemas.** AggregateRating 3.1/5 and FAQPage are SEO-critical.
-3. **Do NOT change rating scores.** 3.8, 2.6, 2.8, 2.9, 3.4, 3.1 — research-based.
+3. **Do NOT change rating scores.** 3.8, 2.6, 2.8, 2.9, 3.4, 3.1 - research-based.
 4. **Do NOT change the independence disclaimer.** Must name all four entities.
 5. **Do NOT add numbered lists or bullet points.** No `<ol>`, `<ul>`, `<li>`.
 6. **Do NOT change heading case.** All headings are Title Case.

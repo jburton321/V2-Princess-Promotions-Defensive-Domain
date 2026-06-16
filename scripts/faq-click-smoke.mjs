@@ -14,7 +14,7 @@ async function main() {
   const firstItem = page.locator('.faq-sec .faq-item').first()
   const firstBtn = firstItem.locator('.faq-q').first()
 
-  // .rv starts at opacity:0 — Playwright "visible" waits forever until .v is applied
+  // .rv starts at opacity:0 - Playwright "visible" waits forever until .v is applied
   await firstBtn.waitFor({ state: 'attached', timeout: 60_000 })
   await firstBtn.scrollIntoViewIfNeeded()
 

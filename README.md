@@ -1,4 +1,4 @@
-# Princess Promotions Reviews — Handoff Package
+# Princess Promotions Reviews - Handoff Package
 
 ## Quick Start
 
@@ -16,7 +16,7 @@
 | File | Purpose |
 |------|---------|
 | `CURSOR-PROMPT.md` | **Start here.** Comprehensive prompt for Cursor with project structure, component list, design tokens, feature specs, and deployment checklist. |
-| `BRAND-SYSTEM.md` | Complete brand reference — colors, typography, logo rules, spacing, animation specs, rating scores. |
+| `BRAND-SYSTEM.md` | Complete brand reference - colors, typography, logo rules, spacing, animation specs, rating scores. |
 | `README.md` | This file. |
 
 ### Website (1)
@@ -30,17 +30,17 @@
 | File | Purpose |
 |------|---------|
 | `logo-header-with-tagline.svg` | Primary header logo |
-| `logo-horizontal-light.svg` | Horizontal — light bg |
-| `logo-horizontal-dark.svg` | Horizontal — dark bg |
-| `logo-stacked-light.svg` | Stacked — light bg |
-| `logo-stacked-dark.svg` | Stacked — dark bg |
-| `favicon-light.svg` | Favicon — light bg |
-| `favicon-dark.svg` | Favicon — dark bg |
+| `logo-horizontal-light.svg` | Horizontal - light bg |
+| `logo-horizontal-dark.svg` | Horizontal - dark bg |
+| `logo-stacked-light.svg` | Stacked - light bg |
+| `logo-stacked-dark.svg` | Stacked - dark bg |
+| `favicon-light.svg` | Favicon - light bg |
+| `favicon-dark.svg` | Favicon - dark bg |
 | `seal-circle-blue.svg` | Trusted Reviews seal |
 | `seal-framed-lockup.svg` | Branded trust seal |
 | `seal-gold-circle.svg` | Verified seal |
 
-### Reference Docs (3 — do NOT deploy)
+### Reference Docs (3 - do NOT deploy)
 
 | File | Purpose |
 |------|---------|

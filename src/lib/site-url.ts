@@ -1,4 +1,4 @@
-/** Canonical site origin for metadata / OG URLs — never throws on bad env. */
+/** Canonical site origin for metadata / OG URLs - never throws on bad env. */
 export function getSiteUrl(): URL {
   const fallbacks = [
     process.env.NEXT_PUBLIC_SITE_URL,

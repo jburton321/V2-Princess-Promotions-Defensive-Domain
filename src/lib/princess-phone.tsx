@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-/** Princess Cruises main line — display matches dial string (same as 1-800-PRINCESS). */
+/** Princess Cruises main line - display matches dial string (same as 1-800-PRINCESS). */
 export const PRINCESS_PHONE_HREF = 'tel:+18007746237'
 
 export const PRINCESS_PHONE_DISPLAY = '1-800-PRINCESS'

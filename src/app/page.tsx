@@ -12,8 +12,8 @@ import { Verdict } from '@/components/Verdict'
 import { WhatIsPP } from '@/components/WhatIsPP'
 import { WhatWorksWell } from '@/components/WhatWorksWell'
 import { siteImages } from '@/lib/site-images'
-/* IssueBento retained at @/components/IssueBento — omitted from page per Mar 2026 review */
-/* TestimonialScroll hidden per stakeholder Markup (Apr 2026) — restore import when live reviews return */
+/* IssueBento retained at @/components/IssueBento - omitted from page per Mar 2026 review */
+/* TestimonialScroll hidden per stakeholder Markup (Apr 2026) - restore import when live reviews return */
 
 export default function HomePage() {
   return (
