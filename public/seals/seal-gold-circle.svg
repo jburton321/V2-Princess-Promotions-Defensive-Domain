@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 108" width="110" height="108">
-  <circle cx="55" cy="44" r="38" fill="none" stroke="#C4922A" stroke-width="1.5"/>
-  <circle cx="55" cy="44" r="32" fill="none" stroke="#C4922A" stroke-width="0.5"/>
-  <polyline points="39,46 49,56 71,32" fill="none" stroke="#C4922A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="55" y="98" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#C4922A" letter-spacing="1.5">VERIFIED</text>
-</svg>

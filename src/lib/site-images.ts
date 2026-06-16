@@ -5,20 +5,14 @@
 const heroAerial = '/images/hero-aerial.jpg'
 
 export const siteImages = {
-  /** Hero + default social preview (Open Graph / Twitter) */
+  /** Hero background */
   heroBg: '/images/hero-overwater-bungalow.png',
-  /** Sun Princess at sea - big typographic “scam?” section */
-  bigAnswerBg: '/images/big-answer-sun-princess.png',
+  /** Our Final Assessment background (via .verdict-bg in globals.css) */
   verdictBg: '/images/verdict-background.jpg',
-  dividerCruiseAerial: '/images/divider-cruise-fjord-aerial-v2.png',
+  dividerCruiseAerial: '/images/divider-beach-paradise.png',
   howReviewBg: '/images/divider-cruise-ship-aerial.jpg',
   dividerDestination: '/images/golden-gate-bridge-panorama-san-francisco-with-bay-boat.jpg',
-  editorialCruiseInterior: '/images/editorial-royal-princess-v2.png',
-  editorialPrincessShip: '/images/editorial-princess-ship.jpg',
-  issueFccAccounting: '/images/issue-fcc-accounting.jpg',
-  issueHotelCertificates: '/images/issue-hotel-certificates.jpg',
   redemptionCruiseShip: '/images/redemption-cruise-ship.jpg',
-  hotelPool: '/images/hotel-pool.jpg',
-  /** Same file as `heroBg` - OG / Twitter `summary_large_image`. */
+  /** Default social preview (Open Graph / Twitter) */
   openGraph: heroAerial,
 } as const
