@@ -313,6 +313,9 @@ p{font-family:var(--sans)}
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:var(--g);
 }
+.what-is-buy-grid > .what-is-buy-card:nth-child(3):last-child{
+  grid-column:1 / -1;
+}
 @media(max-width:720px){
   .what-is-buy-grid{grid-template-columns:1fr}
 }

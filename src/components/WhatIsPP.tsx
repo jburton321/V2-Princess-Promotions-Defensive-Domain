@@ -13,10 +13,6 @@ export function WhatIsPP() {
         >
           <div className="kicker">Understanding the Program</div>
           <h2>What Is Princess Promotions?</h2>
-          <p className="what-is-intro-sub">
-            In plain terms: it&apos;s the onboard and follow-up offer that bundles cruise credits,
-            hotel value, and perks — packaged for guests who already love Princess.
-          </p>
           <p>
             Princess Promotions is the program that manages Princess Future Cruise Packages and
             provides the redemption and fulfillment site for all travel products included in those
@@ -40,7 +36,8 @@ export function WhatIsPP() {
           <div className="fact f3">
             <div className="fv">Valued at up to $25K</div>
             <div className="fl fact-fl-prose">
-              Total estimated value of travel benefits, based on highest package type.
+              Total published estimated value, including Future Cruise Credits, Onboard Credits, Stay
+              Certificates, Hotel Credits and promotional onboard benefits.
             </div>
           </div>
         </ScrollReveal>
@@ -55,23 +52,31 @@ export function WhatIsPP() {
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
                   Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, land
-                  stays, and perks. Package benefits and credit amounts vary depending on the travel
-                  package selected.
+                  exact benefits depend on what you buy.
                 </p>
               </header>
               <ul className="package-detail-list">
                 <li>
                   <strong>Future Cruise Credits (FCCs)</strong>
                   <span className="pkg-li-body">
-                    FCCs can be applied toward Princess cruise fare. Each FCC is worth $1 toward fare
-                    and may be used on one booking or split across multiple bookings.
+                    Each FCC is worth $1 toward your cruise fare. You can use FCCs across one or more
+                    bookings.
                   </span>
                 </li>
                 <li>
                   <strong>Earn more FCCs</strong>
                   <span className="pkg-li-body">
-                    Shopping name-brand merchandise and wine at princesspromotions.com can earn FCCs
-                    back—select tiers earn up to 25% in FCCs to use towards future cruises.
+                    Some packages may include the ability to earn up to 25% additional FCCs through
+                    qualifying purchases at{' '}
+                    <a
+                      href="https://www.princesspromotions.com"
+                      className="split-inline-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      princesspromotions.com
+                    </a>
+                    .
                   </span>
                 </li>
                 <li>
@@ -92,16 +97,15 @@ export function WhatIsPP() {
                 <li>
                   <strong>Premium Land Stay Certificates</strong>
                   <span className="pkg-li-body">
-                    Packages include certificates that can be redeemed for 5-night stays at
-                    participating hotels and resorts. They can be used before or after a cruise, or as
-                    their own land vacation.
+                    Some packages include certificates that can be redeemed for 2-night stays before or
+                    after your cruise.
                   </span>
                 </li>
                 <li>
                   <strong>Hotel Credits</strong>
                   <span className="pkg-li-body">
-                    Hotel Credits can help cover eligible hotel or resort stays beyond those included
-                    with the other certificates.
+                    Each Hotel Credit is worth $1 and can be used to save on thousands of hotels and
+                    resorts worldwide.
                   </span>
                 </li>
               </ul>
@@ -162,9 +166,10 @@ export function WhatIsPP() {
               </span>
               <h3 className="what-is-buy-card__title">Weigh the whole package.</h3>
               <p className="what-is-buy-card__body">
-                Value comes from the combined bundle—FCCs, land stays, hotel credits, and perks. Does
-                the total package justify the price for how you travel? If you are leaning on one line
-                item alone to make the math work, slow down and compare in writing.
+                Value comes from the combined bundle—Future Cruise Credits, Onboard Credits, land
+                stays, Hotel Credits and perks. Does the total package justify the price for how you
+                travel? If you are leaning on one line item alone to make the math work, slow down and
+                compare in writing.
               </p>
             </li>
             <li className="what-is-buy-card">
@@ -185,18 +190,7 @@ export function WhatIsPP() {
               <h3 className="what-is-buy-card__title">Understand cancellation timing.</h3>
               <p className="what-is-buy-card__body">
                 Most buyers have seven days to cancel from purchase. Florida residents have 30 days,
-                and Washington residents have 15. Cancellations are handled by phone, with written
-                cancellation by mail as the only other option—so call promptly and keep a record.
-              </p>
-            </li>
-            <li className="what-is-buy-card">
-              <span className="what-is-buy-card__num" aria-hidden>
-                04
-              </span>
-              <h3 className="what-is-buy-card__title">Ask about the cancellation and refund policy.</h3>
-              <p className="what-is-buy-card__body">
-                Ask about the cancellation and refund policy that applies to your purchase before
-                signing.
+                and Washington residents have 15.
               </p>
             </li>
           </ul>
