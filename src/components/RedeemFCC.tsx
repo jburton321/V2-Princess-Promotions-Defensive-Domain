@@ -26,8 +26,7 @@ export function RedeemFCC() {
               <h3>FCCs Auto-Apply When You Book</h3>
               <p>
                 When you book a Princess cruise, your Future Cruise Credits apply automatically to the
-                fare. You can also call to have them applied manually to an existing reservation. FCCs
-                can be split across multiple bookings.
+                fare. FCCs can be split across multiple bookings.
               </p>
             </div>
 
@@ -46,7 +45,7 @@ export function RedeemFCC() {
               <div className="j-tag">Good to know</div>
               <h3>Keep your FCC records handy</h3>
               <p>
-                Many travelers save a quick screenshot of their FCC balance around booking changes—a
+                Many travelers save a quick screenshot of their FCC balance around booking changes, a
                 simple habit that makes follow-up easier if a question comes up later.
               </p>
             </div>

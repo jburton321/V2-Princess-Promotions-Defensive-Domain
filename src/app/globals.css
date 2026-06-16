@@ -537,7 +537,7 @@ p{font-family:var(--sans)}
 .j-warn p{color:#5C4A2A}
 .j-stat{background:var(--blue);text-align:center;justify-content:center;align-items:center}
 .j-stat .j-val{font-family:var(--serif);font-size:3.5rem;color:#fff;line-height:1;margin-bottom:.25rem}
-.j-stat .j-val small{font-size:1.2rem;opacity:.5}
+.j-stat .j-val small{font-size:inherit;opacity:.5}
 .j-stat .j-slbl{font-size:.6rem;font-weight:700;color:rgba(255,255,255,.45);letter-spacing:.14em;text-transform:uppercase}
 .j-img{position:relative;overflow:hidden;border:none;min-height:200px;justify-content:flex-end}
 .j-img .j-bg{position:absolute;inset:0;background-size:cover;background-position:center}

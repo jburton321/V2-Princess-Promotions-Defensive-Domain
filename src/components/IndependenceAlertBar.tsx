@@ -74,7 +74,7 @@ export function IndependenceAlertBar() {
   const fullDisclaimer = (
     <>
       This page is managed by a third-party editorial team. <strong>Princess Promotions Reviews</strong>{' '}
-      publishes independent consumer commentary—we are not operated by Princess Promotions, Princess
+      publishes independent consumer commentary. We are not operated by Princess Promotions, Princess
       Cruises, or Carnival Corporation, and nothing here is an official statement from those brands.
       We synthesize public research, complaint forums, verified reader notes, and editorial judgment.
       We are not owned by, sponsored by, or endorsed by Princess Promotions, Princess Cruises, or their

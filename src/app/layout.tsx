@@ -46,7 +46,7 @@ const openGraphImageUrl = new URL(siteImages.openGraph, siteUrl).href
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title:
-    'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
+    'Princess Promotions Reviews - Scam or Legit? Independent Consumer Review [2026]',
   description:
     'Are Princess Promotions Future Cruise Packages worth it? We independently reviewed BBB complaints, hotel credit issues, FCC redemption, and real customer feedback. Read before you buy.',
   keywords:
@@ -61,9 +61,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'article',
     title:
-      'Princess Promotions Reviews — Scam or Legit? Independent Consumer Review [2026]',
+      'Princess Promotions Reviews - Scam or Legit? Independent Consumer Review [2026]',
     description:
-      'We independently investigated Princess Promotions Future Cruise Packages. BBB complaints, hotel credit issues, FCC redemption, and real customer feedback — all reviewed.',
+      'We independently investigated Princess Promotions Future Cruise Packages. BBB complaints, hotel credit issues, FCC redemption, and real customer feedback, all reviewed.',
     url: new URL('/', siteUrl).href,
     siteName: 'Princess Promotions Reviews',
     images: [
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
         width: 1920,
         height: 1155,
         type: 'image/jpeg',
-        alt: 'Aerial view of a cruise ship at sea — Princess Promotions Reviews',
+        alt: 'Aerial view of a cruise ship at sea, Princess Promotions Reviews',
       },
     ],
     locale: 'en_US',
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Princess Promotions Reviews — Scam or Legit? [2026]',
+    title: 'Princess Promotions Reviews - Scam or Legit? [2026]',
     description:
       'Independent review of Princess Promotions Future Cruise Packages. Hotel credits, FCCs, BBB complaints, and real customer feedback analyzed.',
     images: [openGraphImageUrl],

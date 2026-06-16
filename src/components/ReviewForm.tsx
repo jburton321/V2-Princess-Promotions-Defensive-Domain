@@ -53,7 +53,7 @@ export function ReviewForm({ belowHero = false }: ReviewFormProps) {
     <ScrollReveal className="form-c">
         <h2>Submit Your Review</h2>
         <p>
-          Purchased a Princess Promotions Future Cruise Package? Whether great or disappointing — we
+          Purchased a Princess Promotions Future Cruise Package? Whether great or disappointing, we
           want to hear from you.
         </p>
         <form

@@ -28,7 +28,7 @@ export function IssueBento() {
             <div className="nm rd">1</div>
             <h3>Hotel Credits Don&apos;t Work the Way They&apos;re Presented</h3>
             <p>
-              Customers report $600 in credits applying at 50% of face value — only $300 actually
+              Customers report $600 in credits applying at 50% of face value, only $300 actually
               usable. This limitation is not disclosed during the sales pitch. Hotel prices on the
               platform are frequently higher than Booking.com, Expedia, and Hotels.com.
             </p>
@@ -42,11 +42,11 @@ export function IssueBento() {
 
           <ScrollReveal className="i-card i-quote rv-d2">
             <div className="q-text">
-              &quot;Our advisor was incredible during the pitch — called us by name, remembered our
+              &quot;Our advisor was incredible during the pitch, called us by name, remembered our
               anniversary cruise. After we signed? Eleven calls over three weeks. Not a single
               callback.&quot;
             </div>
-            <div className="q-src">Recurring Theme — BBB &amp; PissedConsumer</div>
+            <div className="q-src">Recurring Theme: BBB &amp; PissedConsumer</div>
           </ScrollReveal>
 
           <ScrollReveal className="i-card i-img rv-d3">
@@ -56,7 +56,7 @@ export function IssueBento() {
             <h3>The 7-Day Cancellation Window Is Difficult to Execute</h3>
             <p>
               Some customers report agents becoming unreachable during the cancellation period. Send
-              written cancellation via email immediately — don&apos;t rely on phone calls alone.
+              written cancellation via email immediately, don&apos;t rely on phone calls alone.
             </p>
           </ScrollReveal>
         </div>

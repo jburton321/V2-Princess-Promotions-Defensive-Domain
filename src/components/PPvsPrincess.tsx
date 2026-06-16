@@ -16,7 +16,7 @@ export function PPvsPrincess() {
           <div className="kicker">The Princess connection</div>
           <h2>Is Princess Promotions the Same as Princess Cruises?</h2>
           <p className="entity-split-lead">
-            No—they are related partners, not the same company. Princess Promotions manages package
+            No, they are related partners, not the same company. Princess Promotions manages package
             fulfillment and land products; Princess Cruises handles your sailings and FCC redemption
             on cruise fare. See how to use benefits below.
           </p>

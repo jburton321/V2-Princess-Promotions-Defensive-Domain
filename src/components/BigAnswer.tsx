@@ -17,14 +17,14 @@ export function BigAnswer() {
         <ScrollReveal>
           <p>
             The Future Cruise Credits are real and work. But there are documented, recurring patterns
-            of misleading sales practices — particularly around hotel credits, total cost, and
+            of misleading sales practices, particularly around hotel credits, total cost, and
             post-sale accessibility.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
             The gap between what customers were told and what the fine print says is wide enough that
-            multiple people have used the word &quot;scam&quot; — even though the underlying product is
+            multiple people have used the word &quot;scam,&quot; even though the underlying product is
             legitimate.
           </p>
         </ScrollReveal>

@@ -21,7 +21,7 @@ export function WhatIsPP() {
           </p>
           <p>
             It&apos;s still an <strong>approved promotional program</strong> you&apos;ll see at sea
-            or on a call, with Princess branding and structured redemption paths—not a separate
+            or on a call, with Princess branding and structured redemption paths, not a separate
             cruise line.
           </p>
         </WhatIsPPIntroGrid>
@@ -166,7 +166,7 @@ export function WhatIsPP() {
               </span>
               <h3 className="what-is-buy-card__title">Weigh the whole package.</h3>
               <p className="what-is-buy-card__body">
-                Value comes from the combined bundle—Future Cruise Credits, Onboard Credits, land
+                Value comes from the combined bundle: Future Cruise Credits, Onboard Credits, land
                 stays, Hotel Credits and perks. Does the total package justify the price for how you
                 travel? If you are leaning on one line item alone to make the math work, slow down and
                 compare in writing.

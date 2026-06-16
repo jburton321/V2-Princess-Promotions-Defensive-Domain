@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 const PLACEHOLDER_REVIEWS = [
   {
     quote:
-      'FCCs posted as promised — we applied them to our Alaska booking without any runaround.',
+      'FCCs posted as promised, and we applied them to our Alaska booking without any runaround.',
     by: 'Placeholder review · pending verification',
   },
   {
@@ -37,7 +37,7 @@ export function TestimonialScroll() {
         <ScrollReveal className="testimonial-intro">
           <p>
             Verified reviews from this site will appear here after moderation. Below are{' '}
-            <strong>styled placeholders</strong> so you can see the layout — they are not real
+            <strong>styled placeholders</strong> so you can see the layout, they are not real
             submissions yet.
           </p>
         </ScrollReveal>
