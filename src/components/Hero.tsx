@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { siteImages } from '@/lib/site-images'
 
 export function Hero() {
   return (
@@ -7,7 +8,7 @@ export function Hero() {
       <div className="hero-bg" aria-hidden>
         <Image
           className="hero-bg-video"
-          src="/images/hero-overwater-bungalow.png"
+          src={siteImages.heroBg}
           alt=""
           fill
           priority

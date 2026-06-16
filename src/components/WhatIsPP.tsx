@@ -1,16 +1,11 @@
 import { PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
-import { WhatIsPPIntroGrid } from '@/components/WhatIsPPIntroGrid'
-import { siteImages } from '@/lib/site-images'
 
 export function WhatIsPP() {
   return (
     <section className="sec band-page" id="what-is-pp">
       <div className="editorial">
-        <WhatIsPPIntroGrid
-          imageSrc={siteImages.editorialCruiseInterior}
-          imageAlt="Princess Promotions onboard sales presentation - cruise ship interior"
-        >
+        <ScrollReveal>
           <div className="kicker">Understanding the Program</div>
           <h2>What Is Princess Promotions?</h2>
           <p>
@@ -24,7 +19,7 @@ export function WhatIsPP() {
             or on a call, with Princess branding and structured redemption paths, not a separate
             cruise line.
           </p>
-        </WhatIsPPIntroGrid>
+        </ScrollReveal>
 
         <ScrollReveal className="facts">
           <div className="fact f1">

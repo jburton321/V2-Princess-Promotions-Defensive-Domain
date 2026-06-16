@@ -6,12 +6,13 @@ const heroAerial = '/images/hero-aerial.jpg'
 
 export const siteImages = {
   /** Hero + default social preview (Open Graph / Twitter) */
-  heroBg: heroAerial,
+  heroBg: '/images/hero-overwater-bungalow.png',
   /** Sun Princess at sea — big typographic “scam?” section */
   bigAnswerBg: '/images/big-answer-sun-princess.png',
   verdictBg: '/images/verdict-background.jpg',
-  dividerCruiseAerial: '/images/divider-cruise-fjord-aerial.png',
-  dividerDestination: '/images/divider-corniche-coast.png',
+  dividerCruiseAerial: '/images/divider-cruise-fjord-aerial-v2.png',
+  howReviewBg: '/images/divider-cruise-ship-aerial.jpg',
+  dividerDestination: '/images/divider-walkway-fortress.png',
   editorialCruiseInterior: '/images/editorial-royal-princess-v2.png',
   editorialPrincessShip: '/images/editorial-princess-ship.jpg',
   issueFccAccounting: '/images/issue-fcc-accounting.jpg',

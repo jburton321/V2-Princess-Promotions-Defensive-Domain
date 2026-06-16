@@ -6,7 +6,7 @@ export function HowWeReview() {
     <section className="how-review sec-sm band-page" id="how-we-review">
       <div
         className="how-review-bg"
-        style={{ backgroundImage: `url('${siteImages.dividerCruiseAerial}')` }}
+        style={{ backgroundImage: `url('${siteImages.howReviewBg}')` }}
         aria-hidden
       />
       <div className="how-review-in">
