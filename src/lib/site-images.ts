@@ -6,12 +6,12 @@ const heroAerial = '/images/hero-aerial.jpg'
 
 export const siteImages = {
   /** Hero background */
-  heroBg: '/images/hero-overwater-bungalow.png',
+  heroBg: '/images/hero-california-sunset.png',
   /** Our Final Assessment background (via .verdict-bg in globals.css) */
   verdictBg: '/images/verdict-background.jpg',
   dividerCruiseAerial: '/images/divider-beach-paradise.png',
   howReviewBg: '/images/bck2.png',
-  dividerDestination: '/images/golden-gate-bridge-panorama-san-francisco-with-bay-boat.jpg',
+  dividerDestination: '/images/bck4.png',
   redemptionCruiseShip: '/images/redemption-cruise-ship.jpg',
   /** Default social preview (Open Graph / Twitter) */
   openGraph: heroAerial,

@@ -5,7 +5,6 @@ import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
 import { BentoGrid } from '@/components/BentoGrid'
 import { ImageDivider } from '@/components/ImageDivider'
-import { ProgressBar } from '@/components/ProgressBar'
 import { RedeemFCC } from '@/components/RedeemFCC'
 import { StickyMobileCta } from '@/components/StickyMobileCta'
 import { ReviewsStatus } from '@/components/ReviewsStatus'
@@ -19,7 +18,6 @@ import { siteImages } from '@/lib/site-images'
 export default function HomePage() {
   return (
     <div className="page-sections">
-      <ProgressBar />
       <Hero />
       <WhatIsPP />
       <BentoGrid />
