@@ -147,6 +147,24 @@ p{font-family:var(--sans)}
 .img-div{width:100%;height:50vh;min-height:300px;max-height:500px;overflow:hidden;position:relative}
 .img-div img{width:100%;height:100%;object-fit:cover;display:block}
 
+/* BENTO GRID - exact 4col x 2row rectangle, fully tiled, locked to 2:1 so every cell is square */
+.bento-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:repeat(2,1fr);
+  gap:.75rem;
+  aspect-ratio:2 / 1;
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:.75rem;
+}
+.bento-cell{position:relative;overflow:hidden;border-radius:14px}
+.bento-cell img{width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:700px){
+  .bento-grid{aspect-ratio:1 / 1;gap:.5rem;padding:.5rem}
+}
+
 /* BLOG / EDITORIAL */
 .editorial{max-width:1100px;margin:0 auto}
 .editorial h2{font-family:var(--serif);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:400;color:var(--navy);line-height:1.1;letter-spacing:-.02em;margin-bottom:1.5rem}
@@ -627,7 +645,7 @@ p{font-family:var(--sans)}
 
 /* VERDICT */
 .verdict{position:relative;padding:8rem 1.5rem;overflow:hidden}
-.verdict-bg{position:absolute;inset:0;background:url('/images/verdict-background.jpg') center/cover}
+.verdict-bg{position:absolute;inset:0;background:#121c2a}
 .verdict-ov{position:absolute;inset:0;background:rgba(18,28,42,.9)}
 .verdict-in{position:relative;z-index:2;max-width:1100px;margin:0 auto}
 .verdict .kicker{color:var(--gold);margin-bottom:1rem}

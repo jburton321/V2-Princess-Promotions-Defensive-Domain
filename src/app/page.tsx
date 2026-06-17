@@ -3,6 +3,7 @@ import { FAQAccordion } from '@/components/FAQAccordion'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
+import { BentoGrid } from '@/components/BentoGrid'
 import { ImageDivider } from '@/components/ImageDivider'
 import { ProgressBar } from '@/components/ProgressBar'
 import { RedeemFCC } from '@/components/RedeemFCC'
@@ -21,10 +22,7 @@ export default function HomePage() {
       <ProgressBar />
       <Hero />
       <WhatIsPP />
-      <ImageDivider
-        src={siteImages.dividerCruiseAerial}
-        alt="Princess Promotions cruise ship review - aerial view of Princess Cruises vessel at sea"
-      />
+      <BentoGrid />
       <WhatWorksWell />
       <ImageDivider
         src={siteImages.dividerDestination}

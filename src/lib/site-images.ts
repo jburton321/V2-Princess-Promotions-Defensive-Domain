@@ -10,7 +10,7 @@ export const siteImages = {
   /** Our Final Assessment background (via .verdict-bg in globals.css) */
   verdictBg: '/images/verdict-background.jpg',
   dividerCruiseAerial: '/images/divider-beach-paradise.png',
-  howReviewBg: '/images/divider-cruise-ship-aerial.jpg',
+  howReviewBg: '/images/bck2.png',
   dividerDestination: '/images/golden-gate-bridge-panorama-san-francisco-with-bay-boat.jpg',
   redemptionCruiseShip: '/images/redemption-cruise-ship.jpg',
   /** Default social preview (Open Graph / Twitter) */
