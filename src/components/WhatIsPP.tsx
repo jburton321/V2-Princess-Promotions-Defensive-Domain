@@ -85,8 +85,9 @@ export function WhatIsPP() {
                 <li>
                   <strong>Pre- or Post-Cruise Hotel Stay Certificates</strong>
                   <span className="pkg-li-body">
-                    Some packages include certificates that can be redeemed for 2-night stays before or
-                    after your cruise.
+                    Packages include certificates that can be redeemed for 5-night stays at participating
+                    hotels and resorts. They can be used before or after a cruise, or as their own land
+                    vacation.
                   </span>
                 </li>
                 <li>
