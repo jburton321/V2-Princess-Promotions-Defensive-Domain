@@ -15,9 +15,8 @@ export function WhatIsPP() {
             Lines.
           </p>
           <p>
-            It&apos;s still an <strong>approved promotional program</strong> you&apos;ll see at sea
-            or on a call, with Princess branding and structured redemption paths, not a separate
-            cruise line.
+            It&apos;s a Princess <strong>approved promotional program</strong> sold at sea or over
+            the phone, with Princess branded and structured redemptions paths.
           </p>
         </ScrollReveal>
 
@@ -46,8 +45,8 @@ export function WhatIsPP() {
                   <span className="hotel-fcc-distinction-accent-word">What&apos;s Included?</span>
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
-                  Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, land
-                  exact benefits depend on what you buy.
+                  Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, exact
+                  land benefits depend on what you buy.
                 </p>
               </header>
               <ul className="package-detail-list">
@@ -85,16 +84,16 @@ export function WhatIsPP() {
                 <li>
                   <strong>Pre- or Post-Cruise Hotel Stay Certificates</strong>
                   <span className="pkg-li-body">
-                    Packages include certificates that can be redeemed for 5-night stays at participating
-                    hotels and resorts. They can be used before or after a cruise, or as their own land
-                    vacation.
+                    Some packages include certificates that can be redeemed for 2-night stays before or
+                    after your cruise.
                   </span>
                 </li>
                 <li>
                   <strong>Premium Land Stay Certificates</strong>
                   <span className="pkg-li-body">
-                    Some packages include certificates that can be redeemed for 2-night stays before or
-                    after your cruise.
+                    Packages include certificates that can be redeemed for 5-night stays at participating
+                    hotels and resorts. They can be used before or after a cruise, or as their own land
+                    vacation.
                   </span>
                 </li>
                 <li>

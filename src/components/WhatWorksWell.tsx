@@ -96,8 +96,7 @@ export function WhatWorksWell() {
               <h3>Limited-Time Offers While You&apos;re Still Onboard Are Legitimate</h3>
               <p>
                 Some offers are available only during your sailing. Ask what offers remain available after
-                you leave the ship and capture anything time-sensitive in writing so you can weigh it
-                calmly later.
+                you leave the ship and capture anything time-sensitive in writing.
               </p>
             </div>
           </ScrollReveal>
