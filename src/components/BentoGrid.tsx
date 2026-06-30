@@ -33,8 +33,8 @@ const defaultTiles: BentoTile[] = [
     area: '2 / 3 / 3 / 4',
   },
   {
-    src: '/images/lifestyle-beach-walk-couple.png',
-    alt: 'Couple walking along a sunny beach promenade on holiday',
+    src: '/images/cruise-ship-deck-pools.jpg',
+    alt: 'Aerial view of a cruise ship top deck with pools, water slides, and lounge areas at sea',
     area: '2 / 4 / 3 / 5',
   },
 ]
