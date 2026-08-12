@@ -1,6 +1,49 @@
 import { PrincessPromotionsDirectLink } from '@/lib/princess-phone'
 import { ScrollReveal } from '@/components/ScrollReveal'
 
+const CUSTOMER_REVIEWS = [
+  {
+    quote:
+      'The package provided great value, flexibility, and attractive benefits that made booking my future cruises easy and rewarding. The onboard credits, promotions, and overall booking experience exceeded my expectations.',
+    by: 'Naser E.',
+  },
+  {
+    quote:
+      'We still had some package benefits remaining & we were not sure how to or what use them on. A rep from Princess Promotions called so we were able to use all the package benefits.',
+    by: 'Richard J.',
+  },
+  {
+    quote:
+      'The package was good value for money, but there were limited options for travel using the certificate. If you want to get a good value for money out of it, you really only have a few choices as to where you can stay.',
+    by: 'Shannon P.',
+  },
+  {
+    quote:
+      'The Concierge Team has been excellent. They helped me get started with the online tool and then helped us get a great deal on our 5 night stay coming up in February. They also helped when I made a mistake on a reservation and straightened it out for me right away.',
+    by: 'Patricia G.',
+  },
+  {
+    quote:
+      'Always easy to book, incredibly great options on hotels, and everything was easy to do. A great value.',
+    by: 'Laurie G.',
+  },
+  {
+    quote:
+      'Although, we found the time limit to travel can be challenging, we are excited that we are gonna visit great destinations, and not lose any of our FFC.',
+    by: 'Amando D.',
+  },
+  {
+    quote:
+      'We were able to make a bucket list trip come true and we were able to choose hotels at the initial port and terminal port using the package.',
+    by: 'George C.',
+  },
+  {
+    quote:
+      'Easy to use and claim overall. And the portal helped to see what credits were left and how to claim',
+    by: 'Andrew K.',
+  },
+]
+
 export function WhatIsPP() {
   return (
     <section className="sec band-page" id="what-is-pp">
@@ -9,14 +52,13 @@ export function WhatIsPP() {
           <div className="kicker">Understanding the Program</div>
           <h2>What Is Princess Promotions?</h2>
           <p>
-            Princess Promotions is the program that manages Princess Future Cruise Packages and
-            provides the redemption and fulfillment site for all travel products included in those
-            packages. Princess Future Cruise Packages are endorsed and supported by Princess Cruise
-            Lines.
+            Princess Promotions is an authorized partner of Princess Cruise Lines, offering Princess
+            Future Cruise Packages and products designed to enhance the guest vacation experience.
           </p>
           <p>
-            It&apos;s a Princess <strong>approved promotional program</strong> sold at sea or over
-            the phone, with Princess branded and structured redemptions paths.
+            Sold onboard or over the phone, Future Cruise Packages provide customer value by
+            combining Future Cruise Credits, Onboard Credits, Stay Certificates, Hotel Savings and
+            more.
           </p>
         </ScrollReveal>
 
@@ -45,8 +87,8 @@ export function WhatIsPP() {
                   <span className="hotel-fcc-distinction-accent-word">What&apos;s Included?</span>
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
-                  Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, exact
-                  land benefits depend on what you buy.
+                  Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits, Stay
+                  Certificates and more. Included benefits and amounts vary by package.
                 </p>
               </header>
               <ul className="package-detail-list">
@@ -97,10 +139,9 @@ export function WhatIsPP() {
                   </span>
                 </li>
                 <li>
-                  <strong>Hotel Credits</strong>
+                  <strong>Hotel Savings</strong>
                   <span className="pkg-li-body">
-                    Each Hotel Credit is worth $1 and can be used to save on thousands of hotels and
-                    resorts worldwide.
+                    Save up to 25% on thousands of hotels worldwide.
                   </span>
                 </li>
               </ul>
@@ -154,6 +195,28 @@ export function WhatIsPP() {
         </ScrollReveal>
 
         <ScrollReveal>
+          <h3 className="buy-subhead">Read Customer Reviews</h3>
+          <p className="buy-subhead-note">
+            Feedback shared by travelers who purchased a Princess Future Cruise Package.
+          </p>
+        </ScrollReveal>
+        <ScrollReveal>
+          <div className="testimonial-ribbon" role="list" aria-label="Customer reviews">
+            {CUSTOMER_REVIEWS.map((review) => (
+              <figure key={review.quote} className="testimonial-ribbon-card" role="listitem">
+                <blockquote className="testimonial-ribbon-quote">
+                  &ldquo;{review.quote}&rdquo;
+                </blockquote>
+                <figcaption className="testimonial-ribbon-by">{review.by}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h3 className="buy-subhead">More Considerations</h3>
+        </ScrollReveal>
+        <ScrollReveal>
           <ul className="what-is-buy-grid" aria-label="What to evaluate before you buy">
             <li className="what-is-buy-card">
               <span className="what-is-buy-card__num" aria-hidden>
@@ -161,10 +224,10 @@ export function WhatIsPP() {
               </span>
               <h3 className="what-is-buy-card__title">Weigh the whole package.</h3>
               <p className="what-is-buy-card__body">
-                Value comes from the combined bundle: Future Cruise Credits, Onboard Credits, land
-                stays, Hotel Credits and perks. Does the total package justify the price for how you
-                travel? If you are leaning on one line item alone to make the math work, slow down and
-                compare in writing.
+                Value comes from the combined bundle: Future Cruise Credits, Onboard Credits, Land
+                Stay Certificates, Hotel Savings and more. If one benefit is carrying most of the
+                value for you, compare the numbers carefully and determine whether the overall
+                package still makes sense for your travel plans.
               </p>
             </li>
             <li className="what-is-buy-card">
@@ -173,9 +236,10 @@ export function WhatIsPP() {
               </span>
               <h3 className="what-is-buy-card__title">Get the total cost in writing.</h3>
               <p className="what-is-buy-card__body">
-                Ask for a line-by-line breakdown of the purchase price, all installments, and any
-                additional fees. Multiple complaints stem from consumers who believed the down payment
-                was the total cost.
+                Ask for a line-by-line breakdown of the price and any installments, and any
+                additional fees. Some buyers have reported misunderstanding the total purchase price,
+                believing the initial payment represented the full cost. Requesting a written
+                breakdown can help avoid confusion.
               </p>
             </li>
             <li className="what-is-buy-card">
@@ -186,6 +250,17 @@ export function WhatIsPP() {
               <p className="what-is-buy-card__body">
                 Most buyers have seven days to cancel from purchase. Florida residents have 30 days,
                 and Washington residents have 15.
+              </p>
+            </li>
+            <li className="what-is-buy-card">
+              <span className="what-is-buy-card__num" aria-hidden>
+                04
+              </span>
+              <h3 className="what-is-buy-card__title">Know how you plan to use the benefits.</h3>
+              <p className="what-is-buy-card__body">
+                Think about how soon you&apos;ll take another Princess cruise, whether you&apos;ll use
+                the certificates and credits, and whether the included benefits fit your travel
+                style.
               </p>
             </li>
           </ul>

@@ -19,16 +19,16 @@ export default function HomePage() {
   return (
     <div className="page-sections">
       <Hero />
+      <HowWeReview />
       <WhatIsPP />
       <BentoGrid />
       <WhatWorksWell />
       <ImageDivider
         src={siteImages.dividerDestination}
-        alt="Princess Promotions vacation package destination - scenic travel landscape"
+        alt="Princess Cruises ship at sea at sunset - Princess Future Cruise Packages"
       />
       <RedeemFCC />
       <FAQAccordion />
-      <HowWeReview />
       <Verdict />
       <ReviewsStatus />
       <DualTabForms />

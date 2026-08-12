@@ -9,9 +9,9 @@ export const siteImages = {
   heroBg: '/images/hero-california-sunset.png',
   /** Our Final Assessment background (via .verdict-bg in globals.css) */
   verdictBg: '/images/verdict-background.jpg',
-  dividerCruiseAerial: '/images/divider-beach-paradise.png',
-  howReviewBg: '/images/bck2.png',
-  dividerDestination: '/images/bck4.png',
+  dividerCruiseAerial: '/images/divider-cruise-ship-aerial.jpg',
+  howReviewBg: '/images/divider-beach-paradise.png',
+  dividerDestination: '/images/bck2.png',
   redemptionCruiseShip: '/images/redemption-cruise-ship.jpg',
   /** Default social preview (Open Graph / Twitter) */
   openGraph: heroAerial,

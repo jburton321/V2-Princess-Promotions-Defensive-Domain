@@ -29,8 +29,9 @@ export function Hero() {
         </h1>
         <p className="hero-sub">
           Looking for more information about Princess Promotions or Princess Future Cruise Packages?
-          Wondering whether it&apos;s too good to be true? We&apos;ve reviewed how it works, what
-          buyers should know, common questions, and key factors to consider before purchasing.
+          Princess Promotions partnered with a third-party review team to create this website that
+          outlines how the program works, answers common questions, shares customer reviews, and
+          highlights key factors to consider before purchasing.
         </p>
         <div className="hero-cta-row">
           <Link href="#share-feedback" className="hero-cta">

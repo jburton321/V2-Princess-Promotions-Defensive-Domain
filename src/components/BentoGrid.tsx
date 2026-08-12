@@ -23,8 +23,8 @@ const defaultTiles: BentoTile[] = [
     area: '1 / 1 / 3 / 3',
   },
   {
-    src: '/images/lifestyle-couple-overlook.png',
-    alt: 'Couple in sunglasses relaxing on a wall with mountain views',
+    src: '/images/lifestyle-mature-couple-overlook.png',
+    alt: 'Mature couple relaxing on a stone wall at a coastal overlook',
     area: '1 / 3 / 2 / 5',
   },
   {
@@ -33,8 +33,8 @@ const defaultTiles: BentoTile[] = [
     area: '2 / 3 / 3 / 4',
   },
   {
-    src: '/images/cruise-ship-deck-pools.jpg',
-    alt: 'Aerial view of a cruise ship top deck with pools, water slides, and lounge areas at sea',
+    src: '/images/divider-cruise-ship-aerial.jpg',
+    alt: 'Princess Cruises ship sailing through an Alaskan fjord',
     area: '2 / 4 / 3 / 5',
   },
 ]

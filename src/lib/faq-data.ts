@@ -6,6 +6,10 @@ export const faqItems: { q: string; a: string }[] = [
     a: 'Princess Promotions is a partner contracted by Princess Cruise Lines to offer and fulfill vacation products that add value to the cruise experience, both onboard during your sailing and via phone following your cruise. Princess Cruise Lines manages your sailings, including the application of Future Cruise Credits and Onboard Credits. Princess Promotions manages the fulfillment of Future Cruise Packages, including your hotel and resort benefits and how you can earn additional Future Cruise Credits while shopping on princesspromotions.com. Princess Future Cruise Packages are endorsed and supported by Princess Cruise Lines.',
   },
   {
+    q: 'What Is the "Open Network Exchange" Mentioned in Some Materials?',
+    a: 'Open Network Exchange (ONE) administers and fulfills purchases, benefits, and transactions for Princess Future Cruise Packages offered by Princess Promotions.',
+  },
+  {
     q: 'What Is the Best Way to Reach My Princess Promotions Representative?',
     a: 'You can call +1 888 403 0301, Monday - Friday 6am-8pm, Saturday - Sunday 7am-6pm PT and ask for your representative. If they are not available, a supervisor or a different representative will be there to help.',
   },

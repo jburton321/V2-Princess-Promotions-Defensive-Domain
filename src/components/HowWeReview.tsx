@@ -13,11 +13,10 @@ export function HowWeReview() {
         <ScrollReveal className="m-box">
           <h2>How We Review</h2>
           <p>
-            Our editors weigh public complaint patterns, cruise-community discussion, official
-            disclosures, and moderated reader submissions. We evaluate total Future Cruise Package
-            value, hotel offers, sales transparency, post-sale support, and overall package fit,
-            refreshing
-            conclusions when credible new feedback arrives.
+            Our editors weigh customer feedback, cruise-community discussions, and moderated reader
+            submissions. We evaluate the Future Cruise Package&apos;s total value, its individual
+            components, the sales experience, and post-sale support, refreshing conclusions when
+            credible new feedback arrives.
           </p>
         </ScrollReveal>
       </div>

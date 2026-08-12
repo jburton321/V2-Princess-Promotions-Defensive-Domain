@@ -322,6 +322,25 @@ p{font-family:var(--sans)}
   .hotel-fcc-lane{padding-top:1rem}
 }
 
+/* Before You Buy - section subheads above reviews and consideration cards */
+.buy-subhead{
+  font-family:var(--serif);
+  font-size:clamp(1.25rem,2.6vw,1.7rem);
+  font-weight:400;
+  color:var(--navy);
+  letter-spacing:-0.02em;
+  line-height:1.15;
+  margin:2.5rem 0 0.5rem;
+}
+.buy-subhead-note{
+  font-family:var(--sans);
+  font-size:0.88rem;
+  line-height:1.65;
+  color:var(--tx2);
+  margin:0 0 1rem;
+}
+.buy-subhead-note strong{font-weight:600;color:var(--navy-mid)}
+
 /* Before You Buy - 2-column numbered cards */
 .what-is-buy-grid{
   list-style:none;

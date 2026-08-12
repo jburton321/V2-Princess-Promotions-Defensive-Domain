@@ -12,14 +12,16 @@ export function Verdict() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Princess Promotions is a legitimate program backed by Princess Cruise Lines, with benefits
-            that can bring added value to Princess guests.
+            Princess Promotions is a legitimate program that can provide added value to guests
+            planning to sail with Princess Cruise Lines.
           </p>
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Reviewers commonly have questions about Hotel Credits, including which hotels and resort
-            properties they can be applied to.
+            Reviewers commonly have questions about Hotel Savings, including which hotels and resort
+            properties they can be applied to. Customers who are familiar with the benefits,
+            restrictions, and redemption requirements are more likely to be satisfied with the
+            package.
           </p>
         </ScrollReveal>
         <ScrollReveal>
