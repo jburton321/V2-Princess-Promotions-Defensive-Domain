@@ -116,7 +116,7 @@ export function WhatIsPP() {
                 </div>
                 <div className="hotel-fcc-lane hotel-fcc-lane--hotel">
                   <p>
-                    Stay Certificates and Hotel Credits can be redeemed through Princess Promotions by
+                    Stay Certificates and Hotel Savings can be redeemed through Princess Promotions by
                     calling <PrincessPromotionsDirectLink /> or visiting{' '}
                     <a
                       href="https://www.princesspromotions.com"

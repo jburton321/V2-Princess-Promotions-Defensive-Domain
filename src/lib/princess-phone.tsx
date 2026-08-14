@@ -35,46 +35,41 @@ export function PrincessPromotionsDirectLink({ className }: { className?: string
   )
 }
 
-/** FAQ answers: link main line and +1 888 403 0301 when present. */
+const FAQ_PHONE_TOKENS = [
+  { display: '+1 (888) 403-0301', href: PP_DIRECT_HREF },
+  { display: PP_DIRECT_DISPLAY, href: PP_DIRECT_HREF },
+  { display: '+1 (800) PRINCESS', href: PRINCESS_PHONE_HREF },
+  { display: PRINCESS_PHONE_DISPLAY, href: PRINCESS_PHONE_HREF },
+] as const
+
+/** FAQ answers: link Princess and Princess Promotions numbers in any display format used on the page. */
 export function TextWithMarkupPhones({ text }: { text: string }): ReactNode {
-  const direct = PP_DIRECT_DISPLAY
-  const princess = PRINCESS_PHONE_DISPLAY
   const out: ReactNode[] = []
   let i = 0
   let k = 0
 
   while (i < text.length) {
-    const pi = text.indexOf(princess, i)
-    const di = text.indexOf(direct, i)
-    let pick: 'p' | 'd' | null = null
     let at = -1
-    if (pi !== -1 && (di === -1 || pi <= di)) {
-      pick = 'p'
-      at = pi
-    } else if (di !== -1) {
-      pick = 'd'
-      at = di
+    let token: (typeof FAQ_PHONE_TOKENS)[number] | null = null
+    for (const candidate of FAQ_PHONE_TOKENS) {
+      const found = text.indexOf(candidate.display, i)
+      if (found === -1) continue
+      if (at === -1 || found < at) {
+        at = found
+        token = candidate
+      }
     }
-    if (pick === null) {
+    if (token === null || at === -1) {
       out.push(text.slice(i))
       break
     }
     if (at > i) out.push(text.slice(i, at))
-    if (pick === 'p') {
-      out.push(
-        <a key={k++} href={PRINCESS_PHONE_HREF} className="tel-princess">
-          {princess}
-        </a>
-      )
-      i = at + princess.length
-    } else {
-      out.push(
-        <a key={k++} href={PP_DIRECT_HREF} className="tel-princess">
-          {direct}
-        </a>
-      )
-      i = at + direct.length
-    }
+    out.push(
+      <a key={k++} href={token.href} className="tel-princess">
+        {token.display}
+      </a>
+    )
+    i = at + token.display.length
   }
   return <>{out}</>
 }

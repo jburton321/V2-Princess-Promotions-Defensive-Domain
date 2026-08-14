@@ -6,12 +6,8 @@ export const faqItems: { q: string; a: string }[] = [
     a: 'Princess Promotions is a partner contracted by Princess Cruise Lines to offer and fulfill vacation products that add value to the cruise experience, both onboard during your sailing and via phone following your cruise. Princess Cruise Lines manages your sailings, including the application of Future Cruise Credits and Onboard Credits. Princess Promotions manages the fulfillment of Future Cruise Packages, including your hotel and resort benefits and how you can earn additional Future Cruise Credits while shopping on princesspromotions.com. Princess Future Cruise Packages are endorsed and supported by Princess Cruise Lines.',
   },
   {
-    q: 'What Is the "Open Network Exchange" Mentioned in Some Materials?',
-    a: 'Open Network Exchange (ONE) administers and fulfills purchases, benefits, and transactions for Princess Future Cruise Packages offered by Princess Promotions.',
-  },
-  {
     q: 'What Is the Best Way to Reach My Princess Promotions Representative?',
-    a: 'You can call +1 888 403 0301, Monday - Friday 6am-8pm, Saturday - Sunday 7am-6pm PT and ask for your representative. If they are not available, a supervisor or a different representative will be there to help.',
+    a: 'You can call +1 (888) 403-0301, Monday - Friday 6am-8pm, Saturday - Sunday 7am-6pm PT and ask for your representative. If they are not available, a supervisor or a different representative will be there to help.',
   },
   {
     q: 'Can I Cancel My Future Cruise Package?',
@@ -19,7 +15,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'What Should I Do If I Have a Question About a Payment Charge?',
-    a: 'For payment questions, you can contact Princess Promotions at +1 888 403 0301, Monday - Friday 6am-8pm or Saturday - Sunday 7am-6pm PT.',
+    a: 'For payment questions, you can contact Princess Promotions at +1 (888) 403-0301, Monday - Friday 6am-8pm or Saturday - Sunday 7am-6pm PT.',
   },
   {
     q: "I'm Considering Buying a Future Cruise Package Onboard. What Should I Know?",
@@ -27,7 +23,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'Where Can I Find My Current Future Cruise Credit (FCC) Balance?',
-    a: 'To check your FCC balance or if you have questions about your FCCs, you can call Princess at 1-800-PRINCESS.',
+    a: 'To check your FCC balance or if you have questions about your FCCs, you can call Princess at +1 (800) PRINCESS.',
   },
   {
     q: 'Do Future Cruise Credits and Hotel and Resort Stay Certificates Expire?',
@@ -35,7 +31,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'How Are Hotel Credits Different From Future Cruise Credits (FCCs)?',
-    a: "Hotel Credits and FCCs are two separate benefits that are used in different ways. FCCs can be applied to your Princess cruise fare, a travel companion's fare, Princess Plus or Premier packages, room upgrades, and more. FCCs can be redeemed by calling +1 888 403 0301, booking online at princess.com, or working with a Travel Advisor or Cruise Vacation Planner. Hotel Credits can be applied to save on thousands of hotels and resorts around the world. Hotel Credits can be redeemed online at princesspromotions.com or by calling +1 888 403 0301.",
+    a: "Hotel Credits and FCCs are two separate benefits that are used in different ways. FCCs can be applied to your Princess cruise fare, a travel companion's fare, Princess Plus or Premier packages, room upgrades, and more. FCCs can be redeemed by calling +1 (888) 403-0301, booking online at princess.com, or working with a Travel Advisor or Cruise Vacation Planner.\n\nHotel Credits can be applied to save on thousands of hotels and resorts around the world. Hotel Credits can be redeemed online at princesspromotions.com or by calling +1 (888) 403-0301.",
   },
   {
     q: 'What Can Hotel Credits Be Applied Towards?',

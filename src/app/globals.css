@@ -621,6 +621,7 @@ p{font-family:var(--sans)}
 .faq-a-in{min-height:0;overflow:hidden;padding:0 1.5rem}
 .faq-item.open .faq-a-in{padding-bottom:1.25rem}
 .faq-a-in p{font-size:.9rem;color:var(--tx2);line-height:1.7}
+.faq-a-in p + p{margin-top:.85rem}
 
 /* METHODOLOGY */
 .m-box{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:2.5rem;max-width:1100px;margin:0 auto}

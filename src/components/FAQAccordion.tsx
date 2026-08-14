@@ -57,9 +57,11 @@ function FAQBlock({
           {...(open ? {} : { 'aria-hidden': 'true' as const })}
         >
           <div className="faq-a-in">
-            <p>
-              <TextWithMarkupPhones text={item.a} />
-            </p>
+            {item.a.split('\n\n').map((paragraph) => (
+              <p key={paragraph.slice(0, 48)}>
+                <TextWithMarkupPhones text={paragraph} />
+              </p>
+            ))}
           </div>
         </div>
       </div>
