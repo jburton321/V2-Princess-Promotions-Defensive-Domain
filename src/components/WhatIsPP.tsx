@@ -30,7 +30,7 @@ export function WhatIsPP() {
             <div className="fv">Valued at up to $25K</div>
             <div className="fl fact-fl-prose">
               Total published estimated value, including Future Cruise Credits, Onboard Credits, Stay
-              Certificates, Hotel Credits and promotional onboard benefits.
+              Certificates, Hotel Savings and promotional onboard benefits.
             </div>
           </div>
         </ScrollReveal>

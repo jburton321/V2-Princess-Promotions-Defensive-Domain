@@ -26,7 +26,7 @@ export function IssueBento() {
         <div className="i-grid i-grid--three">
           <ScrollReveal className="i-card i-hero rv-d1">
             <div className="nm rd">1</div>
-            <h3>Hotel Credits Don&apos;t Work the Way They&apos;re Presented</h3>
+            <h3>Hotel Savings Don&apos;t Work the Way They&apos;re Presented</h3>
             <p>
               Customers report $600 in credits applying at 50% of face value, only $300 actually
               usable. This limitation is not disclosed during the sales pitch. Hotel prices on the

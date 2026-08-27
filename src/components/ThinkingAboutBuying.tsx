@@ -3,6 +3,11 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 const CUSTOMER_REVIEWS = [
   {
     quote:
+      'The future cruise credits, on board credits and certificates for hotels, creative a value I cannot pass up. The whole package was a value to me.',
+    by: 'Desiree J.',
+  },
+  {
+    quote:
       'The package provided great value, flexibility, and attractive benefits that made booking my future cruises easy and rewarding. The onboard credits, promotions, and overall booking experience exceeded my expectations.',
     by: 'Naser E.',
   },

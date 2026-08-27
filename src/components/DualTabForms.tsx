@@ -18,7 +18,10 @@ export function DualTabForms() {
           <div className="form-panel-pad">
             <h2 className="form-panel-title">Share your experience</h2>
             <p className="form-panel-intro">
-              Help others make informed decisions by leaving an honest review.
+              Help others make informed decisions by leaving an honest review. Submissions are
+              reviewed by our editorial team, and we&apos;ll publish a star average and featured
+              quotes once we have enough responses. In the meantime, check out our assessment, FAQs,
+              and redemption guidance, and feel free to share your feedback anytime.
             </p>
             {!done ? (
               <form

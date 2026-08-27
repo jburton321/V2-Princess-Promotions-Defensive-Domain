@@ -30,12 +30,12 @@ export const faqItems: { q: string; a: string }[] = [
     a: "Yes, Future Cruise Credits and stay certificates need to be booked within 18 months of purchasing your Future Cruise Package, and travel must be completed within 24 months. It's a good idea to start planning your travel early for the best availability.",
   },
   {
-    q: 'How Are Hotel Credits Different From Future Cruise Credits (FCCs)?',
-    a: "Hotel Credits and FCCs are two separate benefits that are used in different ways. FCCs can be applied to your Princess cruise fare, a travel companion's fare, Princess Plus or Premier packages, room upgrades, and more. FCCs can be redeemed by calling +1 (888) 403-0301, booking online at princess.com, or working with a Travel Advisor or Cruise Vacation Planner.\n\nHotel Credits can be applied to save on thousands of hotels and resorts around the world. Hotel Credits can be redeemed online at princesspromotions.com or by calling +1 (888) 403-0301.",
+    q: 'How Are Hotel Savings Different From Future Cruise Credits (FCCs)?',
+    a: "Hotel Savings and FCCs are two separate benefits that are used in different ways. FCCs can be applied to your Princess cruise fare, a travel companion's fare, Princess Plus or Premier packages, room upgrades, and more. FCCs can be redeemed by calling +1 (888) 403-0301, booking online at princess.com, or working with a Travel Advisor or Cruise Vacation Planner.\n\nHotel Savings can be applied to save on thousands of hotels and resorts around the world. Hotel Savings can be redeemed online at princesspromotions.com or by calling +1 (888) 403-0301.",
   },
   {
-    q: 'What Can Hotel Credits Be Applied Towards?',
-    a: 'Each Hotel Credit is worth $1 and can be used for savings on thousands of hotels and resorts around the world when booking on princesspromotions.com.',
+    q: 'What Can Hotel Savings Be Applied Towards?',
+    a: 'Each Hotel Savings is worth $1 and can be used for savings on thousands of hotels and resorts around the world when booking on princesspromotions.com.',
   },
   {
     q: 'Why Do I See Lower Prices on Other Booking Sites?',
@@ -48,6 +48,10 @@ export const faqItems: { q: string; a: string }[] = [
   {
     q: 'Where Do the Dollar Figures on This Page Come From?',
     a: 'The Future Cruise Package price ranges reflect advertised pricing tiers, customer reports, and publicly available summaries. Our team reviews multiple sources and updates the numbers when credible new information becomes available.',
+  },
+  {
+    q: 'What Is the "Open Network Exchange" Mentioned in Some Materials?',
+    a: 'Open Network Exchange (ONE) administers and fulfills purchases, benefits, and transactions for Princess Future Cruise Packages offered by Princess Promotions.',
   },
   {
     q: 'Where Can I Find Official Princess Future Cruise Packages FAQs?',
