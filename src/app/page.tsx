@@ -3,6 +3,7 @@ import { FAQAccordion } from '@/components/FAQAccordion'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
+import { CustomerReviews } from '@/components/CustomerReviews'
 import { BentoGrid } from '@/components/BentoGrid'
 import { ImageDivider } from '@/components/ImageDivider'
 import { RedeemFCC } from '@/components/RedeemFCC'
@@ -21,6 +22,7 @@ export default function HomePage() {
     <div className="page-sections">
       <Hero />
       <HowWeReview />
+      <CustomerReviews />
       <WhatIsPP />
       <ThinkingAboutBuying />
       <BentoGrid />
