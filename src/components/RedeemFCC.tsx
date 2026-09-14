@@ -12,7 +12,7 @@ export function RedeemFCC() {
         <ScrollReveal>
           <h2 style={{ marginBottom: '2rem' }}>Future Cruise Credit Tips</h2>
         </ScrollReveal>
-        <div className="fcc-journey-panel">
+        <ScrollReveal className="fcc-journey-panel">
           <JourneyReveal>
             <div className="j-card j-stat rv rv-d1">
               <div className="j-val">
@@ -50,7 +50,7 @@ export function RedeemFCC() {
               </p>
             </div>
           </JourneyReveal>
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   )
