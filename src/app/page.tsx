@@ -1,9 +1,9 @@
-import { DualTabForms } from '@/components/DualTabForms'
 import { FAQAccordion } from '@/components/FAQAccordion'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { HowWeReview } from '@/components/HowWeReview'
 import { CustomerReviews } from '@/components/CustomerReviews'
+import { FeaturedQuotes } from '@/components/FeaturedQuotes'
 import { BentoGrid } from '@/components/BentoGrid'
 import { ImageDivider } from '@/components/ImageDivider'
 import { RedeemFCC } from '@/components/RedeemFCC'
@@ -15,14 +15,14 @@ import { WhatWorksWell } from '@/components/WhatWorksWell'
 import { siteImages } from '@/lib/site-images'
 /* IssueBento retained at @/components/IssueBento - omitted from page per Mar 2026 review */
 /* TestimonialScroll hidden per stakeholder Markup (Apr 2026) - restore import when live reviews return */
-/* ReviewsStatus merged into DualTabForms intro (Markup #40–#42) */
+/* ReviewsStatus merged into the feedback form intro (Markup #40–#42) */
 
 export default function HomePage() {
   return (
     <div className="page-sections">
       <Hero />
       <HowWeReview />
-      <CustomerReviews />
+      <FeaturedQuotes />
       <WhatIsPP />
       <ThinkingAboutBuying />
       <BentoGrid />
@@ -34,7 +34,7 @@ export default function HomePage() {
       <RedeemFCC />
       <FAQAccordion />
       <Verdict />
-      <DualTabForms />
+      <CustomerReviews />
       <Footer />
       <StickyMobileCta />
     </div>
