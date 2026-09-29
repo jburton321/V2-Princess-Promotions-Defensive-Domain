@@ -16,3 +16,9 @@
 2026-09-29 11:01:32  claude-code  released src/components/FAQAccordion.tsx
 2026-09-29 11:01:32  claude-code  released src/app/globals.css
 2026-09-29 11:01:32  claude-code  Committed #4 fix (FAQ title one line), reverted works-card balance.
+2026-09-29 11:05:35  claude-code  Merged origin/v6-reviews-section-redesign into main (no conflicts). Not pushed.
+2026-09-29 11:58:28  claude-code  claimed  src/app/globals.css
+2026-09-29 11:58:28  claude-code  claimed  src/components/WhatIsPP.tsx
+2026-09-29 12:00:32  claude-code  released src/app/globals.css
+2026-09-29 12:00:32  claude-code  released src/components/WhatIsPP.tsx
+2026-09-29 12:00:32  claude-code  Committed #2 fix (What's Included intro wrap), reverted price-card balance.
