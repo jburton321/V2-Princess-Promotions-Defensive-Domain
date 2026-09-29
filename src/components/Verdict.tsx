@@ -18,18 +18,18 @@ export function Verdict() {
         </ScrollReveal>
         <ScrollReveal>
           <p>
-            Reviewers commonly have questions about Hotel Savings, including which hotels and resort
-            properties they can be applied to. Customers who are familiar with the benefits,
-            restrictions, and redemption requirements are more likely to be satisfied with the
-            package.
-          </p>
-        </ScrollReveal>
-        <ScrollReveal>
-          <p>
             Future Cruise Packages offer the most value for cruisers who plan to sail with Princess
             Cruise Lines and stay at hotels or resorts a few times over the two-year package term.
             Package holders cite using their benefits toward complete cruise vacations, including the
             cruise itself and hotel stays before or after sailing.
+          </p>
+        </ScrollReveal>
+        <ScrollReveal>
+          <p>
+            Reviewers commonly have questions about Hotel Savings, including which hotels and resort
+            properties they can be applied to. Customers who are familiar with the benefits,
+            restrictions, and redemption requirements are more likely to be satisfied with the
+            package.
           </p>
         </ScrollReveal>
         <ScrollReveal>

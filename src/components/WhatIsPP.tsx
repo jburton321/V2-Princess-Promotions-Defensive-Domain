@@ -98,7 +98,7 @@ export function WhatIsPP() {
                 <li>
                   <strong>Hotel Savings</strong>
                   <span className="pkg-li-body">
-                    Save up to 25% on thousands of hotels worldwide.
+                    Exclusive rates provide savings of up to 25% on thousands of hotels worldwide.
                   </span>
                 </li>
               </ul>

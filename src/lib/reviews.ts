@@ -55,7 +55,7 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     'overall-value',
     'positive',
     'Desiree J.',
-    'The future cruise credits, on board credits and certificates for hotels created a value I cannot pass up. The whole package was a value to me.'
+    'The future cruise credits, onboard credits and certificates for hotels created a value I cannot pass up. The whole package was a value to me.'
   ),
   review(
     'overall-value',
@@ -112,10 +112,10 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     'Concierge team was incredibly helpful with every step we had to make.'
   ),
   review(
-    'ease-of-use',
+    'concierge-support',
     'neutral',
-    'Elizabeth H.',
-    'Easy to book a lot of options but some parts of the package I did not use, like the hotel credits.'
+    'Richard J.',
+    'We still had some package benefits remaining & we were not sure how to or what use them on. A rep from Princess Promotions called so we were able to use all the package benefits.'
   ),
   review(
     'concierge-support',
@@ -130,10 +130,10 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     'Website for choosing hotels in Rome was difficult to navigate.'
   ),
   review(
-    'hotel-stays',
+    'overall-value',
     'negative',
-    'Laurie D.',
-    'Most of the package was easily used, the points for the hotels was not easy to book.'
+    'Amando D.',
+    'Although, we found the time limit to travel can be challenging, we are excited that we are gonna visit great destinations, and not lose any of our FFC.'
   ),
 ]
 

@@ -19,7 +19,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: "I'm Considering Buying a Future Cruise Package Onboard. What Should I Know?",
-    a: "Speak with a Future Cruise Consultant to see whether a Future Cruise Package fits your travel goals and which option gives you the best value. Some offers and promotions are only available on board, so it's best to speak to your Future Cruise Consultant early in your sailing.",
+    a: "Speak with a Future Cruise Consultant to see whether a Future Cruise Package fits your travel goals and which option gives you the best value. Some offers and promotions are only available onboard, so it's best to speak to your Future Cruise Consultant early in your sailing.",
   },
   {
     q: 'Where Can I Find My Current Future Cruise Credit (FCC) Balance?',
@@ -35,7 +35,7 @@ export const faqItems: { q: string; a: string }[] = [
   },
   {
     q: 'What Can Hotel Savings Be Applied Towards?',
-    a: 'Each Hotel Savings is worth $1 and can be used for savings on thousands of hotels and resorts around the world when booking on princesspromotions.com.',
+    a: 'Hotel savings can be used to save up to 25% on thousands of hotels around the world when booking on princesspromotions.com.',
   },
   {
     q: 'Why Do I See Lower Prices on Other Booking Sites?',
@@ -50,7 +50,7 @@ export const faqItems: { q: string; a: string }[] = [
     a: 'The Future Cruise Package price ranges reflect advertised pricing tiers, customer reports, and publicly available summaries. Our team reviews multiple sources and updates the numbers when credible new information becomes available.',
   },
   {
-    q: 'What Is the "Open Network Exchange" Mentioned in Some Materials?',
+    q: 'Why Is "Open Network Exchange" Mentioned in Some Materials?',
     a: 'Open Network Exchange (ONE) administers and fulfills purchases, benefits, and transactions for Princess Future Cruise Packages offered by Princess Promotions.',
   },
   {
