@@ -45,10 +45,7 @@ export function WhatIsPP() {
                 </h3>
                 <p className="hotel-fcc-distinction-sub">
                   Princess Future Cruise Packages bundle Future Cruise Credits, Onboard Credits,
-                  Stay&nbsp;Certificates and more.{' '}
-                  <span className="hotel-fcc-distinction-sub-line">
-                    Included benefits and amounts vary by package.
-                  </span>
+                  Stay&nbsp;Certificates and more. Included benefits and amounts vary by package.
                 </p>
               </header>
               <ul className="package-detail-list">

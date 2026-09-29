@@ -274,11 +274,8 @@ p{font-family:var(--sans)}
   color:var(--tx2);
   margin:0;
   max-width:none;
-  text-wrap:balance;
 }
 .hotel-fcc-distinction-sub strong{font-weight:600;color:var(--navy-mid)}
-/* One sentence per line on desktop, so neither sentence breaks mid-phrase (V6 Markup #2) */
-@media (min-width:1024px){.hotel-fcc-distinction-sub-line{display:block}}
 .hotel-fcc-lanes{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
@@ -419,7 +416,7 @@ p{font-family:var(--sans)}
 .fact.f1{background:var(--navy)}.fact.f3{background:var(--gold)}
 .fact .fv{font-family:var(--serif);font-size:2.2rem;color:#fff;line-height:1;margin-bottom:.4rem}
 .fact .fl{font-size:.6rem;font-weight:700;color:rgba(255,255,255,.5);letter-spacing:.14em;text-transform:uppercase}
-.fact .fl.fact-fl-prose{font-size:.72rem;font-weight:600;letter-spacing:.02em;text-transform:none;line-height:1.38;color:rgba(255,255,255,.82);max-width:17rem;margin-left:auto;margin-right:auto}
+.fact .fl.fact-fl-prose{font-size:.72rem;font-weight:600;letter-spacing:.02em;text-transform:none;line-height:1.38;color:rgba(255,255,255,.82)}
 
 /* PULLQUOTE */
 .pq{font-family:var(--serif);font-size:clamp(1.3rem,3vw,1.8rem);font-style:italic;color:var(--navy);line-height:1.4;padding:2rem 0 2rem 2rem;border-left:3px solid var(--blue);margin:2.5rem 0}
@@ -782,7 +779,7 @@ label.f textarea{min-height:120px;resize:vertical}
 .form-confirm .confirm-icon.green{background:var(--grn-pl)}
 .form-confirm .confirm-icon.blue{background:var(--blue-pl)}
 .form-confirm h3{font-family:var(--serif);font-size:1.3rem;color:var(--navy);margin-bottom:.6rem}
-.form-confirm p{font-size:.88rem;color:var(--tx2);line-height:1.7;max-width:500px;margin:0 auto .75rem}
+.form-confirm p{font-size:.88rem;color:var(--tx2);line-height:1.7;margin:0 auto .75rem}
 .form-confirm .confirm-phone{font-size:.82rem;color:var(--tx3);margin-top:1rem}
 .form-confirm .confirm-phone strong{color:var(--blue)}
 .form-rating-hint{display:block;font-size:.75rem;color:var(--red);margin-top:.35rem}
@@ -1034,7 +1031,7 @@ label.f textarea{min-height:120px;resize:vertical}
 
 /* Reviews + feedback form, one two-column section */
 .rf-title{margin-bottom:.75rem}
-.rf-lede{max-width:60ch;margin-bottom:1.75rem}
+.rf-lede{margin-bottom:1.75rem}
 .rf-grid{
   display:grid;
   grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
