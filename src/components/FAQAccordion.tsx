@@ -75,9 +75,7 @@ export function FAQAccordion() {
       <div className="faq-sec-inner">
         <ScrollReveal className="kicker">Common Questions</ScrollReveal>
         <ScrollReveal className="sec-title faq-sec-title">
-          Frequently Asked Questions
-          <br />
-          About Princess Promotions
+          Frequently Asked Questions About Princess Promotions
         </ScrollReveal>
         {faqItems.map((item, i) => (
           <FAQBlock key={item.q} item={item} delayClass={delayClasses[i] ?? ''} index={i} />
