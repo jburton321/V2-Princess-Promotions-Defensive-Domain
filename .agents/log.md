@@ -22,3 +22,8 @@
 2026-09-29 12:00:32  claude-code  released src/app/globals.css
 2026-09-29 12:00:32  claude-code  released src/components/WhatIsPP.tsx
 2026-09-29 12:00:32  claude-code  Committed #2 fix (What's Included intro wrap), reverted price-card balance.
+2026-09-29 12:10:05  claude-code  claimed  src/app/globals.css
+2026-09-29 12:10:05  claude-code  claimed  src/components/WhatIsPP.tsx
+2026-09-29 12:11:48  claude-code  released src/app/globals.css
+2026-09-29 12:11:48  claude-code  released src/components/WhatIsPP.tsx
+2026-09-29 12:11:48  claude-code  Removed text width caps globally (What's Included intro, fact captions, reviews lede, form confirm). Uncommitted.
